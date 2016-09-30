@@ -6,8 +6,10 @@
 import $ from 'jquery';
 import 'lazyload';
 import 'TweenMax';
+import 'doT';
 
 import PrimaryNav from '../../../_modules/primary-nav/primary-nav';
+import Element from '../../../_modules/element/element';
 
 import { debounce } from './_helper';
 
@@ -153,6 +155,11 @@ $(() => {
         };
     })();
 
+
+    ///////////////////////
+    // Populate Elements //
+    ///////////////////////
+    new Element();   // Activate Primary NAv modules logic
 
     console.log("I'm a firestarter!");
 });
