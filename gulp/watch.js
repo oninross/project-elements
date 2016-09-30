@@ -20,6 +20,12 @@ export default function(gulp, plugins, args, config, taskTarget, browserSync) {
         path.join(dirs.source, dirs.data, '**/*.{json,yaml,yml}')
       ], ['jade']);
 
+      // JSON
+      gulp.watch([
+        path.join(dirs.source, dirs.api, '**/*'),
+        path.join(dirs.source, dirs.api, '**/*.*'),
+      ], ['copy']);
+
       // Copy
       gulp.watch([
         path.join(dirs.source, '**/*'),
