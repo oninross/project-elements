@@ -3,11 +3,11 @@
         {
             "number": 1,
             "name": "Hydrogen",
-            "group": "",
+            "group": "Basic",
             "row": 0,
             "column": 0,
             "molar": 1.00794,
-            "small": "H",
+            "symbol": "H",
             "electrons": [
                 1
             ],
@@ -22,11 +22,11 @@
         {
             "number": 2,
             "name": "Helium",
-            "group": "Element Noble p",
+            "group": "Noble",
             "row": 0,
             "column": 17,
             "molar": 4.002602,
-            "small": "He",
+            "symbol": "He",
             "electrons": [
                 2
             ],
@@ -41,11 +41,11 @@
         {
             "number": 3,
             "name": "Lithium",
-            "group": "Element Alkali s",
+            "group": "Alkali",
             "row": 1,
             "column": 0,
             "molar": 6.941,
-            "small": "Li",
+            "symbol": "Li",
             "electrons": [
                 2,
                 1
@@ -61,11 +61,11 @@
         {
             "number": 4,
             "name": "Beryllium",
-            "group": "Element Alkaline s",
+            "group": "Alkaline",
             "row": 1,
             "column": 1,
             "molar": 9.012182,
-            "small": "Be",
+            "symbol": "Be",
             "electrons": [
                 2,
                 2
@@ -81,11 +81,11 @@
         {
             "number": 5,
             "name": "Boron",
-            "group": "Element Metalloid Boron p",
+            "group": "Metalloid",
             "row": 1,
             "column": 12,
             "molar": 10.811,
-            "small": "B",
+            "symbol": "B",
             "electrons": [
                 2,
                 3
@@ -101,11 +101,11 @@
         {
             "number": 6,
             "name": "Carbon",
-            "group": "Element Nonmetal Carbon p",
+            "group": "Nonmetal",
             "row": 1,
             "column": 13,
             "molar": 12.0107,
-            "small": "C",
+            "symbol": "C",
             "electrons": [
                 2,
                 4
@@ -121,11 +121,11 @@
         {
             "number": 7,
             "name": "Nitrogen",
-            "group": "Element Nonmetal Pnictogen p",
+            "group": "Nonmetal",
             "row": 1,
             "column": 14,
             "molar": 14.0067,
-            "small": "N",
+            "symbol": "N",
             "electrons": [
                 2,
                 5
@@ -141,11 +141,11 @@
         {
             "number": 8,
             "name": "Oxygen",
-            "group": "Element Nonmetal Chalcogen p",
+            "group": "Nonmetal",
             "row": 1,
             "column": 15,
             "molar": 15.9994,
-            "small": "O",
+            "symbol": "O",
             "electrons": [
                 2,
                 6
@@ -161,11 +161,11 @@
         {
             "number": 9,
             "name": "Fluorine",
-            "group": "Element Halogen p",
+            "group": "Halogen",
             "row": 1,
             "column": 16,
             "molar": 18.998404,
-            "small": "F",
+            "symbol": "F",
             "electrons": [
                 2,
                 7
@@ -181,11 +181,11 @@
         {
             "number": 10,
             "name": "Neon",
-            "group": "Element Noble p",
+            "group": "Noble",
             "row": 1,
             "column": 17,
             "molar": 20.1797,
-            "small": "Ne",
+            "symbol": "Ne",
             "electrons": [
                 2,
                 8
@@ -201,11 +201,11 @@
         {
             "number": 11,
             "name": "Sodium",
-            "group": "Element Alkali s",
+            "group": "Alkali",
             "row": 2,
             "column": 0,
             "molar": 22.989769,
-            "small": "Na",
+            "symbol": "Na",
             "electrons": [
                 2,
                 8,
@@ -222,11 +222,11 @@
         {
             "number": 12,
             "name": "Magnesium",
-            "group": "Element Alkaline s",
+            "group": "Alkaline",
             "row": 2,
             "column": 1,
             "molar": 24.305,
-            "small": "Mg",
+            "symbol": "Mg",
             "electrons": [
                 2,
                 8,
@@ -243,11 +243,11 @@
         {
             "number": 13,
             "name": "Aluminium",
-            "group": "Element Poor Boron p",
+            "group": "Basic",
             "row": 2,
             "column": 12,
             "molar": 26.981539,
-            "small": "Al",
+            "symbol": "Al",
             "electrons": [
                 2,
                 8,
@@ -264,11 +264,11 @@
         {
             "number": 14,
             "name": "Silicon",
-            "group": "Element Metalloid Carbon p",
+            "group": "Metalloid",
             "row": 2,
             "column": 13,
             "molar": 28.0855,
-            "small": "Si",
+            "symbol": "Si",
             "electrons": [
                 2,
                 8,
@@ -285,11 +285,11 @@
         {
             "number": 15,
             "name": "Phosphorus",
-            "group": "Element Nonmetal Pnictogen p",
+            "group": "Nonmetal",
             "row": 2,
             "column": 14,
             "molar": 30.973763,
-            "small": "P",
+            "symbol": "P",
             "electrons": [
                 2,
                 8,
@@ -306,11 +306,11 @@
         {
             "number": 16,
             "name": "Sulfur",
-            "group": "Element Nonmetal Chalcogen p",
+            "group": "Nonmetal",
             "row": 2,
             "column": 15,
             "molar": 32.065,
-            "small": "S",
+            "symbol": "S",
             "electrons": [
                 2,
                 8,
@@ -327,11 +327,11 @@
         {
             "number": 17,
             "name": "Chlorine",
-            "group": "Element Halogen p",
+            "group": "Halogen",
             "row": 2,
             "column": 16,
             "molar": 35.453,
-            "small": "Cl",
+            "symbol": "Cl",
             "electrons": [
                 2,
                 8,
@@ -348,11 +348,11 @@
         {
             "number": 18,
             "name": "Argon",
-            "group": "Element Noble p",
+            "group": "Noble",
             "row": 2,
             "column": 17,
             "molar": 39.948,
-            "small": "Ar",
+            "symbol": "Ar",
             "electrons": [
                 2,
                 8,
@@ -369,11 +369,11 @@
         {
             "number": 19,
             "name": "Potassium",
-            "group": "Element Alkali s",
+            "group": "Alkali",
             "row": 3,
             "column": 0,
             "molar": 39.0983,
-            "small": "K",
+            "symbol": "K",
             "electrons": [
                 2,
                 8,
@@ -391,11 +391,11 @@
         {
             "number": 20,
             "name": "Calcium",
-            "group": "Element Alkaline s",
+            "group": "Alkaline",
             "row": 3,
             "column": 1,
             "molar": 40.078,
-            "small": "Ca",
+            "symbol": "Ca",
             "electrons": [
                 2,
                 8,
@@ -413,11 +413,11 @@
         {
             "number": 21,
             "name": "Scandium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 2,
             "molar": 44.955914,
-            "small": "Sc",
+            "symbol": "Sc",
             "electrons": [
                 2,
                 8,
@@ -435,11 +435,11 @@
         {
             "number": 22,
             "name": "Titanium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 3,
             "molar": 47.867,
-            "small": "Ti",
+            "symbol": "Ti",
             "electrons": [
                 2,
                 8,
@@ -457,11 +457,11 @@
         {
             "number": 23,
             "name": "Vanadium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 4,
             "molar": 50.9415,
-            "small": "V",
+            "symbol": "V",
             "electrons": [
                 2,
                 8,
@@ -479,11 +479,11 @@
         {
             "number": 24,
             "name": "Chromium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 5,
             "molar": 51.9961,
-            "small": "Cr",
+            "symbol": "Cr",
             "electrons": [
                 2,
                 8,
@@ -501,11 +501,11 @@
         {
             "number": 25,
             "name": "Manganese",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 6,
             "molar": 54.938046,
-            "small": "Mn",
+            "symbol": "Mn",
             "electrons": [
                 2,
                 8,
@@ -523,11 +523,11 @@
         {
             "number": 26,
             "name": "Iron",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 7,
             "molar": 55.845,
-            "small": "Fe",
+            "symbol": "Fe",
             "electrons": [
                 2,
                 8,
@@ -545,11 +545,11 @@
         {
             "number": 27,
             "name": "Cobalt",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 8,
             "molar": 58.933193,
-            "small": "Co",
+            "symbol": "Co",
             "electrons": [
                 2,
                 8,
@@ -567,11 +567,11 @@
         {
             "number": 28,
             "name": "Nickel",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 9,
             "molar": 58.6934,
-            "small": "Ni",
+            "symbol": "Ni",
             "electrons": [
                 2,
                 8,
@@ -589,11 +589,11 @@
         {
             "number": 29,
             "name": "Copper",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 10,
             "molar": 63.546,
-            "small": "Cu",
+            "symbol": "Cu",
             "electrons": [
                 2,
                 8,
@@ -611,11 +611,11 @@
         {
             "number": 30,
             "name": "Zinc",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 3,
             "column": 11,
             "molar": 65.38,
-            "small": "Zn",
+            "symbol": "Zn",
             "electrons": [
                 2,
                 8,
@@ -633,11 +633,11 @@
         {
             "number": 31,
             "name": "Gallium",
-            "group": "Element Poor Boron p",
+            "group": "Basic",
             "row": 3,
             "column": 12,
             "molar": 69.723,
-            "small": "Ga",
+            "symbol": "Ga",
             "electrons": [
                 2,
                 8,
@@ -655,11 +655,11 @@
         {
             "number": 32,
             "name": "Germanium",
-            "group": "Element Metalloid Carbon p",
+            "group": "Metalloid",
             "row": 3,
             "column": 13,
             "molar": 72.63,
-            "small": "Ge",
+            "symbol": "Ge",
             "electrons": [
                 2,
                 8,
@@ -677,11 +677,11 @@
         {
             "number": 33,
             "name": "Arsenic",
-            "group": "Element Metalloid Pnictogen p",
+            "group": "Metalloid",
             "row": 3,
             "column": 14,
             "molar": 74.9216,
-            "small": "As",
+            "symbol": "As",
             "electrons": [
                 2,
                 8,
@@ -699,11 +699,11 @@
         {
             "number": 34,
             "name": "Selenium",
-            "group": "Element Nonmetal Chalcogen p",
+            "group": "Nonmetal",
             "row": 3,
             "column": 15,
             "molar": 78.96,
-            "small": "Se",
+            "symbol": "Se",
             "electrons": [
                 2,
                 8,
@@ -721,11 +721,11 @@
         {
             "number": 35,
             "name": "Bromine",
-            "group": "Element Halogen p",
+            "group": "Halogen",
             "row": 3,
             "column": 16,
             "molar": 79.904,
-            "small": "Br",
+            "symbol": "Br",
             "electrons": [
                 2,
                 8,
@@ -743,11 +743,11 @@
         {
             "number": 36,
             "name": "Krypton",
-            "group": "Element Noble p",
+            "group": "Noble",
             "row": 3,
             "column": 17,
             "molar": 83.798,
-            "small": "Kr",
+            "symbol": "Kr",
             "electrons": [
                 2,
                 8,
@@ -765,11 +765,11 @@
         {
             "number": 37,
             "name": "Rubidium",
-            "group": "Element Alkali s",
+            "group": "Alkali",
             "row": 4,
             "column": 0,
             "molar": 85.4678,
-            "small": "Rb",
+            "symbol": "Rb",
             "electrons": [
                 2,
                 8,
@@ -788,11 +788,11 @@
         {
             "number": 38,
             "name": "Strontium",
-            "group": "Element Alkaline s",
+            "group": "Alkaline",
             "row": 4,
             "column": 1,
             "molar": 87.62,
-            "small": "Sr",
+            "symbol": "Sr",
             "electrons": [
                 2,
                 8,
@@ -811,11 +811,11 @@
         {
             "number": 39,
             "name": "Yttrium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 2,
             "molar": 88.90585,
-            "small": "Y",
+            "symbol": "Y",
             "electrons": [
                 2,
                 8,
@@ -834,11 +834,11 @@
         {
             "number": 40,
             "name": "Zirconium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 3,
             "molar": 91.224,
-            "small": "Zr",
+            "symbol": "Zr",
             "electrons": [
                 2,
                 8,
@@ -857,11 +857,11 @@
         {
             "number": 41,
             "name": "Niobium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 4,
             "molar": 92.90638,
-            "small": "Nb",
+            "symbol": "Nb",
             "electrons": [
                 2,
                 8,
@@ -880,11 +880,11 @@
         {
             "number": 42,
             "name": "Molybdenum",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 5,
             "molar": 95.96,
-            "small": "Mo",
+            "symbol": "Mo",
             "electrons": [
                 2,
                 8,
@@ -903,11 +903,11 @@
         {
             "number": 43,
             "name": "Technetium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 6,
             "molar": 98,
-            "small": "Tc",
+            "symbol": "Tc",
             "electrons": [
                 2,
                 8,
@@ -926,11 +926,11 @@
         {
             "number": 44,
             "name": "Ruthenium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 7,
             "molar": 101.07,
-            "small": "Ru",
+            "symbol": "Ru",
             "electrons": [
                 2,
                 8,
@@ -949,11 +949,11 @@
         {
             "number": 45,
             "name": "Rhodium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 8,
             "molar": 102.9055,
-            "small": "Rh",
+            "symbol": "Rh",
             "electrons": [
                 2,
                 8,
@@ -972,11 +972,11 @@
         {
             "number": 46,
             "name": "Palladium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 9,
             "molar": 106.42,
-            "small": "Pd",
+            "symbol": "Pd",
             "electrons": [
                 2,
                 8,
@@ -994,11 +994,11 @@
         {
             "number": 47,
             "name": "Silver",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 10,
             "molar": 107.8682,
-            "small": "Ag",
+            "symbol": "Ag",
             "electrons": [
                 2,
                 8,
@@ -1017,11 +1017,11 @@
         {
             "number": 48,
             "name": "Cadmium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 4,
             "column": 11,
             "molar": 112.411,
-            "small": "Cd",
+            "symbol": "Cd",
             "electrons": [
                 2,
                 8,
@@ -1040,11 +1040,11 @@
         {
             "number": 49,
             "name": "Indium",
-            "group": "Element Poor Boron p",
+            "group": "Basic",
             "row": 4,
             "column": 12,
             "molar": 114.818,
-            "small": "In",
+            "symbol": "In",
             "electrons": [
                 2,
                 8,
@@ -1063,11 +1063,11 @@
         {
             "number": 50,
             "name": "Tin",
-            "group": "Element Poor Carbon p",
+            "group": "Basic",
             "row": 4,
             "column": 13,
             "molar": 118.71,
-            "small": "Sn",
+            "symbol": "Sn",
             "electrons": [
                 2,
                 8,
@@ -1086,11 +1086,11 @@
         {
             "number": 51,
             "name": "Antimony",
-            "group": "Element Metalloid Pnictogen p",
+            "group": "Metalloid",
             "row": 4,
             "column": 14,
             "molar": 121.76,
-            "small": "Sb",
+            "symbol": "Sb",
             "electrons": [
                 2,
                 8,
@@ -1109,11 +1109,11 @@
         {
             "number": 52,
             "name": "Tellurium",
-            "group": "Element Metalloid Chalcogen p",
+            "group": "Metalloid",
             "row": 4,
             "column": 15,
             "molar": 127.6,
-            "small": "Te",
+            "symbol": "Te",
             "electrons": [
                 2,
                 8,
@@ -1132,11 +1132,11 @@
         {
             "number": 53,
             "name": "Iodine",
-            "group": "Element Halogen p",
+            "group": "Halogen",
             "row": 4,
             "column": 16,
             "molar": 126.90447,
-            "small": "I",
+            "symbol": "I",
             "electrons": [
                 2,
                 8,
@@ -1155,11 +1155,11 @@
         {
             "number": 54,
             "name": "Xenon",
-            "group": "Element Noble p",
+            "group": "Noble",
             "row": 4,
             "column": 17,
             "molar": 131.293,
-            "small": "Xe",
+            "symbol": "Xe",
             "electrons": [
                 2,
                 8,
@@ -1178,11 +1178,11 @@
         {
             "number": 55,
             "name": "Caesium",
-            "group": "Element Alkali s",
+            "group": "Alkali",
             "row": 5,
             "column": 0,
             "molar": 132.90546,
-            "small": "Cs",
+            "symbol": "Cs",
             "electrons": [
                 2,
                 8,
@@ -1202,11 +1202,11 @@
         {
             "number": 56,
             "name": "Barium",
-            "group": "Element Alkaline s",
+            "group": "Alkaline",
             "row": 5,
             "column": 1,
             "molar": 137.327,
-            "small": "Ba",
+            "symbol": "Ba",
             "electrons": [
                 2,
                 8,
@@ -1226,11 +1226,11 @@
         {
             "number": 57,
             "name": "Lanthanum",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 2,
             "molar": 138.90547,
-            "small": "La",
+            "symbol": "La",
             "electrons": [
                 2,
                 8,
@@ -1250,11 +1250,11 @@
         {
             "number": 58,
             "name": "Cerium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 3,
             "molar": 140.116,
-            "small": "Ce",
+            "symbol": "Ce",
             "electrons": [
                 2,
                 8,
@@ -1274,11 +1274,11 @@
         {
             "number": 59,
             "name": "Praseodymium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 4,
             "molar": 140.90765,
-            "small": "Pr",
+            "symbol": "Pr",
             "electrons": [
                 2,
                 8,
@@ -1298,11 +1298,11 @@
         {
             "number": 60,
             "name": "Neodymium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 5,
             "molar": 144.242,
-            "small": "Nd",
+            "symbol": "Nd",
             "electrons": [
                 2,
                 8,
@@ -1322,11 +1322,11 @@
         {
             "number": 61,
             "name": "Promethium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 6,
             "molar": 145,
-            "small": "Pm",
+            "symbol": "Pm",
             "electrons": [
                 2,
                 8,
@@ -1346,11 +1346,11 @@
         {
             "number": 62,
             "name": "Samarium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 7,
             "molar": 150.36,
-            "small": "Sm",
+            "symbol": "Sm",
             "electrons": [
                 2,
                 8,
@@ -1370,11 +1370,11 @@
         {
             "number": 63,
             "name": "Europium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 8,
             "molar": 151.964,
-            "small": "Eu",
+            "symbol": "Eu",
             "electrons": [
                 2,
                 8,
@@ -1394,11 +1394,11 @@
         {
             "number": 64,
             "name": "Gadolinium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 9,
             "molar": 157.25,
-            "small": "Gd",
+            "symbol": "Gd",
             "electrons": [
                 2,
                 8,
@@ -1418,11 +1418,11 @@
         {
             "number": 65,
             "name": "Terbium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 10,
             "molar": 158.92535,
-            "small": "Tb",
+            "symbol": "Tb",
             "electrons": [
                 2,
                 8,
@@ -1442,11 +1442,11 @@
         {
             "number": 66,
             "name": "Dysprosium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 11,
             "molar": 162.5,
-            "small": "Dy",
+            "symbol": "Dy",
             "electrons": [
                 2,
                 8,
@@ -1466,11 +1466,11 @@
         {
             "number": 67,
             "name": "Holmium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 12,
             "molar": 164.93031,
-            "small": "Ho",
+            "symbol": "Ho",
             "electrons": [
                 2,
                 8,
@@ -1490,11 +1490,11 @@
         {
             "number": 68,
             "name": "Erbium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 13,
             "molar": 167.259,
-            "small": "Er",
+            "symbol": "Er",
             "electrons": [
                 2,
                 8,
@@ -1514,11 +1514,11 @@
         {
             "number": 69,
             "name": "Thulium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 14,
             "molar": 168.9342,
-            "small": "Tm",
+            "symbol": "Tm",
             "electrons": [
                 2,
                 8,
@@ -1538,11 +1538,11 @@
         {
             "number": 70,
             "name": "Ytterbium",
-            "group": "Element Lanthanoid f",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 15,
             "molar": 173.054,
-            "small": "Yb",
+            "symbol": "Yb",
             "electrons": [
                 2,
                 8,
@@ -1562,11 +1562,11 @@
         {
             "number": 71,
             "name": "Lutetium",
-            "group": "Element Lanthanoid d",
+            "group": "Lanthanoid",
             "row": 11,
             "column": 16,
             "molar": 174.9668,
-            "small": "Lu",
+            "symbol": "Lu",
             "electrons": [
                 2,
                 8,
@@ -1586,11 +1586,11 @@
         {
             "number": 72,
             "name": "Hafnium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 3,
             "molar": 178.49,
-            "small": "Hf",
+            "symbol": "Hf",
             "electrons": [
                 2,
                 8,
@@ -1610,11 +1610,11 @@
         {
             "number": 73,
             "name": "Tantalum",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 4,
             "molar": 180.94788,
-            "small": "Ta",
+            "symbol": "Ta",
             "electrons": [
                 2,
                 8,
@@ -1634,11 +1634,11 @@
         {
             "number": 74,
             "name": "Tungsten",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 5,
             "molar": 183.84,
-            "small": "W",
+            "symbol": "W",
             "electrons": [
                 2,
                 8,
@@ -1658,11 +1658,11 @@
         {
             "number": 75,
             "name": "Rhenium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 6,
             "molar": 186.207,
-            "small": "Re",
+            "symbol": "Re",
             "electrons": [
                 2,
                 8,
@@ -1682,11 +1682,11 @@
         {
             "number": 76,
             "name": "Osmium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 7,
             "molar": 190.23,
-            "small": "Os",
+            "symbol": "Os",
             "electrons": [
                 2,
                 8,
@@ -1706,11 +1706,11 @@
         {
             "number": 77,
             "name": "Iridium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 8,
             "molar": 192.217,
-            "small": "Ir",
+            "symbol": "Ir",
             "electrons": [
                 2,
                 8,
@@ -1730,11 +1730,11 @@
         {
             "number": 78,
             "name": "Platinum",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 9,
             "molar": 195.084,
-            "small": "Pt",
+            "symbol": "Pt",
             "electrons": [
                 2,
                 8,
@@ -1754,11 +1754,11 @@
         {
             "number": 79,
             "name": "Gold",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 10,
             "molar": 196.96657,
-            "small": "Au",
+            "symbol": "Au",
             "electrons": [
                 2,
                 8,
@@ -1778,11 +1778,11 @@
         {
             "number": 80,
             "name": "Mercury",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 5,
             "column": 11,
             "molar": 200.59,
-            "small": "Hg",
+            "symbol": "Hg",
             "electrons": [
                 2,
                 8,
@@ -1802,11 +1802,11 @@
         {
             "number": 81,
             "name": "Thallium",
-            "group": "Element Poor Boron p",
+            "group": "Basic",
             "row": 5,
             "column": 12,
             "molar": 204.3833,
-            "small": "Tl",
+            "symbol": "Tl",
             "electrons": [
                 2,
                 8,
@@ -1826,11 +1826,11 @@
         {
             "number": 82,
             "name": "Lead",
-            "group": "Element Poor Carbon p",
+            "group": "Basic",
             "row": 5,
             "column": 13,
             "molar": 207.2,
-            "small": "Pb",
+            "symbol": "Pb",
             "electrons": [
                 2,
                 8,
@@ -1850,11 +1850,11 @@
         {
             "number": 83,
             "name": "Bismuth",
-            "group": "Element Poor Pnictogen p",
+            "group": "Basic",
             "row": 5,
             "column": 14,
             "molar": 208.9804,
-            "small": "Bi",
+            "symbol": "Bi",
             "electrons": [
                 2,
                 8,
@@ -1874,11 +1874,11 @@
         {
             "number": 84,
             "name": "Polonium",
-            "group": "Element Metalloid Chalcogen p",
+            "group": "Metalloid",
             "row": 5,
             "column": 15,
             "molar": 209,
-            "small": "Po",
+            "symbol": "Po",
             "electrons": [
                 2,
                 8,
@@ -1898,11 +1898,11 @@
         {
             "number": 85,
             "name": "Astatine",
-            "group": "Element Halogen p",
+            "group": "Halogen",
             "row": 5,
             "column": 16,
             "molar": 210,
-            "small": "At",
+            "symbol": "At",
             "electrons": [
                 2,
                 8,
@@ -1922,11 +1922,11 @@
         {
             "number": 86,
             "name": "Radon",
-            "group": "Element Noble p",
+            "group": "Noble",
             "row": 5,
             "column": 17,
             "molar": 222,
-            "small": "Rn",
+            "symbol": "Rn",
             "electrons": [
                 2,
                 8,
@@ -1946,11 +1946,11 @@
         {
             "number": 87,
             "name": "Francium",
-            "group": "Element Alkali s",
+            "group": "Alkali",
             "row": 6,
             "column": 0,
             "molar": 223,
-            "small": "Fr",
+            "symbol": "Fr",
             "electrons": [
                 2,
                 8,
@@ -1971,11 +1971,11 @@
         {
             "number": 88,
             "name": "Radium",
-            "group": "Element Alkaline s",
+            "group": "Alkaline",
             "row": 6,
             "column": 1,
             "molar": 226,
-            "small": "Ra",
+            "symbol": "Ra",
             "electrons": [
                 2,
                 8,
@@ -1996,11 +1996,11 @@
         {
             "number": 89,
             "name": "Actinium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 2,
             "molar": 227,
-            "small": "Ac",
+            "symbol": "Ac",
             "electrons": [
                 2,
                 8,
@@ -2021,11 +2021,11 @@
         {
             "number": 90,
             "name": "Thorium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 3,
             "molar": 232.03806,
-            "small": "Th",
+            "symbol": "Th",
             "electrons": [
                 2,
                 8,
@@ -2046,11 +2046,11 @@
         {
             "number": 91,
             "name": "Protactinium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 4,
             "molar": 231.03587,
-            "small": "Pa",
+            "symbol": "Pa",
             "electrons": [
                 2,
                 8,
@@ -2071,11 +2071,11 @@
         {
             "number": 92,
             "name": "Uranium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 5,
             "molar": 238.02892,
-            "small": "U",
+            "symbol": "U",
             "electrons": [
                 2,
                 8,
@@ -2096,11 +2096,11 @@
         {
             "number": 93,
             "name": "Neptunium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 6,
             "molar": 237,
-            "small": "Np",
+            "symbol": "Np",
             "electrons": [
                 2,
                 8,
@@ -2121,11 +2121,11 @@
         {
             "number": 94,
             "name": "Plutonium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 7,
             "molar": 244,
-            "small": "Pu",
+            "symbol": "Pu",
             "electrons": [
                 2,
                 8,
@@ -2146,11 +2146,11 @@
         {
             "number": 95,
             "name": "Americium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 8,
             "molar": 243,
-            "small": "Am",
+            "symbol": "Am",
             "electrons": [
                 2,
                 8,
@@ -2171,11 +2171,11 @@
         {
             "number": 96,
             "name": "Curium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 9,
             "molar": 247,
-            "small": "Cm",
+            "symbol": "Cm",
             "electrons": [
                 2,
                 8,
@@ -2196,11 +2196,11 @@
         {
             "number": 97,
             "name": "Berkelium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 10,
             "molar": 247,
-            "small": "Bk",
+            "symbol": "Bk",
             "electrons": [
                 2,
                 8,
@@ -2221,11 +2221,11 @@
         {
             "number": 98,
             "name": "Californium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 11,
             "molar": 251,
-            "small": "Cf",
+            "symbol": "Cf",
             "electrons": [
                 2,
                 8,
@@ -2246,11 +2246,11 @@
         {
             "number": 99,
             "name": "Einsteinium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 12,
             "molar": 252,
-            "small": "Es",
+            "symbol": "Es",
             "electrons": [
                 2,
                 8,
@@ -2271,11 +2271,11 @@
         {
             "number": 100,
             "name": "Fermium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 13,
             "molar": 257,
-            "small": "Fm",
+            "symbol": "Fm",
             "electrons": [
                 2,
                 8,
@@ -2296,11 +2296,11 @@
         {
             "number": 101,
             "name": "Mendelevium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 14,
             "molar": 258,
-            "small": "Md",
+            "symbol": "Md",
             "electrons": [
                 2,
                 8,
@@ -2321,11 +2321,11 @@
         {
             "number": 102,
             "name": "Nobelium",
-            "group": "Element Actinoid f",
+            "group": "Actinoid",
             "row": 12,
             "column": 15,
             "molar": 259,
-            "small": "No",
+            "symbol": "No",
             "electrons": [
                 2,
                 8,
@@ -2346,11 +2346,11 @@
         {
             "number": 103,
             "name": "Lawrencium",
-            "group": "Element Actinoid d",
+            "group": "Actinoid",
             "row": 12,
             "column": 16,
             "molar": 262,
-            "small": "Lr",
+            "symbol": "Lr",
             "electrons": [
                 2,
                 8,
@@ -2371,11 +2371,11 @@
         {
             "number": 104,
             "name": "Rutherfordium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 3,
             "molar": 267,
-            "small": "Rf",
+            "symbol": "Rf",
             "electrons": [
                 2,
                 8,
@@ -2396,11 +2396,11 @@
         {
             "number": 105,
             "name": "Dubnium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 4,
             "molar": 268,
-            "small": "Db",
+            "symbol": "Db",
             "electrons": [
                 2,
                 8,
@@ -2421,11 +2421,11 @@
         {
             "number": 106,
             "name": "Seaborgium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 5,
             "molar": 271,
-            "small": "Sg",
+            "symbol": "Sg",
             "electrons": [
                 2,
                 8,
@@ -2446,11 +2446,11 @@
         {
             "number": 107,
             "name": "Bohrium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 6,
             "molar": 272,
-            "small": "Bh",
+            "symbol": "Bh",
             "electrons": [
                 2,
                 8,
@@ -2471,11 +2471,11 @@
         {
             "number": 108,
             "name": "Hassium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 7,
             "molar": 270,
-            "small": "Hs",
+            "symbol": "Hs",
             "electrons": [
                 2,
                 8,
@@ -2496,11 +2496,11 @@
         {
             "number": 109,
             "name": "Meitnerium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 8,
             "molar": 276,
-            "small": "Mt",
+            "symbol": "Mt",
             "electrons": [
                 2,
                 8,
@@ -2521,11 +2521,11 @@
         {
             "number": 110,
             "name": "Darmstadtium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 9,
             "molar": 281,
-            "small": "Ds",
+            "symbol": "Ds",
             "electrons": [
                 2,
                 8,
@@ -2539,11 +2539,11 @@
         {
             "number": 111,
             "name": "Roentgenium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 10,
             "molar": 280,
-            "small": "Rg",
+            "symbol": "Rg",
             "electrons": [
                 2,
                 8,
@@ -2557,11 +2557,11 @@
         {
             "number": 112,
             "name": "Copernicium",
-            "group": "Element Transition d",
+            "group": "Transition",
             "row": 6,
             "column": 11,
             "molar": 285,
-            "small": "Cn",
+            "symbol": "Cn",
             "electrons": [
                 2,
                 8,
@@ -2575,11 +2575,11 @@
         {
             "number": 113,
             "name": "Ununtrium",
-            "group": "Element Poor Boron p",
+            "group": "Basic",
             "row": 6,
             "column": 12,
             "molar": 284,
-            "small": "Uut",
+            "symbol": "Uut",
             "electrons": [
                 2,
                 8,
@@ -2593,11 +2593,11 @@
         {
             "number": 114,
             "name": "Flerovium",
-            "group": "Element Poor Carbon p",
+            "group": "Basic",
             "row": 6,
             "column": 13,
             "molar": 289,
-            "small": "Fl",
+            "symbol": "Fl",
             "electrons": [
                 2,
                 8,
@@ -2611,11 +2611,11 @@
         {
             "number": 115,
             "name": "Ununpentium",
-            "group": "Element Poor Pnictogen p",
+            "group": "Basic",
             "row": 6,
             "column": 14,
             "molar": 288,
-            "small": "Uup",
+            "symbol": "Uup",
             "electrons": [
                 2,
                 8,
@@ -2629,11 +2629,11 @@
         {
             "number": 116,
             "name": "Livermorium",
-            "group": "Element Poor Chalcogen p",
+            "group": "Basic",
             "row": 6,
             "column": 15,
             "molar": 293,
-            "small": "Lv",
+            "symbol": "Lv",
             "electrons": [
                 2,
                 8,
@@ -2647,11 +2647,11 @@
         {
             "number": 117,
             "name": "Ununseptium",
-            "group": "Element Halogen p",
+            "group": "Halogen",
             "row": 6,
             "column": 16,
             "molar": 294,
-            "small": "Uus",
+            "symbol": "Uus",
             "electrons": [
                 2,
                 8,
@@ -2665,11 +2665,11 @@
         {
             "number": 118,
             "name": "Ununoctium",
-            "group": "Element Noble p",
+            "group": "Noble",
             "row": 6,
             "column": 17,
             "molar": 294,
-            "small": "Uuo",
+            "symbol": "Uuo",
             "electrons": [
                 2,
                 8,
@@ -2687,7 +2687,7 @@
             "row": 5,
             "column": 2,
             "molar": null,
-            "small": "La-Lu",
+            "symbol": "La-Lu",
             "electrons": null,
             "MeltingPoint": null,
             "BoilingPoint": null,
@@ -2704,7 +2704,7 @@
             "row": 6,
             "column": 2,
             "molar": null,
-            "small": "Ac-Lr",
+            "symbol": "Ac-Lr",
             "electrons": null,
             "MeltingPoint": null,
             "BoilingPoint": null,
