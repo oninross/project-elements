@@ -35,9 +35,9 @@ export default class Element {
                     group, ind;
 
                 if (i == 56) {
-                    ind = 0;
+                    ind = 118;
                 } else if (i == 74) {
-                    ind = 0;
+                    ind = 119;
                 } else if (i >= 57 && i <= 73) {
                     ind = i + 14;
                 } else if (i >= 75 && i <= 89) {
