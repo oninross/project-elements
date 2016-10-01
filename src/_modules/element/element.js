@@ -53,9 +53,9 @@ export default class Element {
                 group = elements[ind].group;
                 group = group.toLowerCase();
                 $this.addClass(group);
-                $elementNum.text(elements[ind].number);
-                $elementSym.text(elements[ind].symbol);
-                $elementName.text(elements[ind].name);
+                $elementNum.html(elements[ind].number);
+                $elementSym.html(elements[ind].symbol);
+                $elementName.html(elements[ind].name);
             });
 
             $('.elements').removeClass('hide');

@@ -45,7 +45,9 @@
 .elements {
     @include transition(opacity,1s, $easeOutExpo);
 
+    margin-bottom: 20px !important;
     opacity: 1;
+    table-layout: fixed;
 
     &.hide {
         opacity: 0;
@@ -67,23 +69,26 @@
     tr {
         &:first-child {
             td {
-                padding: 6px;
+                padding: 6px 6px 0px;
             }
         }
     }
 
     td {
         padding: 0;
+        width: 85px;
 
         &:first-child {
             padding: 6px;
+            width: 25px;
         }
     }
 }
 
 .element {
-    @include material-shadow(0);
     @include transition(all, 0.5s, $easeOutExpo);
+    @include scale(1);
+    @include material-shadow(0);
 
     background-color: $white;
     padding: 8px;
@@ -91,56 +96,88 @@
     position: relative;
     z-index: 0;
 
-    &:hover {
-        @include material-shadow(3);
-
-        cursor: pointer;
-        z-index: 5;
-    }
-
     &.alkali {
-        background-color: $red;
+        background-color: palette(red, 300);
+        color: palette(red, 900);
     }
 
     &.alkaline {
-        background-color: $deepOrange;
+        background-color: palette(deepOrange, 300);
+        color: palette(deepOrange, 900);
     }
 
     &.transition {
-        background-color: $orange;
+        background-color: palette(orange, 300);
+        color: palette(orange, 900);
     }
 
     &.basic {
-        background-color: $yellow;
+        background-color: palette(yellow, 300);
+        color: palette(yellow, 900);
     }
 
     &.metalloid {
-        background-color: $green;
+        background-color: palette(green, 300);
+        color: palette(green, 900);
     }
 
     &.nonmetal {
-        background-color: $indigo;
+        background-color: palette(indigo, 300);
+        color: palette(indigo, 900);
     }
 
     &.halogen {
-        background-color: $deepPurple;
+        background-color: palette(deepPurple, 300);
+        color: palette(deepPurple, 900);
     }
 
     &.noble {
-        background-color: $purple;
+        background-color: palette(purple, 300);
+        color: palette(purple, 900);
     }
 
     &.lanthanoid {
-        background-color: $lime;
+        background-color: palette(lime, 300);
+        color: palette(lime, 900);
     }
 
     &.actinoid {
-        background-color: $lightGreen;
+        background-color: palette(lightGreen, 300);
+        color: palette(lightGreen, 900);
+    }
+
+    &:hover {
+        @include scale(1.25);
+        @include material-shadow(3);
+
+        background-color: $white !important;
+        color: $black;
+        cursor: pointer;
+        z-index: 5;
+
+        &.disable {
+            @include scale(1);
+            @include material-shadow(0);
+
+            cursor: default;
+        }
+    }
+
+    &.disable {
+        height: 85px;
+
+        .element--sym {
+            font-size: 2.25em;
+        }
     }
 
     &--sym {
         font-size: 3em;
         font-weight: $bold;
         line-height: normal;
+    }
+
+    &--num {
+        text-align: left;
     }
 }

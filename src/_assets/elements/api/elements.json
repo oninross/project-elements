@@ -2682,8 +2682,8 @@
         },
         {
             "number": "57-71",
-            "name": "La",
-            "group": "Lanthanoid",
+            "name": "&nbsp;",
+            "group": "disable",
             "row": 5,
             "column": 2,
             "molar": null,
@@ -2699,8 +2699,8 @@
         },
         {
             "number": "89-103",
-            "name": "Ac",
-            "group": "Actinoid",
+            "name": "&nbsp;",
+            "group": "disable",
             "row": 6,
             "column": 2,
             "molar": null,

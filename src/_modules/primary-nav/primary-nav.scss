@@ -280,7 +280,7 @@
 .header {
     @include material-shadow(1);
 
-    background: darken( $lightBlue, 10% );
+    background: palette(lightBlue, 500);
     height: 45px;
     position: fixed;
     top: 0;
