@@ -42,6 +42,101 @@
     padding: 0.5em 0;
 }
 
+.night {
+    background-color: $matte-black;
+
+    .header {
+        background-color: palette(lightBlue, 800);
+    }
+
+    .elements {
+        tr,
+        td {
+            &:first-child {
+                color: palette(grey, 600);
+            }
+        }
+    }
+
+    .element {
+        background-color: transparent !important;
+
+        &.alkali {
+            border: 1px solid palette(red,400);
+            color: palette(red, 400);
+        }
+
+        &.alkaline {
+            border: 1px solid palette(deepOrange,400);
+            color: palette(deepOrange, 400);
+        }
+
+        &.transition {
+            border: 1px solid palette(orange,400);
+            color: palette(orange, 400);
+        }
+
+        &.basic {
+            border: 1px solid palette(yellow,400);
+            color: palette(yellow, 400);
+        }
+
+        &.metalloid {
+            border: 1px solid palette(green,400);
+            color: palette(green, 400);
+        }
+
+        &.nonmetal {
+            border: 1px solid palette(indigo,400);
+            color: palette(indigo, 400);
+        }
+
+        &.halogen {
+            border: 1px solid palette(deepPurple,400);
+            color: palette(deepPurple, 400);
+        }
+
+        &.noble {
+            border: 1px solid palette(purple,400);
+            color: palette(purple, 400);
+        }
+
+        &.lanthanoid {
+            border: 1px solid palette(lime,400);
+            color: palette(lime, 400);
+        }
+
+        &.actinoid {
+            border: 1px solid palette(lightGreen,400);
+            color: palette(lightGreen, 400);
+        }
+
+        &:hover {
+            @include scale(1.25);
+            @include material-shadow(3);
+
+            background-color: $white !important;
+            border-color: $white;
+            color: $black;
+            cursor: pointer;
+            z-index: 5;
+
+            &.disable {
+                @include scale(1);
+                @include material-shadow(0);
+
+                cursor: default;
+            }
+        }
+
+        &.disable {
+            border: 1px solid palette(grey, 700);
+            color: palette(grey, 700);
+            height: 83px;
+        }
+    }
+}
+
 .elements {
     @include transition(opacity,1s, $easeOutExpo);
 
@@ -164,7 +259,7 @@
     }
 
     &.disable {
-        height: 85px;
+        height: 81px;
 
         .element--sym {
             font-size: 2.25em;
@@ -178,6 +273,11 @@
     }
 
     &--num {
+        font-size: 0.8em;
         text-align: left;
+    }
+
+    &--name {
+        font-size: 0.8em;
     }
 }
