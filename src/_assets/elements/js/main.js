@@ -88,38 +88,38 @@ $(() => {
     ////////////////////////////
     // Magical Table wrapping //
     ////////////////////////////
-    (function () {
-        $.fn.isTableWide = function () {
-            return $(this).parent().width() < this.width();
-        };
+    // (function () {
+    //     $.fn.isTableWide = function () {
+    //         return $(this).parent().width() < this.width();
+    //     };
 
-        $('table').each(function () {
-            var $this = $(this);
+    //     $('table').each(function () {
+    //         var $this = $(this);
 
-            if ($this.length && !$this.parent().hasClass('table-wrapper') && $this.isTableWide()) {
-                $this
-                    .after('<button class="btn-print-table js-print-table">View Table</button>')
-                    .wrap('<div class="table-wrapper"></div>');
-            }
-        });
+    //         if ($this.length && !$this.parent().hasClass('table-wrapper') && $this.isTableWide()) {
+    //             $this
+    //                 .after('<button class="btn-print-table js-print-table">View Table</button>')
+    //                 .wrap('<div class="table-wrapper"></div>');
+    //         }
+    //     });
 
-        var $tablePreview = $('.table-preview');
-        if ($tablePreview.length) {
-            $('meta[name="viewport"]').attr('content', 'user-scalable=yes');
-            $tablePreview.append(localStorage.tablePreview);
+    //     var $tablePreview = $('.table-preview');
+    //     if ($tablePreview.length) {
+    //         $('meta[name="viewport"]').attr('content', 'user-scalable=yes');
+    //         $tablePreview.append(localStorage.tablePreview);
 
-            $(window).bind('beforeunload', function () {
-                localStorage.tablePreview = null;
-            });
-        }
+    //         $(window).bind('beforeunload', function () {
+    //             localStorage.tablePreview = null;
+    //         });
+    //     }
 
-        $('body').on('click', '.js-print-table', function () {
-            var $table = $(this).prev();
+    //     $('body').on('click', '.js-print-table', function () {
+    //         var $table = $(this).prev();
 
-            localStorage.tablePreview = $table[0].innerHTML;
-            window.open('/table-preview/', '_blank').focus();
-        });
-    })();
+    //         localStorage.tablePreview = $table[0].innerHTML;
+    //         window.open('/table-preview/', '_blank').focus();
+    //     });
+    // })();
 
 
 
