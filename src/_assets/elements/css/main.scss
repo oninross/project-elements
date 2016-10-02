@@ -45,6 +45,33 @@
 .night {
     background-color: $matte-black;
 
+    #primary-nav {
+        ul {
+            background-color: $matte-black;
+
+            a {
+                color: $white;
+            }
+
+
+            .nav--input label {
+                color: $white;
+            }
+        }
+
+        .lvl1 > li {
+            border-bottom: 1px solid palette(grey, 900);
+        }
+    }
+
+    .menu.active {
+        background-color: $matte-black;
+
+        .line {
+            background-color: $white;
+        }
+    }
+
     .header {
         background-color: palette(lightBlue, 800);
     }

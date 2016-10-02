@@ -12,6 +12,7 @@ import PrimaryNav from '../../../_modules/primary-nav/primary-nav';
 import Element from '../../../_modules/element/element';
 
 import { debounce } from './_helper';
+import { setNightMode, getNightMode } from './_localStorage';
 
 // Variable declaration
 var $window = $(window),
@@ -153,6 +154,29 @@ $(() => {
 
             lastScrollTop = st;
         };
+    })();
+
+
+    ////////////////
+    // Night Mode //
+    ////////////////
+    (function() {
+        if (getNightMode()) {
+            $body.addClass('night');
+            $('#primary-nav .nav--input input[type="checkbox"]').attr('checked', true);
+        }
+
+        $('#primary-nav .nav--input input[type="checkbox"]').on('change', function (e) {
+            var isNightMode = $(this).prop('checked');
+
+            setNightMode(isNightMode);
+
+            if (isNightMode) {
+                $body.addClass('night');
+            } else {
+                $body.removeClass('night');
+            }
+        });
     })();
 
 

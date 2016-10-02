@@ -36,3 +36,7 @@ mixin primary-nav(spec)
                                 each lvl3, index in primarynavLvl3
                                   li
                                     a(href=lvl3.link)=lvl3.label
+
+        li.nav--input
+          input#nightMode(type='checkbox', name='nightMode', value='nightMode')
+          label.checkbox(for='nightMode') Night mode

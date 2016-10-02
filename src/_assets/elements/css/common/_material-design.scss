@@ -58,7 +58,7 @@ textarea {
     width: 100%;
 
     &:focus {
-        border-bottom: 1px solid $green;
+        border-bottom: 1px solid $lightBlue;
         color: $black;
         outline: 0;
     }
@@ -94,7 +94,7 @@ textarea {
 
     &.focus {
         .placeholder {
-            color: $green;
+            color: $lightBlue;
             font-size: 1em;
             top: -10px;
         }
@@ -190,11 +190,11 @@ input[type="checkbox"] {
 
 input[type="radio"]{
     &:checked + label {
-        &:before { border: 2px solid $green; }
+        &:before { border: 2px solid $lightBlue; }
         &:after {
             @include scale (0.45);
 
-            background: $green;
+            background: $lightBlue;
         }
     }
 }
@@ -202,8 +202,8 @@ input[type="radio"]{
 input[type="checkbox"]{
     &:checked + label {
         &:before {
-            background: $green;
-            border: 2px solid $green;
+            background: $lightBlue;
+            border: 2px solid $lightBlue;
         }
 
         &:after {
@@ -219,7 +219,7 @@ input[type="checkbox"]{
 
 // Progress Bar
 .progress {
-    background: lighten( $green, 30% );
+    background: lighten( $lightBlue, 30% );
     border-radius: 0;
     height: 4px;
     width: 100%;
@@ -227,7 +227,7 @@ input[type="checkbox"]{
     .progress-bar {
         @include transition( width, 0.5s, $easeInOutExpo );
 
-        background: $green;
+        background: $lightBlue;
         height: 100%;
         margin-left: 0;
         width: 0;
@@ -465,7 +465,7 @@ input[type="checkbox"]{
     }
 
     40%{
-        stroke: $green;
+        stroke: $lightBlue;
     }
 
     66%{
