@@ -9,6 +9,7 @@ export default class PrimaryNav {
             primaryNavMarkup = '<button class="menu js-mobile-menu"><span class="line top"></span><span class="line mid"></span><span class="line bot"></span></button>',
             subNavMarkup = '<button class="sub-nav js-sub-nav icon-arrow"><span class="vh">Sub-navigation</span></button>',
             $dropdownList,
+            $header = $('.header'),
             $nav = el.find('.nav'),
             $lvl1 = el.find('.lvl1'),
             $lvl2 = el.find('.lvl2'),
@@ -42,6 +43,7 @@ export default class PrimaryNav {
 
             el.toggleClass('active');
             $this.toggleClass('active');
+            $header.toggleClass('active');
             $nav.toggleClass('active');
             $lvl1.toggleClass('active');
 

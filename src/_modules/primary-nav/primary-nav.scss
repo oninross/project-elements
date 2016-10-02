@@ -6,7 +6,7 @@
     height: 45px;
     position: absolute;
     right: 0;
-    top: 45px;;
+    top: 45px;
     width: 100%;
     z-index: 5;
 
@@ -294,7 +294,11 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 5;
+
+    &.active {
+        z-index: 2;
+    }
 
     @include tablet {
         @include transition( top, 1s, $easeOutExpo );

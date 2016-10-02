@@ -74,6 +74,16 @@ body
   block scripts
     script(src= baseUrl + 'assets/elements/js/main.js')
 
+    script(id='element-template', type='text/template')
+      .no-animation(class='{{= it.class }}')
+        button.js-close-element
+          i.icon.icon-cross
+        .element--num {{! it.num }}
+        .element--sym {{! it.sym }}
+        .element--name {{! it.name }}
+        .element-details
+          |foo
+
     if !isTablePreview
       script(id='toaster-template', type='text/template')
         .toaster(class='toaster{{= it.ind }}')

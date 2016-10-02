@@ -124,6 +124,13 @@
     top: 0;
 }
 
+@mixin no-animation() {
+    -webkit-transition: none !important;
+       -moz-transition: none !important;
+         -o-transition: none !important;
+            transition: none !important;
+}
+
 @mixin centering-the-unknown() {
     -webkit-transform: translate(-50%,-50%);
       -moz-transition: translate(-50%,-50%);

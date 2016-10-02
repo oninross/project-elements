@@ -42,6 +42,10 @@
     padding: 0.5em 0;
 }
 
+.no-animation {
+    @include no-animation();
+}
+
 .night {
     background-color: $matte-black;
 
@@ -144,23 +148,23 @@
             color: palette(lightGreen, 400);
         }
 
-        &:hover {
-            @include scale(1.25);
-            @include material-shadow(3);
+        &.active {
+        //     @include scale(1.25);
+        //     @include material-shadow(3);
 
             background-color: $white !important;
             border-color: $white;
             color: $black;
-            cursor: pointer;
-            z-index: 5;
+        //     cursor: pointer;
+        //     z-index: 5;
 
-            &.disable {
-                @include scale(1);
-                @include material-shadow(0);
+        //     &.disable {
+        //         @include scale(1);
+        //         @include material-shadow(0);
 
-                background-color: transparent !important;
-                cursor: default;
-            }
+        //         background-color: transparent !important;
+        //         cursor: default;
+        //     }
         }
 
         &.disable {
@@ -172,7 +176,7 @@
 }
 
 .elements {
-    @include transition(opacity,1s, $easeOutExpo);
+    @include transition(all, 0.75s, $easeOutExpo);
 
     margin-bottom: 20px !important;
     opacity: 1;
@@ -180,6 +184,15 @@
 
     &.hide {
         opacity: 0;
+    }
+
+    &.blur {
+        -webkit-filter: blur(20px); /* Chrome, Safari, Opera */
+                filter: blur(20px);
+    }
+
+    &.fixed {
+        overflow: hidden;
     }
 
     tr,
@@ -240,10 +253,13 @@
     @include material-shadow(0);
 
     background-color: $white;
+    border: 0;
+    max-width: 280px;
+    overflow: hidden;
     padding: 8px 8px 14px;
-    text-align: center;
     position: relative;
-    z-index: 0;
+    text-align: center;
+    width: 100%;
 
     &.alkali {
         background-color: palette(red, 300);
@@ -295,29 +311,56 @@
         color: palette(lightGreen, 900);
     }
 
-    &:hover {
-        @include scale(1.25);
-        @include material-shadow(3);
+    &.active {
+    //     @include scale(1.25);
+    //     @include material-shadow(3);
 
         background-color: $white !important;
         color: $black;
-        cursor: pointer;
-        z-index: 5;
+    //     cursor: pointer;
+    //     z-index: 5;
 
-        &.disable {
-            @include scale(1);
-            @include material-shadow(0);
+    //     &.disable {
+    //         @include scale(1);
+    //         @include material-shadow(0);
 
-            cursor: default;
-        }
+    //         cursor: default;
+    //     }
     }
 
     &.disable {
+        border: 0;
         height: 87px;
 
         .element--sym {
             font-size: 2.25em;
             margin-top: 8px;
+        }
+    }
+
+    &--clone {
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 45px;
+        width: 100%;
+
+        button {
+            background-color: transparent;
+            border: 1px solid $black;
+            border-radius: 50%;
+            line-height: normal;
+            overflow: hidden;
+            opacity: 0;
+            padding: 3px 4px 2px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        .element {
+            margin: auto;
+            position: absolute;
         }
     }
 
@@ -334,5 +377,9 @@
 
     &--name {
         font-size: 0.8em;
+    }
+
+    &-details {
+        display: none;
     }
 }
