@@ -113,8 +113,8 @@ export default class Element {
 
                 TweenMax.to('.element--clone .element', 0.75, {
                     left: ($window.outerWidth() - 280) / 2,
-                    top: 65,
-                    height: 345,
+                    top: (($window.outerHeight() - 375) / 2) - 23,
+                    height: 375,
                     width: 280,
                     ease: Expo.easeInOut
                 });

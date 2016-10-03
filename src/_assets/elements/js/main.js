@@ -91,13 +91,13 @@ $(() => {
     ////////////////////////////
     (function () {
         $.fn.isTableWide = function () {
-            return $(this).parent().width() < this.width();
+            return $(this).parent().width() < $(this).width();
         };
 
-        $('table').each(function () {
-            var $this = $(this);
+        $('table').each(function (i, v) {
+            var $this = $(v);
 
-            if ($this.length && !$this.parent().hasClass('table-wrapper') && !$this.hasClass('no-wrap') && $this.isTableWide()) {
+            if (!$this.parent().hasClass('table-wrapper') && !$this.hasClass('no-wrap') && $this.isTableWide()) {
                 $this
                     // .after('<button class="btn-print-table js-print-table">View Table</button>')
                     .wrap('<div class="table-wrapper"></div>');

@@ -85,7 +85,7 @@ table {
     border-spacing: 0;
     // font-size: $default-font-size;
     margin-bottom: 20px;
-    max-width: 100%;
+    // max-width: 100%;
     width: 100%;
 
     // tr:nth-child(even) {
@@ -334,17 +334,21 @@ Layout
         }
     }
 
-    ::-webkit-scrollbar {
-        height: 5px;
-        width: 5px;
-    }
+    .table-wrapper {
+        @include desktop {
+            ::-webkit-scrollbar {
+                height: 5px;
+                width: 5px;
+            }
 
-    ::-webkit-scrollbar-thumb {
-        background: rgba(0, 0, 0, 0.26);
-    }
+            ::-webkit-scrollbar-thumb {
+                background: rgba(0, 0, 0, 0.26);
+            }
 
-    ::-webkit-scrollbar-corner {
-        background: 0;
+            ::-webkit-scrollbar-corner {
+                background: 0;
+            }
+        }
     }
 }
 
