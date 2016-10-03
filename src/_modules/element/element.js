@@ -31,12 +31,11 @@ export default class Element {
 
         // populate elements
         function populateElements (json) {
-            $('.element').each(function(i) {
+            $('.elem-placeholder').each(function(i) {
                 var $this = $(this),
-                    $elementNum = $this.find('.element--num'),
-                    $elementSym = $this.find('.element--sym'),
-                    $elementName = $this.find('.element--name'),
                     elements = json.elements,
+                    elementCellTemp = doT.template($('#element-cell').html()),
+                    obj = {},
                     group, ind;
 
                 if (i == 56) {
@@ -57,11 +56,23 @@ export default class Element {
 
                 group = elements[ind].group;
                 group = group.toLowerCase();
-                $this.addClass(group);
-                $elementNum.html(elements[ind].number);
-                $elementSym.html(elements[ind].symbol);
-                $elementName.html(elements[ind].name);
-            }).on('click', function (e) {
+
+                obj = {
+                    class: group,
+                    num: elements[ind].number,
+                    sym: elements[ind].symbol,
+                    name: elements[ind].name,
+                    discovery: elements[ind].discovery,
+                    configuration: elements[ind].electronConfiguration,
+                    weight: elements[ind].atomicWeight,
+                    density: elements[ind].density,
+                    boiling: elements[ind].boilingPoint,
+                    melting: elements[ind].meltingPoint,
+                    ionization: elements[ind].ionizationEnergy
+                }
+
+                $this.append(elementCellTemp(obj));
+            }).on('click', '.js-open-element', function (e) {
                 e.preventDefault();
 
                 var $this = $(this),
@@ -71,6 +82,13 @@ export default class Element {
                         num: $this.find('.element--num').text(),
                         sym: $this.find('.element--sym').text(),
                         name: $this.find('.element--name').text(),
+                        discovery: $this.find('.element--discovery').text(),
+                        configuration: $this.find('.element--configuration').html(),
+                        weight: $this.find('.element--weight').text(),
+                        density: $this.find('.element--density').text(),
+                        boiling: $this.find('.element--boiling').text(),
+                        melting: $this.find('.element--melting').text(),
+                        ionization: $this.find('.element--ionization').text()
                     };
 
                 $elements
@@ -94,7 +112,7 @@ export default class Element {
                 });
 
                 TweenMax.to('.element--clone .element', 0.75, {
-                    left: 20,
+                    left: ($window.outerWidth() - 280) / 2,
                     top: 65,
                     height: 345,
                     width: 280,
@@ -103,7 +121,10 @@ export default class Element {
 
                 TweenMax.to('.element--clone .element button', 0.75, {
                     opacity: 1,
-                    ease: Expo.easeInOut
+                    ease: Expo.easeInOut,
+                    onComplete: function () {
+                        $('.element--clone .element--details').addClass('show');
+                    }
                 });
             });
 
@@ -113,28 +134,32 @@ export default class Element {
                 var $this = $(this),
                     $parent = $this.parent();
 
+                $('.element--clone .element--details').removeClass('show');
+
                 TweenMax.to('.element--clone .element', 0.75, {
                     left: $parent.data('x'),
                     top: $parent.data('y'),
                     height: $parent.data('height'),
                     width: $parent.data('width'),
-                    ease: Expo.easeInOut
+                    ease: Expo.easeInOut,
+                    delay: 0.25
                 });
 
                 TweenMax.to('.element--clone .element button', 0.75, {
                     opacity: 0,
                     ease: Expo.easeInOut,
+                    delay: 0.25,
                     onComplete: function () {
                         $elements.removeClass('blur');
 
                         $('.element--clone .element')
                             .removeClass('no-animation')
-                            .removeClass('fixed');
+                            .removeClass('active');
 
                         setTimeout(function(){
                             $elements.removeClass('fixed');
                             $('.element--clone').remove();
-                        }, 750);
+                        }, 500);
                     }
                 });
             });

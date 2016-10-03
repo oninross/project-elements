@@ -6,18 +6,17 @@
             "group": "Basic",
             "row": 0,
             "column": 0,
-            "molar": 1.00794,
+            "atomicWeight": 1.00794,
             "symbol": "H",
             "electrons": [
                 1
             ],
-            "MeltingPoint": "-259",
-            "BoilingPoint": "-253",
-            "Density": "0.09",
-            "EarthCrust": "0.14",
-            "Discovery": "1776",
-            "ElectronConfiguration": "1s<sup>1</sup>",
-            "IonizationEnergy": "13.5984"
+            "meltingPoint": "-259",
+            "boilingPoint": "-253",
+            "density": "0.09",
+            "discovery": "1776",
+            "electronConfiguration": "1s<sup>1</sup>",
+            "ionizationEnergy": "13.5984"
         },
         {
             "number": 2,
@@ -25,18 +24,17 @@
             "group": "Noble",
             "row": 0,
             "column": 17,
-            "molar": 4.002602,
+            "atomicWeight": 4.002602,
             "symbol": "He",
             "electrons": [
                 2
             ],
-            "MeltingPoint": "-272",
-            "BoilingPoint": "-269",
-            "Density": "0.18",
-            "EarthCrust": "",
-            "Discovery": "1895",
-            "ElectronConfiguration": "1s<sup>2</sup>",
-            "IonizationEnergy": "24.5874"
+            "meltingPoint": "-272",
+            "boilingPoint": "-269",
+            "density": "0.18",
+            "discovery": "1895",
+            "electronConfiguration": "1s<sup>2</sup>",
+            "ionizationEnergy": "24.5874"
         },
         {
             "number": 3,
@@ -44,19 +42,18 @@
             "group": "Alkali",
             "row": 1,
             "column": 0,
-            "molar": 6.941,
+            "atomicWeight": 6.941,
             "symbol": "Li",
             "electrons": [
                 2,
                 1
             ],
-            "MeltingPoint": "180",
-            "BoilingPoint": "1347",
-            "Density": "0.53",
-            "EarthCrust": "",
-            "Discovery": "1817",
-            "ElectronConfiguration": "[He] 2s<sup>1</sup>",
-            "IonizationEnergy": "5.3917"
+            "meltingPoint": "180",
+            "boilingPoint": "1347",
+            "density": "0.53",
+            "discovery": "1817",
+            "electronConfiguration": "[He] 2s<sup>1</sup>",
+            "ionizationEnergy": "5.3917"
         },
         {
             "number": 4,
@@ -64,19 +61,18 @@
             "group": "Alkaline",
             "row": 1,
             "column": 1,
-            "molar": 9.012182,
+            "atomicWeight": 9.012182,
             "symbol": "Be",
             "electrons": [
                 2,
                 2
             ],
-            "MeltingPoint": "1278",
-            "BoilingPoint": "2970",
-            "Density": "1.85",
-            "EarthCrust": "",
-            "Discovery": "1797",
-            "ElectronConfiguration": "[He] 2s<sup>2</sup>",
-            "IonizationEnergy": "9.3227"
+            "meltingPoint": "1278",
+            "boilingPoint": "2970",
+            "density": "1.85",
+            "discovery": "1797",
+            "electronConfiguration": "[He] 2s<sup>2</sup>",
+            "ionizationEnergy": "9.3227"
         },
         {
             "number": 5,
@@ -84,19 +80,18 @@
             "group": "Metalloid",
             "row": 1,
             "column": 12,
-            "molar": 10.811,
+            "atomicWeight": 10.811,
             "symbol": "B",
             "electrons": [
                 2,
                 3
             ],
-            "MeltingPoint": "2300",
-            "BoilingPoint": "2550",
-            "Density": "2.34",
-            "EarthCrust": "",
-            "Discovery": "1808",
-            "ElectronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>1</sup>",
-            "IonizationEnergy": "8.298"
+            "meltingPoint": "2300",
+            "boilingPoint": "2550",
+            "density": "2.34",
+            "discovery": "1808",
+            "electronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>1</sup>",
+            "ionizationEnergy": "8.298"
         },
         {
             "number": 6,
@@ -104,19 +99,18 @@
             "group": "Nonmetal",
             "row": 1,
             "column": 13,
-            "molar": 12.0107,
+            "atomicWeight": 12.0107,
             "symbol": "C",
             "electrons": [
                 2,
                 4
             ],
-            "MeltingPoint": "3500",
-            "BoilingPoint": "4827",
-            "Density": "2.26",
-            "EarthCrust": "0.094",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>2</sup>",
-            "IonizationEnergy": "11.2603"
+            "meltingPoint": "3500",
+            "boilingPoint": "4827",
+            "density": "2.26",
+            "discovery": "ancient",
+            "electronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>2</sup>",
+            "ionizationEnergy": "11.2603"
         },
         {
             "number": 7,
@@ -124,19 +118,18 @@
             "group": "Nonmetal",
             "row": 1,
             "column": 14,
-            "molar": 14.0067,
+            "atomicWeight": 14.0067,
             "symbol": "N",
             "electrons": [
                 2,
                 5
             ],
-            "MeltingPoint": "-210",
-            "BoilingPoint": "-196",
-            "Density": "1.25",
-            "EarthCrust": "",
-            "Discovery": "1772",
-            "ElectronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>3</sup>",
-            "IonizationEnergy": "14.5341"
+            "meltingPoint": "-210",
+            "boilingPoint": "-196",
+            "density": "1.25",
+            "discovery": "1772",
+            "electronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>3</sup>",
+            "ionizationEnergy": "14.5341"
         },
         {
             "number": 8,
@@ -144,19 +137,18 @@
             "group": "Nonmetal",
             "row": 1,
             "column": 15,
-            "molar": 15.9994,
+            "atomicWeight": 15.9994,
             "symbol": "O",
             "electrons": [
                 2,
                 6
             ],
-            "MeltingPoint": "-218",
-            "BoilingPoint": "-183",
-            "Density": "1.43",
-            "EarthCrust": "46.71",
-            "Discovery": "1774",
-            "ElectronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>4</sup>",
-            "IonizationEnergy": "13.6181"
+            "meltingPoint": "-218",
+            "boilingPoint": "-183",
+            "density": "1.43",
+            "discovery": "1774",
+            "electronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>4</sup>",
+            "ionizationEnergy": "13.6181"
         },
         {
             "number": 9,
@@ -164,19 +156,18 @@
             "group": "Halogen",
             "row": 1,
             "column": 16,
-            "molar": 18.998404,
+            "atomicWeight": 18.998404,
             "symbol": "F",
             "electrons": [
                 2,
                 7
             ],
-            "MeltingPoint": "-220",
-            "BoilingPoint": "-188",
-            "Density": "1.7",
-            "EarthCrust": "0.029",
-            "Discovery": "1886",
-            "ElectronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>5</sup>",
-            "IonizationEnergy": "17.4228"
+            "meltingPoint": "-220",
+            "boilingPoint": "-188",
+            "density": "1.7",
+            "discovery": "1886",
+            "electronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>5</sup>",
+            "ionizationEnergy": "17.4228"
         },
         {
             "number": 10,
@@ -184,19 +175,18 @@
             "group": "Noble",
             "row": 1,
             "column": 17,
-            "molar": 20.1797,
+            "atomicWeight": 20.1797,
             "symbol": "Ne",
             "electrons": [
                 2,
                 8
             ],
-            "MeltingPoint": "-249",
-            "BoilingPoint": "-246",
-            "Density": "0.9",
-            "EarthCrust": "",
-            "Discovery": "1898",
-            "ElectronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>6</sup>",
-            "IonizationEnergy": "21.5645"
+            "meltingPoint": "-249",
+            "boilingPoint": "-246",
+            "density": "0.9",
+            "discovery": "1898",
+            "electronConfiguration": "[He] 2s<sup>2</sup> 2p<sup>6</sup>",
+            "ionizationEnergy": "21.5645"
         },
         {
             "number": 11,
@@ -204,20 +194,19 @@
             "group": "Alkali",
             "row": 2,
             "column": 0,
-            "molar": 22.989769,
+            "atomicWeight": 22.989769,
             "symbol": "Na",
             "electrons": [
                 2,
                 8,
                 1
             ],
-            "MeltingPoint": "98",
-            "BoilingPoint": "883",
-            "Density": "0.97",
-            "EarthCrust": "2.75",
-            "Discovery": "1807",
-            "ElectronConfiguration": "[Ne] 3s<sup>1</sup>",
-            "IonizationEnergy": "5.1391"
+            "meltingPoint": "98",
+            "boilingPoint": "883",
+            "density": "0.97",
+            "discovery": "1807",
+            "electronConfiguration": "[Ne] 3s<sup>1</sup>",
+            "ionizationEnergy": "5.1391"
         },
         {
             "number": 12,
@@ -225,20 +214,19 @@
             "group": "Alkaline",
             "row": 2,
             "column": 1,
-            "molar": 24.305,
+            "atomicWeight": 24.305,
             "symbol": "Mg",
             "electrons": [
                 2,
                 8,
                 2
             ],
-            "MeltingPoint": "639",
-            "BoilingPoint": "1090",
-            "Density": "1.74",
-            "EarthCrust": "2.08",
-            "Discovery": "1755",
-            "ElectronConfiguration": "[Ne] 3s<sup>2</sup>",
-            "IonizationEnergy": "7.6462"
+            "meltingPoint": "639",
+            "boilingPoint": "1090",
+            "density": "1.74",
+            "discovery": "1755",
+            "electronConfiguration": "[Ne] 3s<sup>2</sup>",
+            "ionizationEnergy": "7.6462"
         },
         {
             "number": 13,
@@ -246,20 +234,19 @@
             "group": "Basic",
             "row": 2,
             "column": 12,
-            "molar": 26.981539,
+            "atomicWeight": 26.981539,
             "symbol": "Al",
             "electrons": [
                 2,
                 8,
                 3
             ],
-            "MeltingPoint": "660",
-            "BoilingPoint": "2467",
-            "Density": "2.7",
-            "EarthCrust": "8.07",
-            "Discovery": "1825",
-            "ElectronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>1</sup>",
-            "IonizationEnergy": "5.9858"
+            "meltingPoint": "660",
+            "boilingPoint": "2467",
+            "density": "2.7",
+            "discovery": "1825",
+            "electronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>1</sup>",
+            "ionizationEnergy": "5.9858"
         },
         {
             "number": 14,
@@ -267,20 +254,19 @@
             "group": "Metalloid",
             "row": 2,
             "column": 13,
-            "molar": 28.0855,
+            "atomicWeight": 28.0855,
             "symbol": "Si",
             "electrons": [
                 2,
                 8,
                 4
             ],
-            "MeltingPoint": "1410",
-            "BoilingPoint": "2355",
-            "Density": "2.33",
-            "EarthCrust": "27.69",
-            "Discovery": "1824",
-            "ElectronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>2</sup>",
-            "IonizationEnergy": "8.1517"
+            "meltingPoint": "1410",
+            "boilingPoint": "2355",
+            "density": "2.33",
+            "discovery": "1824",
+            "electronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>2</sup>",
+            "ionizationEnergy": "8.1517"
         },
         {
             "number": 15,
@@ -288,20 +274,19 @@
             "group": "Nonmetal",
             "row": 2,
             "column": 14,
-            "molar": 30.973763,
+            "atomicWeight": 30.973763,
             "symbol": "P",
             "electrons": [
                 2,
                 8,
                 5
             ],
-            "MeltingPoint": "44",
-            "BoilingPoint": "280",
-            "Density": "1.82",
-            "EarthCrust": "0.13",
-            "Discovery": "1669",
-            "ElectronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>3</sup>",
-            "IonizationEnergy": "10.4867"
+            "meltingPoint": "44",
+            "boilingPoint": "280",
+            "density": "1.82",
+            "discovery": "1669",
+            "electronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>3</sup>",
+            "ionizationEnergy": "10.4867"
         },
         {
             "number": 16,
@@ -309,20 +294,19 @@
             "group": "Nonmetal",
             "row": 2,
             "column": 15,
-            "molar": 32.065,
+            "atomicWeight": 32.065,
             "symbol": "S",
             "electrons": [
                 2,
                 8,
                 6
             ],
-            "MeltingPoint": "113",
-            "BoilingPoint": "445",
-            "Density": "2.07",
-            "EarthCrust": "0.052",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>4</sup>",
-            "IonizationEnergy": "10.36"
+            "meltingPoint": "113",
+            "boilingPoint": "445",
+            "density": "2.07",
+            "discovery": "ancient",
+            "electronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>4</sup>",
+            "ionizationEnergy": "10.36"
         },
         {
             "number": 17,
@@ -330,20 +314,19 @@
             "group": "Halogen",
             "row": 2,
             "column": 16,
-            "molar": 35.453,
+            "atomicWeight": 35.453,
             "symbol": "Cl",
             "electrons": [
                 2,
                 8,
                 7
             ],
-            "MeltingPoint": "-101",
-            "BoilingPoint": "-35",
-            "Density": "3.21",
-            "EarthCrust": "0.045",
-            "Discovery": "1774",
-            "ElectronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>5</sup>",
-            "IonizationEnergy": "12.9676"
+            "meltingPoint": "-101",
+            "boilingPoint": "-35",
+            "density": "3.21",
+            "discovery": "1774",
+            "electronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>5</sup>",
+            "ionizationEnergy": "12.9676"
         },
         {
             "number": 18,
@@ -351,20 +334,19 @@
             "group": "Noble",
             "row": 2,
             "column": 17,
-            "molar": 39.948,
+            "atomicWeight": 39.948,
             "symbol": "Ar",
             "electrons": [
                 2,
                 8,
                 8
             ],
-            "MeltingPoint": "-189",
-            "BoilingPoint": "-186",
-            "Density": "1.78",
-            "EarthCrust": "",
-            "Discovery": "1894",
-            "ElectronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>6</sup>",
-            "IonizationEnergy": "15.7596"
+            "meltingPoint": "-189",
+            "boilingPoint": "-186",
+            "density": "1.78",
+            "discovery": "1894",
+            "electronConfiguration": "[Ne] 3s<sup>2</sup> 3p<sup>6</sup>",
+            "ionizationEnergy": "15.7596"
         },
         {
             "number": 19,
@@ -372,7 +354,7 @@
             "group": "Alkali",
             "row": 3,
             "column": 0,
-            "molar": 39.0983,
+            "atomicWeight": 39.0983,
             "symbol": "K",
             "electrons": [
                 2,
@@ -380,13 +362,12 @@
                 8,
                 1
             ],
-            "MeltingPoint": "64",
-            "BoilingPoint": "774",
-            "Density": "0.86",
-            "EarthCrust": "2.58",
-            "Discovery": "1807",
-            "ElectronConfiguration": "[Ar] 4s<sup>1</sup>",
-            "IonizationEnergy": "4.3407"
+            "meltingPoint": "64",
+            "boilingPoint": "774",
+            "density": "0.86",
+            "discovery": "1807",
+            "electronConfiguration": "[Ar] 4s<sup>1</sup>",
+            "ionizationEnergy": "4.3407"
         },
         {
             "number": 20,
@@ -394,7 +375,7 @@
             "group": "Alkaline",
             "row": 3,
             "column": 1,
-            "molar": 40.078,
+            "atomicWeight": 40.078,
             "symbol": "Ca",
             "electrons": [
                 2,
@@ -402,13 +383,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "839",
-            "BoilingPoint": "1484",
-            "Density": "1.55",
-            "EarthCrust": "3.65",
-            "Discovery": "1808",
-            "ElectronConfiguration": "[Ar] 4s<sup>2</sup>",
-            "IonizationEnergy": "6.1132"
+            "meltingPoint": "839",
+            "boilingPoint": "1484",
+            "density": "1.55",
+            "discovery": "1808",
+            "electronConfiguration": "[Ar] 4s<sup>2</sup>",
+            "ionizationEnergy": "6.1132"
         },
         {
             "number": 21,
@@ -416,7 +396,7 @@
             "group": "Transition",
             "row": 3,
             "column": 2,
-            "molar": 44.955914,
+            "atomicWeight": 44.955914,
             "symbol": "Sc",
             "electrons": [
                 2,
@@ -424,13 +404,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "1539",
-            "BoilingPoint": "2832",
-            "Density": "2.99",
-            "EarthCrust": "",
-            "Discovery": "1879",
-            "ElectronConfiguration": "[Ar] 3d1 4s<sup>2</sup>",
-            "IonizationEnergy": "6.5615"
+            "meltingPoint": "1539",
+            "boilingPoint": "2832",
+            "density": "2.99",
+            "discovery": "1879",
+            "electronConfiguration": "[Ar] 3d1 4s<sup>2</sup>",
+            "ionizationEnergy": "6.5615"
         },
         {
             "number": 22,
@@ -438,7 +417,7 @@
             "group": "Transition",
             "row": 3,
             "column": 3,
-            "molar": 47.867,
+            "atomicWeight": 47.867,
             "symbol": "Ti",
             "electrons": [
                 2,
@@ -446,13 +425,12 @@
                 10,
                 2
             ],
-            "MeltingPoint": "1660",
-            "BoilingPoint": "3287",
-            "Density": "4.54",
-            "EarthCrust": "0.62",
-            "Discovery": "1791",
-            "ElectronConfiguration": "[Ar] 3d2 4s<sup>2</sup>",
-            "IonizationEnergy": "6.8281"
+            "meltingPoint": "1660",
+            "boilingPoint": "3287",
+            "density": "4.54",
+            "discovery": "1791",
+            "electronConfiguration": "[Ar] 3d2 4s<sup>2</sup>",
+            "ionizationEnergy": "6.8281"
         },
         {
             "number": 23,
@@ -460,7 +438,7 @@
             "group": "Transition",
             "row": 3,
             "column": 4,
-            "molar": 50.9415,
+            "atomicWeight": 50.9415,
             "symbol": "V",
             "electrons": [
                 2,
@@ -468,13 +446,12 @@
                 11,
                 2
             ],
-            "MeltingPoint": "1890",
-            "BoilingPoint": "3380",
-            "Density": "6.11",
-            "EarthCrust": "",
-            "Discovery": "1830",
-            "ElectronConfiguration": "[Ar] 3d3 4s<sup>2</sup>",
-            "IonizationEnergy": "6.7462"
+            "meltingPoint": "1890",
+            "boilingPoint": "3380",
+            "density": "6.11",
+            "discovery": "1830",
+            "electronConfiguration": "[Ar] 3d3 4s<sup>2</sup>",
+            "ionizationEnergy": "6.7462"
         },
         {
             "number": 24,
@@ -482,7 +459,7 @@
             "group": "Transition",
             "row": 3,
             "column": 5,
-            "molar": 51.9961,
+            "atomicWeight": 51.9961,
             "symbol": "Cr",
             "electrons": [
                 2,
@@ -490,13 +467,12 @@
                 13,
                 1
             ],
-            "MeltingPoint": "1857",
-            "BoilingPoint": "2672",
-            "Density": "7.19",
-            "EarthCrust": "0.035",
-            "Discovery": "1797",
-            "ElectronConfiguration": "[Ar] 3d5 4s<sup>1</sup>",
-            "IonizationEnergy": "6.7665"
+            "meltingPoint": "1857",
+            "boilingPoint": "2672",
+            "density": "7.19",
+            "discovery": "1797",
+            "electronConfiguration": "[Ar] 3d5 4s<sup>1</sup>",
+            "ionizationEnergy": "6.7665"
         },
         {
             "number": 25,
@@ -504,7 +480,7 @@
             "group": "Transition",
             "row": 3,
             "column": 6,
-            "molar": 54.938046,
+            "atomicWeight": 54.938046,
             "symbol": "Mn",
             "electrons": [
                 2,
@@ -512,13 +488,12 @@
                 13,
                 2
             ],
-            "MeltingPoint": "1245",
-            "BoilingPoint": "1962",
-            "Density": "7.43",
-            "EarthCrust": "0.09",
-            "Discovery": "1774",
-            "ElectronConfiguration": "[Ar] 3d5 4s<sup>2</sup>",
-            "IonizationEnergy": "7.434"
+            "meltingPoint": "1245",
+            "boilingPoint": "1962",
+            "density": "7.43",
+            "discovery": "1774",
+            "electronConfiguration": "[Ar] 3d5 4s<sup>2</sup>",
+            "ionizationEnergy": "7.434"
         },
         {
             "number": 26,
@@ -526,7 +501,7 @@
             "group": "Transition",
             "row": 3,
             "column": 7,
-            "molar": 55.845,
+            "atomicWeight": 55.845,
             "symbol": "Fe",
             "electrons": [
                 2,
@@ -534,13 +509,12 @@
                 14,
                 2
             ],
-            "MeltingPoint": "1535",
-            "BoilingPoint": "2750",
-            "Density": "7.87",
-            "EarthCrust": "5.05",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Ar] 3d6 4s<sup>2</sup>",
-            "IonizationEnergy": "7.9024"
+            "meltingPoint": "1535",
+            "boilingPoint": "2750",
+            "density": "7.87",
+            "discovery": "ancient",
+            "electronConfiguration": "[Ar] 3d6 4s<sup>2</sup>",
+            "ionizationEnergy": "7.9024"
         },
         {
             "number": 27,
@@ -548,7 +522,7 @@
             "group": "Transition",
             "row": 3,
             "column": 8,
-            "molar": 58.933193,
+            "atomicWeight": 58.933193,
             "symbol": "Co",
             "electrons": [
                 2,
@@ -556,13 +530,12 @@
                 15,
                 2
             ],
-            "MeltingPoint": "1495",
-            "BoilingPoint": "2870",
-            "Density": "8.9",
-            "EarthCrust": "",
-            "Discovery": "1735",
-            "ElectronConfiguration": "[Ar] 3d7 4s<sup>2</sup>",
-            "IonizationEnergy": "7.881"
+            "meltingPoint": "1495",
+            "boilingPoint": "2870",
+            "density": "8.9",
+            "discovery": "1735",
+            "electronConfiguration": "[Ar] 3d7 4s<sup>2</sup>",
+            "ionizationEnergy": "7.881"
         },
         {
             "number": 28,
@@ -570,7 +543,7 @@
             "group": "Transition",
             "row": 3,
             "column": 9,
-            "molar": 58.6934,
+            "atomicWeight": 58.6934,
             "symbol": "Ni",
             "electrons": [
                 2,
@@ -578,13 +551,12 @@
                 16,
                 2
             ],
-            "MeltingPoint": "1453",
-            "BoilingPoint": "2732",
-            "Density": "8.9",
-            "EarthCrust": "0.019",
-            "Discovery": "1751",
-            "ElectronConfiguration": "[Ar] 3d8 4s<sup>2</sup>",
-            "IonizationEnergy": "7.6398"
+            "meltingPoint": "1453",
+            "boilingPoint": "2732",
+            "density": "8.9",
+            "discovery": "1751",
+            "electronConfiguration": "[Ar] 3d8 4s<sup>2</sup>",
+            "ionizationEnergy": "7.6398"
         },
         {
             "number": 29,
@@ -592,7 +564,7 @@
             "group": "Transition",
             "row": 3,
             "column": 10,
-            "molar": 63.546,
+            "atomicWeight": 63.546,
             "symbol": "Cu",
             "electrons": [
                 2,
@@ -600,13 +572,12 @@
                 18,
                 1
             ],
-            "MeltingPoint": "1083",
-            "BoilingPoint": "2567",
-            "Density": "8.96",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Ar] 3d10 4s<sup>1</sup>",
-            "IonizationEnergy": "7.7264"
+            "meltingPoint": "1083",
+            "boilingPoint": "2567",
+            "density": "8.96",
+            "discovery": "ancient",
+            "electronConfiguration": "[Ar] 3d10 4s<sup>1</sup>",
+            "ionizationEnergy": "7.7264"
         },
         {
             "number": 30,
@@ -614,7 +585,7 @@
             "group": "Transition",
             "row": 3,
             "column": 11,
-            "molar": 65.38,
+            "atomicWeight": 65.38,
             "symbol": "Zn",
             "electrons": [
                 2,
@@ -622,13 +593,12 @@
                 18,
                 2
             ],
-            "MeltingPoint": "420",
-            "BoilingPoint": "907",
-            "Density": "7.13",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Ar] 3d10 4s<sup>2</sup>",
-            "IonizationEnergy": "9.3942"
+            "meltingPoint": "420",
+            "boilingPoint": "907",
+            "density": "7.13",
+            "discovery": "ancient",
+            "electronConfiguration": "[Ar] 3d10 4s<sup>2</sup>",
+            "ionizationEnergy": "9.3942"
         },
         {
             "number": 31,
@@ -636,7 +606,7 @@
             "group": "Basic",
             "row": 3,
             "column": 12,
-            "molar": 69.723,
+            "atomicWeight": 69.723,
             "symbol": "Ga",
             "electrons": [
                 2,
@@ -644,13 +614,12 @@
                 18,
                 3
             ],
-            "MeltingPoint": "30",
-            "BoilingPoint": "2403",
-            "Density": "5.91",
-            "EarthCrust": "",
-            "Discovery": "1875",
-            "ElectronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>1</sup>",
-            "IonizationEnergy": "5.9993"
+            "meltingPoint": "30",
+            "boilingPoint": "2403",
+            "density": "5.91",
+            "discovery": "1875",
+            "electronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>1</sup>",
+            "ionizationEnergy": "5.9993"
         },
         {
             "number": 32,
@@ -658,7 +627,7 @@
             "group": "Metalloid",
             "row": 3,
             "column": 13,
-            "molar": 72.63,
+            "atomicWeight": 72.63,
             "symbol": "Ge",
             "electrons": [
                 2,
@@ -666,13 +635,12 @@
                 18,
                 4
             ],
-            "MeltingPoint": "937",
-            "BoilingPoint": "2830",
-            "Density": "5.32",
-            "EarthCrust": "",
-            "Discovery": "1886",
-            "ElectronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>2</sup>",
-            "IonizationEnergy": "7.8994"
+            "meltingPoint": "937",
+            "boilingPoint": "2830",
+            "density": "5.32",
+            "discovery": "1886",
+            "electronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>2</sup>",
+            "ionizationEnergy": "7.8994"
         },
         {
             "number": 33,
@@ -680,7 +648,7 @@
             "group": "Metalloid",
             "row": 3,
             "column": 14,
-            "molar": 74.9216,
+            "atomicWeight": 74.9216,
             "symbol": "As",
             "electrons": [
                 2,
@@ -688,13 +656,12 @@
                 18,
                 5
             ],
-            "MeltingPoint": "81",
-            "BoilingPoint": "613",
-            "Density": "5.72",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>3</sup>",
-            "IonizationEnergy": "9.7886"
+            "meltingPoint": "81",
+            "boilingPoint": "613",
+            "density": "5.72",
+            "discovery": "ancient",
+            "electronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>3</sup>",
+            "ionizationEnergy": "9.7886"
         },
         {
             "number": 34,
@@ -702,7 +669,7 @@
             "group": "Nonmetal",
             "row": 3,
             "column": 15,
-            "molar": 78.96,
+            "atomicWeight": 78.96,
             "symbol": "Se",
             "electrons": [
                 2,
@@ -710,13 +677,12 @@
                 18,
                 6
             ],
-            "MeltingPoint": "217",
-            "BoilingPoint": "685",
-            "Density": "4.79",
-            "EarthCrust": "",
-            "Discovery": "1817",
-            "ElectronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>4</sup>",
-            "IonizationEnergy": "9.7524"
+            "meltingPoint": "217",
+            "boilingPoint": "685",
+            "density": "4.79",
+            "discovery": "1817",
+            "electronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>4</sup>",
+            "ionizationEnergy": "9.7524"
         },
         {
             "number": 35,
@@ -724,7 +690,7 @@
             "group": "Halogen",
             "row": 3,
             "column": 16,
-            "molar": 79.904,
+            "atomicWeight": 79.904,
             "symbol": "Br",
             "electrons": [
                 2,
@@ -732,13 +698,12 @@
                 18,
                 7
             ],
-            "MeltingPoint": "-7",
-            "BoilingPoint": "59",
-            "Density": "3.12",
-            "EarthCrust": "",
-            "Discovery": "1826",
-            "ElectronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>5</sup>",
-            "IonizationEnergy": "11.8138"
+            "meltingPoint": "-7",
+            "boilingPoint": "59",
+            "density": "3.12",
+            "discovery": "1826",
+            "electronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>5</sup>",
+            "ionizationEnergy": "11.8138"
         },
         {
             "number": 36,
@@ -746,7 +711,7 @@
             "group": "Noble",
             "row": 3,
             "column": 17,
-            "molar": 83.798,
+            "atomicWeight": 83.798,
             "symbol": "Kr",
             "electrons": [
                 2,
@@ -754,13 +719,12 @@
                 18,
                 8
             ],
-            "MeltingPoint": "-157",
-            "BoilingPoint": "-153",
-            "Density": "3.75",
-            "EarthCrust": "",
-            "Discovery": "1898",
-            "ElectronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>6</sup>",
-            "IonizationEnergy": "13.9996"
+            "meltingPoint": "-157",
+            "boilingPoint": "-153",
+            "density": "3.75",
+            "discovery": "1898",
+            "electronConfiguration": "[Ar] 3d10 4s<sup>2</sup> 4p<sup>6</sup>",
+            "ionizationEnergy": "13.9996"
         },
         {
             "number": 37,
@@ -768,7 +732,7 @@
             "group": "Alkali",
             "row": 4,
             "column": 0,
-            "molar": 85.4678,
+            "atomicWeight": 85.4678,
             "symbol": "Rb",
             "electrons": [
                 2,
@@ -777,13 +741,12 @@
                 8,
                 1
             ],
-            "MeltingPoint": "39",
-            "BoilingPoint": "688",
-            "Density": "1.63",
-            "EarthCrust": "",
-            "Discovery": "1861",
-            "ElectronConfiguration": "[Kr] 5s<sup>1</sup>",
-            "IonizationEnergy": "4.1771"
+            "meltingPoint": "39",
+            "boilingPoint": "688",
+            "density": "1.63",
+            "discovery": "1861",
+            "electronConfiguration": "[Kr] 5s<sup>1</sup>",
+            "ionizationEnergy": "4.1771"
         },
         {
             "number": 38,
@@ -791,7 +754,7 @@
             "group": "Alkaline",
             "row": 4,
             "column": 1,
-            "molar": 87.62,
+            "atomicWeight": 87.62,
             "symbol": "Sr",
             "electrons": [
                 2,
@@ -800,13 +763,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "769",
-            "BoilingPoint": "1384",
-            "Density": "2.54",
-            "EarthCrust": "",
-            "Discovery": "1790",
-            "ElectronConfiguration": "[Kr] 5s<sup>2</sup>",
-            "IonizationEnergy": "5.6949"
+            "meltingPoint": "769",
+            "boilingPoint": "1384",
+            "density": "2.54",
+            "discovery": "1790",
+            "electronConfiguration": "[Kr] 5s<sup>2</sup>",
+            "ionizationEnergy": "5.6949"
         },
         {
             "number": 39,
@@ -814,7 +776,7 @@
             "group": "Transition",
             "row": 4,
             "column": 2,
-            "molar": 88.90585,
+            "atomicWeight": 88.90585,
             "symbol": "Y",
             "electrons": [
                 2,
@@ -823,13 +785,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "1523",
-            "BoilingPoint": "3337",
-            "Density": "4.47",
-            "EarthCrust": "",
-            "Discovery": "1794",
-            "ElectronConfiguration": "[Kr] 4d1 5s<sup>2</sup>",
-            "IonizationEnergy": "6.2173"
+            "meltingPoint": "1523",
+            "boilingPoint": "3337",
+            "density": "4.47",
+            "discovery": "1794",
+            "electronConfiguration": "[Kr] 4d1 5s<sup>2</sup>",
+            "ionizationEnergy": "6.2173"
         },
         {
             "number": 40,
@@ -837,7 +798,7 @@
             "group": "Transition",
             "row": 4,
             "column": 3,
-            "molar": 91.224,
+            "atomicWeight": 91.224,
             "symbol": "Zr",
             "electrons": [
                 2,
@@ -846,13 +807,12 @@
                 10,
                 2
             ],
-            "MeltingPoint": "1852",
-            "BoilingPoint": "4377",
-            "Density": "6.51",
-            "EarthCrust": "0.025",
-            "Discovery": "1789",
-            "ElectronConfiguration": "[Kr] 4d2 5s<sup>2</sup>",
-            "IonizationEnergy": "6.6339"
+            "meltingPoint": "1852",
+            "boilingPoint": "4377",
+            "density": "6.51",
+            "discovery": "1789",
+            "electronConfiguration": "[Kr] 4d2 5s<sup>2</sup>",
+            "ionizationEnergy": "6.6339"
         },
         {
             "number": 41,
@@ -860,7 +820,7 @@
             "group": "Transition",
             "row": 4,
             "column": 4,
-            "molar": 92.90638,
+            "atomicWeight": 92.90638,
             "symbol": "Nb",
             "electrons": [
                 2,
@@ -869,13 +829,12 @@
                 12,
                 1
             ],
-            "MeltingPoint": "2468",
-            "BoilingPoint": "4927",
-            "Density": "8.57",
-            "EarthCrust": "",
-            "Discovery": "1801",
-            "ElectronConfiguration": "[Kr] 4d4 5s<sup>1</sup>",
-            "IonizationEnergy": "6.7589"
+            "meltingPoint": "2468",
+            "boilingPoint": "4927",
+            "density": "8.57",
+            "discovery": "1801",
+            "electronConfiguration": "[Kr] 4d4 5s<sup>1</sup>",
+            "ionizationEnergy": "6.7589"
         },
         {
             "number": 42,
@@ -883,7 +842,7 @@
             "group": "Transition",
             "row": 4,
             "column": 5,
-            "molar": 95.96,
+            "atomicWeight": 95.96,
             "symbol": "Mo",
             "electrons": [
                 2,
@@ -892,13 +851,12 @@
                 13,
                 1
             ],
-            "MeltingPoint": "2617",
-            "BoilingPoint": "4612",
-            "Density": "10.22",
-            "EarthCrust": "",
-            "Discovery": "1781",
-            "ElectronConfiguration": "[Kr] 4d5 5s<sup>1</sup>",
-            "IonizationEnergy": "7.0924"
+            "meltingPoint": "2617",
+            "boilingPoint": "4612",
+            "density": "10.22",
+            "discovery": "1781",
+            "electronConfiguration": "[Kr] 4d5 5s<sup>1</sup>",
+            "ionizationEnergy": "7.0924"
         },
         {
             "number": 43,
@@ -906,7 +864,7 @@
             "group": "Transition",
             "row": 4,
             "column": 6,
-            "molar": 98,
+            "atomicWeight": 98,
             "symbol": "Tc",
             "electrons": [
                 2,
@@ -915,13 +873,12 @@
                 13,
                 2
             ],
-            "MeltingPoint": "2200",
-            "BoilingPoint": "4877",
-            "Density": "11.5",
-            "EarthCrust": "",
-            "Discovery": "1937",
-            "ElectronConfiguration": "[Kr] 4d5 5s<sup>2</sup>",
-            "IonizationEnergy": "7.28"
+            "meltingPoint": "2200",
+            "boilingPoint": "4877",
+            "density": "11.5",
+            "discovery": "1937",
+            "electronConfiguration": "[Kr] 4d5 5s<sup>2</sup>",
+            "ionizationEnergy": "7.28"
         },
         {
             "number": 44,
@@ -929,7 +886,7 @@
             "group": "Transition",
             "row": 4,
             "column": 7,
-            "molar": 101.07,
+            "atomicWeight": 101.07,
             "symbol": "Ru",
             "electrons": [
                 2,
@@ -938,13 +895,12 @@
                 15,
                 1
             ],
-            "MeltingPoint": "2250",
-            "BoilingPoint": "3900",
-            "Density": "12.37",
-            "EarthCrust": "",
-            "Discovery": "1844",
-            "ElectronConfiguration": "[Kr] 4d7 5s<sup>1</sup>",
-            "IonizationEnergy": "7.3605"
+            "meltingPoint": "2250",
+            "boilingPoint": "3900",
+            "density": "12.37",
+            "discovery": "1844",
+            "electronConfiguration": "[Kr] 4d7 5s<sup>1</sup>",
+            "ionizationEnergy": "7.3605"
         },
         {
             "number": 45,
@@ -952,7 +908,7 @@
             "group": "Transition",
             "row": 4,
             "column": 8,
-            "molar": 102.9055,
+            "atomicWeight": 102.9055,
             "symbol": "Rh",
             "electrons": [
                 2,
@@ -961,13 +917,12 @@
                 16,
                 1
             ],
-            "MeltingPoint": "1966",
-            "BoilingPoint": "3727",
-            "Density": "12.41",
-            "EarthCrust": "",
-            "Discovery": "1803",
-            "ElectronConfiguration": "[Kr] 4d8 5s<sup>1</sup>",
-            "IonizationEnergy": "7.4589"
+            "meltingPoint": "1966",
+            "boilingPoint": "3727",
+            "density": "12.41",
+            "discovery": "1803",
+            "electronConfiguration": "[Kr] 4d8 5s<sup>1</sup>",
+            "ionizationEnergy": "7.4589"
         },
         {
             "number": 46,
@@ -975,7 +930,7 @@
             "group": "Transition",
             "row": 4,
             "column": 9,
-            "molar": 106.42,
+            "atomicWeight": 106.42,
             "symbol": "Pd",
             "electrons": [
                 2,
@@ -983,13 +938,12 @@
                 18,
                 18
             ],
-            "MeltingPoint": "1552",
-            "BoilingPoint": "2927",
-            "Density": "12.02",
-            "EarthCrust": "",
-            "Discovery": "1803",
-            "ElectronConfiguration": "[Kr] 4d10",
-            "IonizationEnergy": "8.3369"
+            "meltingPoint": "1552",
+            "boilingPoint": "2927",
+            "density": "12.02",
+            "discovery": "1803",
+            "electronConfiguration": "[Kr] 4d10",
+            "ionizationEnergy": "8.3369"
         },
         {
             "number": 47,
@@ -997,7 +951,7 @@
             "group": "Transition",
             "row": 4,
             "column": 10,
-            "molar": 107.8682,
+            "atomicWeight": 107.8682,
             "symbol": "Ag",
             "electrons": [
                 2,
@@ -1006,13 +960,12 @@
                 18,
                 1
             ],
-            "MeltingPoint": "962",
-            "BoilingPoint": "2212",
-            "Density": "10.5",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Kr] 4d10 5s<sup>1</sup>",
-            "IonizationEnergy": "7.5762"
+            "meltingPoint": "962",
+            "boilingPoint": "2212",
+            "density": "10.5",
+            "discovery": "ancient",
+            "electronConfiguration": "[Kr] 4d10 5s<sup>1</sup>",
+            "ionizationEnergy": "7.5762"
         },
         {
             "number": 48,
@@ -1020,7 +973,7 @@
             "group": "Transition",
             "row": 4,
             "column": 11,
-            "molar": 112.411,
+            "atomicWeight": 112.411,
             "symbol": "Cd",
             "electrons": [
                 2,
@@ -1029,13 +982,12 @@
                 18,
                 2
             ],
-            "MeltingPoint": "321",
-            "BoilingPoint": "765",
-            "Density": "8.65",
-            "EarthCrust": "",
-            "Discovery": "1817",
-            "ElectronConfiguration": "[Kr] 4d10 5s<sup>2</sup>",
-            "IonizationEnergy": "8.9938"
+            "meltingPoint": "321",
+            "boilingPoint": "765",
+            "density": "8.65",
+            "discovery": "1817",
+            "electronConfiguration": "[Kr] 4d10 5s<sup>2</sup>",
+            "ionizationEnergy": "8.9938"
         },
         {
             "number": 49,
@@ -1043,7 +995,7 @@
             "group": "Basic",
             "row": 4,
             "column": 12,
-            "molar": 114.818,
+            "atomicWeight": 114.818,
             "symbol": "In",
             "electrons": [
                 2,
@@ -1052,13 +1004,12 @@
                 18,
                 3
             ],
-            "MeltingPoint": "157",
-            "BoilingPoint": "2000",
-            "Density": "7.31",
-            "EarthCrust": "",
-            "Discovery": "1863",
-            "ElectronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>1</sup>",
-            "IonizationEnergy": "5.7864"
+            "meltingPoint": "157",
+            "boilingPoint": "2000",
+            "density": "7.31",
+            "discovery": "1863",
+            "electronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>1</sup>",
+            "ionizationEnergy": "5.7864"
         },
         {
             "number": 50,
@@ -1066,7 +1017,7 @@
             "group": "Basic",
             "row": 4,
             "column": 13,
-            "molar": 118.71,
+            "atomicWeight": 118.71,
             "symbol": "Sn",
             "electrons": [
                 2,
@@ -1075,13 +1026,12 @@
                 18,
                 4
             ],
-            "MeltingPoint": "232",
-            "BoilingPoint": "2270",
-            "Density": "7.31",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>2</sup>",
-            "IonizationEnergy": "7.3439"
+            "meltingPoint": "232",
+            "boilingPoint": "2270",
+            "density": "7.31",
+            "discovery": "ancient",
+            "electronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>2</sup>",
+            "ionizationEnergy": "7.3439"
         },
         {
             "number": 51,
@@ -1089,7 +1039,7 @@
             "group": "Metalloid",
             "row": 4,
             "column": 14,
-            "molar": 121.76,
+            "atomicWeight": 121.76,
             "symbol": "Sb",
             "electrons": [
                 2,
@@ -1098,13 +1048,12 @@
                 18,
                 5
             ],
-            "MeltingPoint": "630",
-            "BoilingPoint": "1750",
-            "Density": "6.68",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>3</sup>",
-            "IonizationEnergy": "8.6084"
+            "meltingPoint": "630",
+            "boilingPoint": "1750",
+            "density": "6.68",
+            "discovery": "ancient",
+            "electronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>3</sup>",
+            "ionizationEnergy": "8.6084"
         },
         {
             "number": 52,
@@ -1112,7 +1061,7 @@
             "group": "Metalloid",
             "row": 4,
             "column": 15,
-            "molar": 127.6,
+            "atomicWeight": 127.6,
             "symbol": "Te",
             "electrons": [
                 2,
@@ -1121,13 +1070,12 @@
                 18,
                 6
             ],
-            "MeltingPoint": "449",
-            "BoilingPoint": "990",
-            "Density": "6.24",
-            "EarthCrust": "",
-            "Discovery": "1783",
-            "ElectronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>4</sup>",
-            "IonizationEnergy": "9.0096"
+            "meltingPoint": "449",
+            "boilingPoint": "990",
+            "density": "6.24",
+            "discovery": "1783",
+            "electronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>4</sup>",
+            "ionizationEnergy": "9.0096"
         },
         {
             "number": 53,
@@ -1135,7 +1083,7 @@
             "group": "Halogen",
             "row": 4,
             "column": 16,
-            "molar": 126.90447,
+            "atomicWeight": 126.90447,
             "symbol": "I",
             "electrons": [
                 2,
@@ -1144,13 +1092,12 @@
                 18,
                 7
             ],
-            "MeltingPoint": "114",
-            "BoilingPoint": "184",
-            "Density": "4.93",
-            "EarthCrust": "",
-            "Discovery": "1811",
-            "ElectronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>5</sup>",
-            "IonizationEnergy": "10.4513"
+            "meltingPoint": "114",
+            "boilingPoint": "184",
+            "density": "4.93",
+            "discovery": "1811",
+            "electronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>5</sup>",
+            "ionizationEnergy": "10.4513"
         },
         {
             "number": 54,
@@ -1158,7 +1105,7 @@
             "group": "Noble",
             "row": 4,
             "column": 17,
-            "molar": 131.293,
+            "atomicWeight": 131.293,
             "symbol": "Xe",
             "electrons": [
                 2,
@@ -1167,13 +1114,12 @@
                 18,
                 8
             ],
-            "MeltingPoint": "-112",
-            "BoilingPoint": "-108",
-            "Density": "5.9",
-            "EarthCrust": "",
-            "Discovery": "1898",
-            "ElectronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>6</sup>",
-            "IonizationEnergy": "12.1298"
+            "meltingPoint": "-112",
+            "boilingPoint": "-108",
+            "density": "5.9",
+            "discovery": "1898",
+            "electronConfiguration": "[Kr] 4d10 5s<sup>2</sup> 5p<sup>6</sup>",
+            "ionizationEnergy": "12.1298"
         },
         {
             "number": 55,
@@ -1181,7 +1127,7 @@
             "group": "Alkali",
             "row": 5,
             "column": 0,
-            "molar": 132.90546,
+            "atomicWeight": 132.90546,
             "symbol": "Cs",
             "electrons": [
                 2,
@@ -1191,13 +1137,12 @@
                 8,
                 1
             ],
-            "MeltingPoint": "29",
-            "BoilingPoint": "678",
-            "Density": "1.87",
-            "EarthCrust": "",
-            "Discovery": "1860",
-            "ElectronConfiguration": "[Xe] 6s<sup>1</sup>",
-            "IonizationEnergy": "3.8939"
+            "meltingPoint": "29",
+            "boilingPoint": "678",
+            "density": "1.87",
+            "discovery": "1860",
+            "electronConfiguration": "[Xe] 6s<sup>1</sup>",
+            "ionizationEnergy": "3.8939"
         },
         {
             "number": 56,
@@ -1205,7 +1150,7 @@
             "group": "Alkaline",
             "row": 5,
             "column": 1,
-            "molar": 137.327,
+            "atomicWeight": 137.327,
             "symbol": "Ba",
             "electrons": [
                 2,
@@ -1215,13 +1160,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "725",
-            "BoilingPoint": "1140",
-            "Density": "3.59",
-            "EarthCrust": "0.05",
-            "Discovery": "1808",
-            "ElectronConfiguration": "[Xe] 6s<sup>2</sup>",
-            "IonizationEnergy": "5.2117"
+            "meltingPoint": "725",
+            "boilingPoint": "1140",
+            "density": "3.59",
+            "discovery": "1808",
+            "electronConfiguration": "[Xe] 6s<sup>2</sup>",
+            "ionizationEnergy": "5.2117"
         },
         {
             "number": 57,
@@ -1229,7 +1173,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 2,
-            "molar": 138.90547,
+            "atomicWeight": 138.90547,
             "symbol": "La",
             "electrons": [
                 2,
@@ -1239,13 +1183,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "920",
-            "BoilingPoint": "3469",
-            "Density": "6.15",
-            "EarthCrust": "",
-            "Discovery": "1839",
-            "ElectronConfiguration": "[Xe] 5d1 6s<sup>2</sup>",
-            "IonizationEnergy": "5.5769"
+            "meltingPoint": "920",
+            "boilingPoint": "3469",
+            "density": "6.15",
+            "discovery": "1839",
+            "electronConfiguration": "[Xe] 5d1 6s<sup>2</sup>",
+            "ionizationEnergy": "5.5769"
         },
         {
             "number": 58,
@@ -1253,7 +1196,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 3,
-            "molar": 140.116,
+            "atomicWeight": 140.116,
             "symbol": "Ce",
             "electrons": [
                 2,
@@ -1263,13 +1206,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "795",
-            "BoilingPoint": "3257",
-            "Density": "6.77",
-            "EarthCrust": "",
-            "Discovery": "1803",
-            "ElectronConfiguration": "[Xe] 4f1 5d1 6s<sup>2</sup>",
-            "IonizationEnergy": "5.5387"
+            "meltingPoint": "795",
+            "boilingPoint": "3257",
+            "density": "6.77",
+            "discovery": "1803",
+            "electronConfiguration": "[Xe] 4f1 5d1 6s<sup>2</sup>",
+            "ionizationEnergy": "5.5387"
         },
         {
             "number": 59,
@@ -1277,7 +1219,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 4,
-            "molar": 140.90765,
+            "atomicWeight": 140.90765,
             "symbol": "Pr",
             "electrons": [
                 2,
@@ -1287,13 +1229,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "935",
-            "BoilingPoint": "3127",
-            "Density": "6.77",
-            "EarthCrust": "",
-            "Discovery": "1885",
-            "ElectronConfiguration": "[Xe] 4f3 6s<sup>2</sup>",
-            "IonizationEnergy": "5.473"
+            "meltingPoint": "935",
+            "boilingPoint": "3127",
+            "density": "6.77",
+            "discovery": "1885",
+            "electronConfiguration": "[Xe] 4f3 6s<sup>2</sup>",
+            "ionizationEnergy": "5.473"
         },
         {
             "number": 60,
@@ -1301,7 +1242,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 5,
-            "molar": 144.242,
+            "atomicWeight": 144.242,
             "symbol": "Nd",
             "electrons": [
                 2,
@@ -1311,13 +1252,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1010",
-            "BoilingPoint": "3127",
-            "Density": "7.01",
-            "EarthCrust": "",
-            "Discovery": "1885",
-            "ElectronConfiguration": "[Xe] 4f4 6s<sup>2</sup>",
-            "IonizationEnergy": "5.525"
+            "meltingPoint": "1010",
+            "boilingPoint": "3127",
+            "density": "7.01",
+            "discovery": "1885",
+            "electronConfiguration": "[Xe] 4f4 6s<sup>2</sup>",
+            "ionizationEnergy": "5.525"
         },
         {
             "number": 61,
@@ -1325,7 +1265,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 6,
-            "molar": 145,
+            "atomicWeight": 145,
             "symbol": "Pm",
             "electrons": [
                 2,
@@ -1335,13 +1275,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1100",
-            "BoilingPoint": "3000",
-            "Density": "7.3",
-            "EarthCrust": "",
-            "Discovery": "1945",
-            "ElectronConfiguration": "[Xe] 4f5 6s<sup>2</sup>",
-            "IonizationEnergy": "5.582"
+            "meltingPoint": "1100",
+            "boilingPoint": "3000",
+            "density": "7.3",
+            "discovery": "1945",
+            "electronConfiguration": "[Xe] 4f5 6s<sup>2</sup>",
+            "ionizationEnergy": "5.582"
         },
         {
             "number": 62,
@@ -1349,7 +1288,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 7,
-            "molar": 150.36,
+            "atomicWeight": 150.36,
             "symbol": "Sm",
             "electrons": [
                 2,
@@ -1359,13 +1298,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1072",
-            "BoilingPoint": "1900",
-            "Density": "7.52",
-            "EarthCrust": "",
-            "Discovery": "1879",
-            "ElectronConfiguration": "[Xe] 4f6 6s<sup>2</sup>",
-            "IonizationEnergy": "5.6437"
+            "meltingPoint": "1072",
+            "boilingPoint": "1900",
+            "density": "7.52",
+            "discovery": "1879",
+            "electronConfiguration": "[Xe] 4f6 6s<sup>2</sup>",
+            "ionizationEnergy": "5.6437"
         },
         {
             "number": 63,
@@ -1373,7 +1311,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 8,
-            "molar": 151.964,
+            "atomicWeight": 151.964,
             "symbol": "Eu",
             "electrons": [
                 2,
@@ -1383,13 +1321,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "822",
-            "BoilingPoint": "1597",
-            "Density": "5.24",
-            "EarthCrust": "",
-            "Discovery": "1901",
-            "ElectronConfiguration": "[Xe] 4f7 6s<sup>2</sup>",
-            "IonizationEnergy": "5.6704"
+            "meltingPoint": "822",
+            "boilingPoint": "1597",
+            "density": "5.24",
+            "discovery": "1901",
+            "electronConfiguration": "[Xe] 4f7 6s<sup>2</sup>",
+            "ionizationEnergy": "5.6704"
         },
         {
             "number": 64,
@@ -1397,7 +1334,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 9,
-            "molar": 157.25,
+            "atomicWeight": 157.25,
             "symbol": "Gd",
             "electrons": [
                 2,
@@ -1407,13 +1344,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "1311",
-            "BoilingPoint": "3233",
-            "Density": "7.9",
-            "EarthCrust": "",
-            "Discovery": "1880",
-            "ElectronConfiguration": "[Xe] 4f7 5d1 6s<sup>2</sup>",
-            "IonizationEnergy": "6.1501"
+            "meltingPoint": "1311",
+            "boilingPoint": "3233",
+            "density": "7.9",
+            "discovery": "1880",
+            "electronConfiguration": "[Xe] 4f7 5d1 6s<sup>2</sup>",
+            "ionizationEnergy": "6.1501"
         },
         {
             "number": 65,
@@ -1421,7 +1357,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 10,
-            "molar": 158.92535,
+            "atomicWeight": 158.92535,
             "symbol": "Tb",
             "electrons": [
                 2,
@@ -1431,13 +1367,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1360",
-            "BoilingPoint": "3041",
-            "Density": "8.23",
-            "EarthCrust": "",
-            "Discovery": "1843",
-            "ElectronConfiguration": "[Xe] 4f9 6s<sup>2</sup>",
-            "IonizationEnergy": "5.8638"
+            "meltingPoint": "1360",
+            "boilingPoint": "3041",
+            "density": "8.23",
+            "discovery": "1843",
+            "electronConfiguration": "[Xe] 4f9 6s<sup>2</sup>",
+            "ionizationEnergy": "5.8638"
         },
         {
             "number": 66,
@@ -1445,7 +1380,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 11,
-            "molar": 162.5,
+            "atomicWeight": 162.5,
             "symbol": "Dy",
             "electrons": [
                 2,
@@ -1455,13 +1390,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1412",
-            "BoilingPoint": "2562",
-            "Density": "8.55",
-            "EarthCrust": "",
-            "Discovery": "1886",
-            "ElectronConfiguration": "[Xe] 4f10 6s<sup>2</sup>",
-            "IonizationEnergy": "5.9389"
+            "meltingPoint": "1412",
+            "boilingPoint": "2562",
+            "density": "8.55",
+            "discovery": "1886",
+            "electronConfiguration": "[Xe] 4f10 6s<sup>2</sup>",
+            "ionizationEnergy": "5.9389"
         },
         {
             "number": 67,
@@ -1469,7 +1403,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 12,
-            "molar": 164.93031,
+            "atomicWeight": 164.93031,
             "symbol": "Ho",
             "electrons": [
                 2,
@@ -1479,13 +1413,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1470",
-            "BoilingPoint": "2720",
-            "Density": "8.8",
-            "EarthCrust": "",
-            "Discovery": "1867",
-            "ElectronConfiguration": "[Xe] 4f11 6s<sup>2</sup>",
-            "IonizationEnergy": "6.0215"
+            "meltingPoint": "1470",
+            "boilingPoint": "2720",
+            "density": "8.8",
+            "discovery": "1867",
+            "electronConfiguration": "[Xe] 4f11 6s<sup>2</sup>",
+            "ionizationEnergy": "6.0215"
         },
         {
             "number": 68,
@@ -1493,7 +1426,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 13,
-            "molar": 167.259,
+            "atomicWeight": 167.259,
             "symbol": "Er",
             "electrons": [
                 2,
@@ -1503,13 +1436,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1522",
-            "BoilingPoint": "2510",
-            "Density": "9.07",
-            "EarthCrust": "",
-            "Discovery": "1842",
-            "ElectronConfiguration": "[Xe] 4f12 6s<sup>2</sup>",
-            "IonizationEnergy": "6.1077"
+            "meltingPoint": "1522",
+            "boilingPoint": "2510",
+            "density": "9.07",
+            "discovery": "1842",
+            "electronConfiguration": "[Xe] 4f12 6s<sup>2</sup>",
+            "ionizationEnergy": "6.1077"
         },
         {
             "number": 69,
@@ -1517,7 +1449,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 14,
-            "molar": 168.9342,
+            "atomicWeight": 168.9342,
             "symbol": "Tm",
             "electrons": [
                 2,
@@ -1527,13 +1459,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1545",
-            "BoilingPoint": "1727",
-            "Density": "9.32",
-            "EarthCrust": "",
-            "Discovery": "1879",
-            "ElectronConfiguration": "[Xe] 4f13 6s<sup>2</sup>",
-            "IonizationEnergy": "6.1843"
+            "meltingPoint": "1545",
+            "boilingPoint": "1727",
+            "density": "9.32",
+            "discovery": "1879",
+            "electronConfiguration": "[Xe] 4f13 6s<sup>2</sup>",
+            "ionizationEnergy": "6.1843"
         },
         {
             "number": 70,
@@ -1541,7 +1472,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 15,
-            "molar": 173.054,
+            "atomicWeight": 173.054,
             "symbol": "Yb",
             "electrons": [
                 2,
@@ -1551,13 +1482,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "824",
-            "BoilingPoint": "1466",
-            "Density": "6.9",
-            "EarthCrust": "",
-            "Discovery": "1878",
-            "ElectronConfiguration": "[Xe] 4f14 6s<sup>2</sup>",
-            "IonizationEnergy": "6.2542"
+            "meltingPoint": "824",
+            "boilingPoint": "1466",
+            "density": "6.9",
+            "discovery": "1878",
+            "electronConfiguration": "[Xe] 4f14 6s<sup>2</sup>",
+            "ionizationEnergy": "6.2542"
         },
         {
             "number": 71,
@@ -1565,7 +1495,7 @@
             "group": "Lanthanoid",
             "row": 11,
             "column": 16,
-            "molar": 174.9668,
+            "atomicWeight": 174.9668,
             "symbol": "Lu",
             "electrons": [
                 2,
@@ -1575,13 +1505,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "1656",
-            "BoilingPoint": "3315",
-            "Density": "9.84",
-            "EarthCrust": "",
-            "Discovery": "1907",
-            "ElectronConfiguration": "[Xe] 4f14 5d1 6s<sup>2</sup>",
-            "IonizationEnergy": "5.4259"
+            "meltingPoint": "1656",
+            "boilingPoint": "3315",
+            "density": "9.84",
+            "discovery": "1907",
+            "electronConfiguration": "[Xe] 4f14 5d1 6s<sup>2</sup>",
+            "ionizationEnergy": "5.4259"
         },
         {
             "number": 72,
@@ -1589,7 +1518,7 @@
             "group": "Transition",
             "row": 5,
             "column": 3,
-            "molar": 178.49,
+            "atomicWeight": 178.49,
             "symbol": "Hf",
             "electrons": [
                 2,
@@ -1599,13 +1528,12 @@
                 10,
                 2
             ],
-            "MeltingPoint": "2150",
-            "BoilingPoint": "5400",
-            "Density": "13.31",
-            "EarthCrust": "",
-            "Discovery": "1923",
-            "ElectronConfiguration": "[Xe] 4f14 5d2 6s<sup>2</sup>",
-            "IonizationEnergy": "6.8251"
+            "meltingPoint": "2150",
+            "boilingPoint": "5400",
+            "density": "13.31",
+            "discovery": "1923",
+            "electronConfiguration": "[Xe] 4f14 5d2 6s<sup>2</sup>",
+            "ionizationEnergy": "6.8251"
         },
         {
             "number": 73,
@@ -1613,7 +1541,7 @@
             "group": "Transition",
             "row": 5,
             "column": 4,
-            "molar": 180.94788,
+            "atomicWeight": 180.94788,
             "symbol": "Ta",
             "electrons": [
                 2,
@@ -1623,13 +1551,12 @@
                 11,
                 2
             ],
-            "MeltingPoint": "2996",
-            "BoilingPoint": "5425",
-            "Density": "16.65",
-            "EarthCrust": "",
-            "Discovery": "1802",
-            "ElectronConfiguration": "[Xe] 4f14 5d3 6s<sup>2</sup>",
-            "IonizationEnergy": "7.5496"
+            "meltingPoint": "2996",
+            "boilingPoint": "5425",
+            "density": "16.65",
+            "discovery": "1802",
+            "electronConfiguration": "[Xe] 4f14 5d3 6s<sup>2</sup>",
+            "ionizationEnergy": "7.5496"
         },
         {
             "number": 74,
@@ -1637,7 +1564,7 @@
             "group": "Transition",
             "row": 5,
             "column": 5,
-            "molar": 183.84,
+            "atomicWeight": 183.84,
             "symbol": "W",
             "electrons": [
                 2,
@@ -1647,13 +1574,12 @@
                 12,
                 2
             ],
-            "MeltingPoint": "3410",
-            "BoilingPoint": "5660",
-            "Density": "19.35",
-            "EarthCrust": "",
-            "Discovery": "1783",
-            "ElectronConfiguration": "[Xe] 4f14 5d4 6s<sup>2</sup>",
-            "IonizationEnergy": "7.864"
+            "meltingPoint": "3410",
+            "boilingPoint": "5660",
+            "density": "19.35",
+            "discovery": "1783",
+            "electronConfiguration": "[Xe] 4f14 5d4 6s<sup>2</sup>",
+            "ionizationEnergy": "7.864"
         },
         {
             "number": 75,
@@ -1661,7 +1587,7 @@
             "group": "Transition",
             "row": 5,
             "column": 6,
-            "molar": 186.207,
+            "atomicWeight": 186.207,
             "symbol": "Re",
             "electrons": [
                 2,
@@ -1671,13 +1597,12 @@
                 13,
                 2
             ],
-            "MeltingPoint": "3180",
-            "BoilingPoint": "5627",
-            "Density": "21.04",
-            "EarthCrust": "",
-            "Discovery": "1925",
-            "ElectronConfiguration": "[Xe] 4f14 5d5 6s<sup>2</sup>",
-            "IonizationEnergy": "7.8335"
+            "meltingPoint": "3180",
+            "boilingPoint": "5627",
+            "density": "21.04",
+            "discovery": "1925",
+            "electronConfiguration": "[Xe] 4f14 5d5 6s<sup>2</sup>",
+            "ionizationEnergy": "7.8335"
         },
         {
             "number": 76,
@@ -1685,7 +1610,7 @@
             "group": "Transition",
             "row": 5,
             "column": 7,
-            "molar": 190.23,
+            "atomicWeight": 190.23,
             "symbol": "Os",
             "electrons": [
                 2,
@@ -1695,13 +1620,12 @@
                 14,
                 2
             ],
-            "MeltingPoint": "3045",
-            "BoilingPoint": "5027",
-            "Density": "22.6",
-            "EarthCrust": "",
-            "Discovery": "1803",
-            "ElectronConfiguration": "[Xe] 4f14 5d6 6s<sup>2</sup>",
-            "IonizationEnergy": "8.4382"
+            "meltingPoint": "3045",
+            "boilingPoint": "5027",
+            "density": "22.6",
+            "discovery": "1803",
+            "electronConfiguration": "[Xe] 4f14 5d6 6s<sup>2</sup>",
+            "ionizationEnergy": "8.4382"
         },
         {
             "number": 77,
@@ -1709,7 +1633,7 @@
             "group": "Transition",
             "row": 5,
             "column": 8,
-            "molar": 192.217,
+            "atomicWeight": 192.217,
             "symbol": "Ir",
             "electrons": [
                 2,
@@ -1719,13 +1643,12 @@
                 15,
                 2
             ],
-            "MeltingPoint": "2410",
-            "BoilingPoint": "4527",
-            "Density": "22.4",
-            "EarthCrust": "",
-            "Discovery": "1803",
-            "ElectronConfiguration": "[Xe] 4f14 5d7 6s<sup>2</sup>",
-            "IonizationEnergy": "8.967"
+            "meltingPoint": "2410",
+            "boilingPoint": "4527",
+            "density": "22.4",
+            "discovery": "1803",
+            "electronConfiguration": "[Xe] 4f14 5d7 6s<sup>2</sup>",
+            "ionizationEnergy": "8.967"
         },
         {
             "number": 78,
@@ -1733,7 +1656,7 @@
             "group": "Transition",
             "row": 5,
             "column": 9,
-            "molar": 195.084,
+            "atomicWeight": 195.084,
             "symbol": "Pt",
             "electrons": [
                 2,
@@ -1743,13 +1666,12 @@
                 17,
                 1
             ],
-            "MeltingPoint": "1772",
-            "BoilingPoint": "3827",
-            "Density": "21.45",
-            "EarthCrust": "",
-            "Discovery": "1735",
-            "ElectronConfiguration": "[Xe] 4f14 5d9 6s<sup>1</sup>",
-            "IonizationEnergy": "8.9587"
+            "meltingPoint": "1772",
+            "boilingPoint": "3827",
+            "density": "21.45",
+            "discovery": "1735",
+            "electronConfiguration": "[Xe] 4f14 5d9 6s<sup>1</sup>",
+            "ionizationEnergy": "8.9587"
         },
         {
             "number": 79,
@@ -1757,7 +1679,7 @@
             "group": "Transition",
             "row": 5,
             "column": 10,
-            "molar": 196.96657,
+            "atomicWeight": 196.96657,
             "symbol": "Au",
             "electrons": [
                 2,
@@ -1767,13 +1689,12 @@
                 18,
                 1
             ],
-            "MeltingPoint": "1064",
-            "BoilingPoint": "2807",
-            "Density": "19.32",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Xe] 4f14 5d10 6s<sup>1</sup>",
-            "IonizationEnergy": "9.2255"
+            "meltingPoint": "1064",
+            "boilingPoint": "2807",
+            "density": "19.32",
+            "discovery": "ancient",
+            "electronConfiguration": "[Xe] 4f14 5d10 6s<sup>1</sup>",
+            "ionizationEnergy": "9.2255"
         },
         {
             "number": 80,
@@ -1781,7 +1702,7 @@
             "group": "Transition",
             "row": 5,
             "column": 11,
-            "molar": 200.59,
+            "atomicWeight": 200.59,
             "symbol": "Hg",
             "electrons": [
                 2,
@@ -1791,13 +1712,12 @@
                 18,
                 2
             ],
-            "MeltingPoint": "-39",
-            "BoilingPoint": "357",
-            "Density": "13.55",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup>",
-            "IonizationEnergy": "10.4375"
+            "meltingPoint": "-39",
+            "boilingPoint": "357",
+            "density": "13.55",
+            "discovery": "ancient",
+            "electronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup>",
+            "ionizationEnergy": "10.4375"
         },
         {
             "number": 81,
@@ -1805,7 +1725,7 @@
             "group": "Basic",
             "row": 5,
             "column": 12,
-            "molar": 204.3833,
+            "atomicWeight": 204.3833,
             "symbol": "Tl",
             "electrons": [
                 2,
@@ -1815,13 +1735,12 @@
                 18,
                 3
             ],
-            "MeltingPoint": "303",
-            "BoilingPoint": "1457",
-            "Density": "11.85",
-            "EarthCrust": "",
-            "Discovery": "1861",
-            "ElectronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>1</sup>",
-            "IonizationEnergy": "6.1082"
+            "meltingPoint": "303",
+            "boilingPoint": "1457",
+            "density": "11.85",
+            "discovery": "1861",
+            "electronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>1</sup>",
+            "ionizationEnergy": "6.1082"
         },
         {
             "number": 82,
@@ -1829,7 +1748,7 @@
             "group": "Basic",
             "row": 5,
             "column": 13,
-            "molar": 207.2,
+            "atomicWeight": 207.2,
             "symbol": "Pb",
             "electrons": [
                 2,
@@ -1839,13 +1758,12 @@
                 18,
                 4
             ],
-            "MeltingPoint": "327",
-            "BoilingPoint": "1740",
-            "Density": "11.35",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>2</sup>",
-            "IonizationEnergy": "7.4167"
+            "meltingPoint": "327",
+            "boilingPoint": "1740",
+            "density": "11.35",
+            "discovery": "ancient",
+            "electronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>2</sup>",
+            "ionizationEnergy": "7.4167"
         },
         {
             "number": 83,
@@ -1853,7 +1771,7 @@
             "group": "Basic",
             "row": 5,
             "column": 14,
-            "molar": 208.9804,
+            "atomicWeight": 208.9804,
             "symbol": "Bi",
             "electrons": [
                 2,
@@ -1863,13 +1781,12 @@
                 18,
                 5
             ],
-            "MeltingPoint": "271",
-            "BoilingPoint": "1560",
-            "Density": "9.75",
-            "EarthCrust": "",
-            "Discovery": "ancient",
-            "ElectronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>3</sup>",
-            "IonizationEnergy": "7.2856"
+            "meltingPoint": "271",
+            "boilingPoint": "1560",
+            "density": "9.75",
+            "discovery": "ancient",
+            "electronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>3</sup>",
+            "ionizationEnergy": "7.2856"
         },
         {
             "number": 84,
@@ -1877,7 +1794,7 @@
             "group": "Metalloid",
             "row": 5,
             "column": 15,
-            "molar": 209,
+            "atomicWeight": 209,
             "symbol": "Po",
             "electrons": [
                 2,
@@ -1887,13 +1804,12 @@
                 18,
                 6
             ],
-            "MeltingPoint": "254",
-            "BoilingPoint": "962",
-            "Density": "9.3",
-            "EarthCrust": "",
-            "Discovery": "1898",
-            "ElectronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>4</sup>",
-            "IonizationEnergy": "8.417"
+            "meltingPoint": "254",
+            "boilingPoint": "962",
+            "density": "9.3",
+            "discovery": "1898",
+            "electronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>4</sup>",
+            "ionizationEnergy": "8.417"
         },
         {
             "number": 85,
@@ -1901,7 +1817,7 @@
             "group": "Halogen",
             "row": 5,
             "column": 16,
-            "molar": 210,
+            "atomicWeight": 210,
             "symbol": "At",
             "electrons": [
                 2,
@@ -1911,13 +1827,12 @@
                 18,
                 7
             ],
-            "MeltingPoint": "302",
-            "BoilingPoint": "337",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1940",
-            "ElectronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>5</sup>",
-            "IonizationEnergy": "9.3"
+            "meltingPoint": "302",
+            "boilingPoint": "337",
+            "density": "",
+            "discovery": "1940",
+            "electronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>5</sup>",
+            "ionizationEnergy": "9.3"
         },
         {
             "number": 86,
@@ -1925,7 +1840,7 @@
             "group": "Noble",
             "row": 5,
             "column": 17,
-            "molar": 222,
+            "atomicWeight": 222,
             "symbol": "Rn",
             "electrons": [
                 2,
@@ -1935,13 +1850,12 @@
                 18,
                 8
             ],
-            "MeltingPoint": "-71",
-            "BoilingPoint": "-62",
-            "Density": "9.73",
-            "EarthCrust": "",
-            "Discovery": "1900",
-            "ElectronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>6</sup>",
-            "IonizationEnergy": "10.7485"
+            "meltingPoint": "-71",
+            "boilingPoint": "-62",
+            "density": "9.73",
+            "discovery": "1900",
+            "electronConfiguration": "[Xe] 4f14 5d10 6s<sup>2</sup> 6p<sup>6</sup>",
+            "ionizationEnergy": "10.7485"
         },
         {
             "number": 87,
@@ -1949,7 +1863,7 @@
             "group": "Alkali",
             "row": 6,
             "column": 0,
-            "molar": 223,
+            "atomicWeight": 223,
             "symbol": "Fr",
             "electrons": [
                 2,
@@ -1960,13 +1874,12 @@
                 8,
                 1
             ],
-            "MeltingPoint": "27",
-            "BoilingPoint": "677",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1939",
-            "ElectronConfiguration": "[Rn] 7s<sup>1</sup>",
-            "IonizationEnergy": "4.0727"
+            "meltingPoint": "27",
+            "boilingPoint": "677",
+            "density": "",
+            "discovery": "1939",
+            "electronConfiguration": "[Rn] 7s<sup>1</sup>",
+            "ionizationEnergy": "4.0727"
         },
         {
             "number": 88,
@@ -1974,7 +1887,7 @@
             "group": "Alkaline",
             "row": 6,
             "column": 1,
-            "molar": 226,
+            "atomicWeight": 226,
             "symbol": "Ra",
             "electrons": [
                 2,
@@ -1985,13 +1898,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "700",
-            "BoilingPoint": "1737",
-            "Density": "5.5",
-            "EarthCrust": "",
-            "Discovery": "1898",
-            "ElectronConfiguration": "[Rn] 7s<sup>2</sup>",
-            "IonizationEnergy": "5.2784"
+            "meltingPoint": "700",
+            "boilingPoint": "1737",
+            "density": "5.5",
+            "discovery": "1898",
+            "electronConfiguration": "[Rn] 7s<sup>2</sup>",
+            "ionizationEnergy": "5.2784"
         },
         {
             "number": 89,
@@ -1999,7 +1911,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 2,
-            "molar": 227,
+            "atomicWeight": 227,
             "symbol": "Ac",
             "electrons": [
                 2,
@@ -2010,13 +1922,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "1050",
-            "BoilingPoint": "3200",
-            "Density": "10.07",
-            "EarthCrust": "",
-            "Discovery": "1899",
-            "ElectronConfiguration": "[Rn] 6d1 7s<sup>2</sup>",
-            "IonizationEnergy": "5.17"
+            "meltingPoint": "1050",
+            "boilingPoint": "3200",
+            "density": "10.07",
+            "discovery": "1899",
+            "electronConfiguration": "[Rn] 6d1 7s<sup>2</sup>",
+            "ionizationEnergy": "5.17"
         },
         {
             "number": 90,
@@ -2024,7 +1935,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 3,
-            "molar": 232.03806,
+            "atomicWeight": 232.03806,
             "symbol": "Th",
             "electrons": [
                 2,
@@ -2035,13 +1946,12 @@
                 10,
                 2
             ],
-            "MeltingPoint": "1750",
-            "BoilingPoint": "4790",
-            "Density": "11.72",
-            "EarthCrust": "",
-            "Discovery": "1829",
-            "ElectronConfiguration": "[Rn] 6d2 7s<sup>2</sup>",
-            "IonizationEnergy": "6.3067"
+            "meltingPoint": "1750",
+            "boilingPoint": "4790",
+            "density": "11.72",
+            "discovery": "1829",
+            "electronConfiguration": "[Rn] 6d2 7s<sup>2</sup>",
+            "ionizationEnergy": "6.3067"
         },
         {
             "number": 91,
@@ -2049,7 +1959,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 4,
-            "molar": 231.03587,
+            "atomicWeight": 231.03587,
             "symbol": "Pa",
             "electrons": [
                 2,
@@ -2060,13 +1970,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "1568",
-            "BoilingPoint": "",
-            "Density": "15.4",
-            "EarthCrust": "",
-            "Discovery": "1913",
-            "ElectronConfiguration": "[Rn] 5f2 6d1 7s<sup>2</sup>",
-            "IonizationEnergy": "5.89"
+            "meltingPoint": "1568",
+            "boilingPoint": "",
+            "density": "15.4",
+            "discovery": "1913",
+            "electronConfiguration": "[Rn] 5f2 6d1 7s<sup>2</sup>",
+            "ionizationEnergy": "5.89"
         },
         {
             "number": 92,
@@ -2074,7 +1983,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 5,
-            "molar": 238.02892,
+            "atomicWeight": 238.02892,
             "symbol": "U",
             "electrons": [
                 2,
@@ -2085,13 +1994,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "1132",
-            "BoilingPoint": "3818",
-            "Density": "18.95",
-            "EarthCrust": "",
-            "Discovery": "1789",
-            "ElectronConfiguration": "[Rn] 5f3 6d1 7s<sup>2</sup>",
-            "IonizationEnergy": "6.1941"
+            "meltingPoint": "1132",
+            "boilingPoint": "3818",
+            "density": "18.95",
+            "discovery": "1789",
+            "electronConfiguration": "[Rn] 5f3 6d1 7s<sup>2</sup>",
+            "ionizationEnergy": "6.1941"
         },
         {
             "number": 93,
@@ -2099,7 +2007,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 6,
-            "molar": 237,
+            "atomicWeight": 237,
             "symbol": "Np",
             "electrons": [
                 2,
@@ -2110,13 +2018,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "640",
-            "BoilingPoint": "3902",
-            "Density": "20.2",
-            "EarthCrust": "",
-            "Discovery": "1940",
-            "ElectronConfiguration": "[Rn] 5f4 6d1 7s<sup>2</sup>",
-            "IonizationEnergy": "6.2657"
+            "meltingPoint": "640",
+            "boilingPoint": "3902",
+            "density": "20.2",
+            "discovery": "1940",
+            "electronConfiguration": "[Rn] 5f4 6d1 7s<sup>2</sup>",
+            "ionizationEnergy": "6.2657"
         },
         {
             "number": 94,
@@ -2124,7 +2031,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 7,
-            "molar": 244,
+            "atomicWeight": 244,
             "symbol": "Pu",
             "electrons": [
                 2,
@@ -2135,13 +2042,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "640",
-            "BoilingPoint": "3235",
-            "Density": "19.84",
-            "EarthCrust": "",
-            "Discovery": "1940",
-            "ElectronConfiguration": "[Rn] 5f6 7s<sup>2</sup>",
-            "IonizationEnergy": "6.0262"
+            "meltingPoint": "640",
+            "boilingPoint": "3235",
+            "density": "19.84",
+            "discovery": "1940",
+            "electronConfiguration": "[Rn] 5f6 7s<sup>2</sup>",
+            "ionizationEnergy": "6.0262"
         },
         {
             "number": 95,
@@ -2149,7 +2055,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 8,
-            "molar": 243,
+            "atomicWeight": 243,
             "symbol": "Am",
             "electrons": [
                 2,
@@ -2160,13 +2066,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "994",
-            "BoilingPoint": "2607",
-            "Density": "13.67",
-            "EarthCrust": "",
-            "Discovery": "1944",
-            "ElectronConfiguration": "[Rn] 5f7 7s<sup>2</sup>",
-            "IonizationEnergy": "5.9738"
+            "meltingPoint": "994",
+            "boilingPoint": "2607",
+            "density": "13.67",
+            "discovery": "1944",
+            "electronConfiguration": "[Rn] 5f7 7s<sup>2</sup>",
+            "ionizationEnergy": "5.9738"
         },
         {
             "number": 96,
@@ -2174,7 +2079,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 9,
-            "molar": 247,
+            "atomicWeight": 247,
             "symbol": "Cm",
             "electrons": [
                 2,
@@ -2185,13 +2090,12 @@
                 9,
                 2
             ],
-            "MeltingPoint": "1340",
-            "BoilingPoint": "",
-            "Density": "13.5",
-            "EarthCrust": "",
-            "Discovery": "1944",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": "5.9915"
+            "meltingPoint": "1340",
+            "boilingPoint": "",
+            "density": "13.5",
+            "discovery": "1944",
+            "electronConfiguration": "",
+            "ionizationEnergy": "5.9915"
         },
         {
             "number": 97,
@@ -2199,7 +2103,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 10,
-            "molar": 247,
+            "atomicWeight": 247,
             "symbol": "Bk",
             "electrons": [
                 2,
@@ -2210,13 +2114,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "986",
-            "BoilingPoint": "",
-            "Density": "14.78",
-            "EarthCrust": "",
-            "Discovery": "1949",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": "6.1979"
+            "meltingPoint": "986",
+            "boilingPoint": "",
+            "density": "14.78",
+            "discovery": "1949",
+            "electronConfiguration": "",
+            "ionizationEnergy": "6.1979"
         },
         {
             "number": 98,
@@ -2224,7 +2127,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 11,
-            "molar": 251,
+            "atomicWeight": 251,
             "symbol": "Cf",
             "electrons": [
                 2,
@@ -2235,13 +2138,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "900",
-            "BoilingPoint": "",
-            "Density": "15.1",
-            "EarthCrust": "",
-            "Discovery": "1950",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": "6.2817"
+            "meltingPoint": "900",
+            "boilingPoint": "",
+            "density": "15.1",
+            "discovery": "1950",
+            "electronConfiguration": "",
+            "ionizationEnergy": "6.2817"
         },
         {
             "number": 99,
@@ -2249,7 +2151,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 12,
-            "molar": 252,
+            "atomicWeight": 252,
             "symbol": "Es",
             "electrons": [
                 2,
@@ -2260,13 +2162,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "860",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1952",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": "6.42"
+            "meltingPoint": "860",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1952",
+            "electronConfiguration": "",
+            "ionizationEnergy": "6.42"
         },
         {
             "number": 100,
@@ -2274,7 +2175,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 13,
-            "molar": 257,
+            "atomicWeight": 257,
             "symbol": "Fm",
             "electrons": [
                 2,
@@ -2285,13 +2186,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "1527",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1952",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": "6.5"
+            "meltingPoint": "1527",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1952",
+            "electronConfiguration": "",
+            "ionizationEnergy": "6.5"
         },
         {
             "number": 101,
@@ -2299,7 +2199,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 14,
-            "molar": 258,
+            "atomicWeight": 258,
             "symbol": "Md",
             "electrons": [
                 2,
@@ -2310,13 +2210,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1955",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": "6.58"
+            "meltingPoint": "",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1955",
+            "electronConfiguration": "",
+            "ionizationEnergy": "6.58"
         },
         {
             "number": 102,
@@ -2324,7 +2223,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 15,
-            "molar": 259,
+            "atomicWeight": 259,
             "symbol": "No",
             "electrons": [
                 2,
@@ -2335,13 +2234,12 @@
                 8,
                 2
             ],
-            "MeltingPoint": "827",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1958",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": "6.65"
+            "meltingPoint": "827",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1958",
+            "electronConfiguration": "",
+            "ionizationEnergy": "6.65"
         },
         {
             "number": 103,
@@ -2349,7 +2247,7 @@
             "group": "Actinoid",
             "row": 12,
             "column": 16,
-            "molar": 262,
+            "atomicWeight": 262,
             "symbol": "Lr",
             "electrons": [
                 2,
@@ -2360,13 +2258,12 @@
                 8,
                 3
             ],
-            "MeltingPoint": "1627",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1961",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": "4.9"
+            "meltingPoint": "1627",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1961",
+            "electronConfiguration": "",
+            "ionizationEnergy": "4.9"
         },
         {
             "number": 104,
@@ -2374,7 +2271,7 @@
             "group": "Transition",
             "row": 6,
             "column": 3,
-            "molar": 267,
+            "atomicWeight": 267,
             "symbol": "Rf",
             "electrons": [
                 2,
@@ -2385,13 +2282,12 @@
                 10,
                 2
             ],
-            "MeltingPoint": "",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1964",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": ""
+            "meltingPoint": "",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1964",
+            "electronConfiguration": "",
+            "ionizationEnergy": ""
         },
         {
             "number": 105,
@@ -2399,7 +2295,7 @@
             "group": "Transition",
             "row": 6,
             "column": 4,
-            "molar": 268,
+            "atomicWeight": 268,
             "symbol": "Db",
             "electrons": [
                 2,
@@ -2410,13 +2306,12 @@
                 11,
                 2
             ],
-            "MeltingPoint": "",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1967",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": ""
+            "meltingPoint": "",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1967",
+            "electronConfiguration": "",
+            "ionizationEnergy": ""
         },
         {
             "number": 106,
@@ -2424,7 +2319,7 @@
             "group": "Transition",
             "row": 6,
             "column": 5,
-            "molar": 271,
+            "atomicWeight": 271,
             "symbol": "Sg",
             "electrons": [
                 2,
@@ -2435,13 +2330,12 @@
                 12,
                 2
             ],
-            "MeltingPoint": "",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1974",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": ""
+            "meltingPoint": "",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1974",
+            "electronConfiguration": "",
+            "ionizationEnergy": ""
         },
         {
             "number": 107,
@@ -2449,7 +2343,7 @@
             "group": "Transition",
             "row": 6,
             "column": 6,
-            "molar": 272,
+            "atomicWeight": 272,
             "symbol": "Bh",
             "electrons": [
                 2,
@@ -2460,13 +2354,12 @@
                 13,
                 2
             ],
-            "MeltingPoint": "",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1981",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": ""
+            "meltingPoint": "",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1981",
+            "electronConfiguration": "",
+            "ionizationEnergy": ""
         },
         {
             "number": 108,
@@ -2474,7 +2367,7 @@
             "group": "Transition",
             "row": 6,
             "column": 7,
-            "molar": 270,
+            "atomicWeight": 270,
             "symbol": "Hs",
             "electrons": [
                 2,
@@ -2485,13 +2378,12 @@
                 14,
                 2
             ],
-            "MeltingPoint": "",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1984",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": ""
+            "meltingPoint": "",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1984",
+            "electronConfiguration": "",
+            "ionizationEnergy": ""
         },
         {
             "number": 109,
@@ -2499,7 +2391,7 @@
             "group": "Transition",
             "row": 6,
             "column": 8,
-            "molar": 276,
+            "atomicWeight": 276,
             "symbol": "Mt",
             "electrons": [
                 2,
@@ -2510,13 +2402,12 @@
                 15,
                 2
             ],
-            "MeltingPoint": "",
-            "BoilingPoint": "",
-            "Density": "",
-            "EarthCrust": "",
-            "Discovery": "1982",
-            "ElectronConfiguration": "",
-            "IonizationEnergy": ""
+            "meltingPoint": "",
+            "boilingPoint": "",
+            "density": "",
+            "discovery": "1982",
+            "electronConfiguration": "",
+            "ionizationEnergy": ""
         },
         {
             "number": 110,
@@ -2524,7 +2415,7 @@
             "group": "Transition",
             "row": 6,
             "column": 9,
-            "molar": 281,
+            "atomicWeight": 281,
             "symbol": "Ds",
             "electrons": [
                 2,
@@ -2542,7 +2433,7 @@
             "group": "Transition",
             "row": 6,
             "column": 10,
-            "molar": 280,
+            "atomicWeight": 280,
             "symbol": "Rg",
             "electrons": [
                 2,
@@ -2560,7 +2451,7 @@
             "group": "Transition",
             "row": 6,
             "column": 11,
-            "molar": 285,
+            "atomicWeight": 285,
             "symbol": "Cn",
             "electrons": [
                 2,
@@ -2578,7 +2469,7 @@
             "group": "Basic",
             "row": 6,
             "column": 12,
-            "molar": 284,
+            "atomicWeight": 284,
             "symbol": "Uut",
             "electrons": [
                 2,
@@ -2596,7 +2487,7 @@
             "group": "Basic",
             "row": 6,
             "column": 13,
-            "molar": 289,
+            "atomicWeight": 289,
             "symbol": "Fl",
             "electrons": [
                 2,
@@ -2614,7 +2505,7 @@
             "group": "Basic",
             "row": 6,
             "column": 14,
-            "molar": 288,
+            "atomicWeight": 288,
             "symbol": "Uup",
             "electrons": [
                 2,
@@ -2632,7 +2523,7 @@
             "group": "Basic",
             "row": 6,
             "column": 15,
-            "molar": 293,
+            "atomicWeight": 293,
             "symbol": "Lv",
             "electrons": [
                 2,
@@ -2650,7 +2541,7 @@
             "group": "Halogen",
             "row": 6,
             "column": 16,
-            "molar": 294,
+            "atomicWeight": 294,
             "symbol": "Uus",
             "electrons": [
                 2,
@@ -2668,7 +2559,7 @@
             "group": "Noble",
             "row": 6,
             "column": 17,
-            "molar": 294,
+            "atomicWeight": 294,
             "symbol": "Uuo",
             "electrons": [
                 2,
@@ -2686,16 +2577,15 @@
             "group": "disable",
             "row": 5,
             "column": 2,
-            "molar": null,
+            "atomicWeight": null,
             "symbol": "La-Lu",
             "electrons": null,
-            "MeltingPoint": null,
-            "BoilingPoint": null,
-            "Density": null,
-            "EarthCrust": null,
-            "Discovery": null,
-            "ElectronConfiguration": "",
-            "IonizationEnergy": null
+            "meltingPoint": null,
+            "boilingPoint": null,
+            "density": null,
+            "discovery": null,
+            "electronConfiguration": "",
+            "ionizationEnergy": null
         },
         {
             "number": "89-103",
@@ -2703,16 +2593,15 @@
             "group": "disable",
             "row": 6,
             "column": 2,
-            "molar": null,
+            "atomicWeight": null,
             "symbol": "Ac-Lr",
             "electrons": null,
-            "MeltingPoint": null,
-            "BoilingPoint": null,
-            "Density": null,
-            "EarthCrust": null,
-            "Discovery": null,
-            "ElectronConfiguration": "",
-            "IonizationEnergy": null
+            "meltingPoint": null,
+            "boilingPoint": null,
+            "density": null,
+            "discovery": null,
+            "electronConfiguration": "",
+            "ionizationEnergy": null
         }
     ]
 }

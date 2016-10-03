@@ -168,9 +168,9 @@
         }
 
         &.disable {
-            border: 1px solid none;
+            border: 1px solid transparent;
             color: palette(grey, 700);
-            height: 89px;
+            height: 85px;
         }
     }
 }
@@ -330,7 +330,7 @@
 
     &.disable {
         border: 0;
-        height: 87px;
+        height: 83px;
 
         .element--sym {
             font-size: 2.25em;
@@ -361,6 +361,45 @@
         .element {
             margin: auto;
             position: absolute;
+
+            &--details {
+                display: block;
+
+                &.show {
+                    tr {
+                        -webkit-transform: none; /* Safari */
+                            -ms-transform: none; /* IE 9 */
+                                transform: none;
+
+                        opacity: 1;
+                    }
+
+                    hr {
+                        opacity: 1;
+                        width: 100%;
+                    }
+                }
+
+                tr {
+                    @include transition(all, 0.75s, $easeOutExpo);
+
+                    -webkit-transform: translateY(30px); /* Safari */
+                        -ms-transform: translateY(30px); /* IE 9 */
+                            transform: translateY(30px);
+                    will-change: transform;
+
+                    display: block;
+                    opacity: 0;
+                    position: relative;
+
+                    @for $i from 1 through 10 {
+                        &:nth-child(#{$i}) {
+                            -webkit-transition-delay: 0.05s * $i, 0.05s * $i;
+                                    transition-delay: 0.05s * $i, 0.05s * $i;
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -379,7 +418,34 @@
         font-size: 0.8em;
     }
 
-    &-details {
+    &--details {
         display: none;
+
+        hr {
+            @include transition(all, 0.5s, $easeOutExpo);
+
+            border-top-color: $matte-black;
+            border-top-width: 3px;
+            margin: 20px auto;
+            opacity: 0;
+            width: 0;
+        }
+
+        table {
+            td {
+                font-size: 1.4em;
+                padding: 5px 0;
+
+                &:first-child {
+                    text-align: left;
+                    width: 70%;
+                }
+
+                &:last-child {
+                    text-align: right;
+                    width: 30%;
+                }
+            }
+        }
     }
 }
