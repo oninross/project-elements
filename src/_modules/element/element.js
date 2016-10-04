@@ -107,15 +107,16 @@ export default class Element {
                     .data('y', $this.offset().top - $header.outerHeight() - $body.scrollTop());
 
                 TweenMax.set('.element--clone .element', {
-                    left: $this.offset().left - $this.scrollLeft(),
-                    top: $this.offset().top - $header.outerHeight() - $body.scrollTop(),
+                    x: $this.offset().left - $this.scrollLeft(),
+                    y: $this.offset().top - $header.outerHeight() - $body.scrollTop(),
                     height: $this.outerHeight(),
-                    width: $this.outerWidth()
+                    width: $this.outerWidth(),
+                    force3D: true,
                 });
 
                 TweenMax.to('.element--clone .element', 0.75, {
-                    left: ($window.outerWidth() - 280) / 2,
-                    top: (($window.outerHeight() - 375) / 2) - 23,
+                    x: ($window.outerWidth() - 280) / 2,
+                    y: (($window.outerHeight() - 375) / 2) - 23,
                     height: 400,
                     width: 280,
                     ease: Expo.easeInOut,
@@ -143,8 +144,8 @@ export default class Element {
                 $('.element--clone .element--details').removeClass('show');
 
                 TweenMax.to('.element--clone .element', 0.75, {
-                    left: $parent.data('x'),
-                    top: $parent.data('y'),
+                    x: $parent.data('x'),
+                    y: $parent.data('y'),
                     height: $parent.data('height'),
                     width: $parent.data('width'),
                     ease: Expo.easeInOut,
