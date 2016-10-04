@@ -1,6 +1,7 @@
 'use strict';
 
 import { toaster } from '../../_assets/elements/js/_material';
+import 'Hammer';
 
 export default class Element {
     constructor() {
@@ -128,6 +129,32 @@ export default class Element {
                     ease: Expo.easeInOut,
                     onComplete: function () {
                         $('.element--clone .element--details').addClass('show');
+                    }
+                });
+
+                var elem = new Hammer($('.element--clone .element')[0]),
+                    exitX;
+
+                elem.on('pan', function(e) {
+                    TweenMax.set('.element--clone .element', {
+                        x: e.deltaX,
+                        force3D: true
+                    });
+
+                    console.log(e)
+
+                    if (e.isFinal) {
+                        if (e.additionalEvent == 'panleft') {
+                            exitX = -$('.element--clone .element').outerWidth() - 40;
+                        } else if (e.additionalEvent == 'panright') {
+                            exitX = 40 + $('.element--clone .element').outerWidth();
+                        }
+
+                        TweenMax.to('.element--clone .element', 0.5, {
+                            x: exitX,
+                            force3D: true,
+                            ease: Expo.easeOut
+                        });
                     }
                 });
             });

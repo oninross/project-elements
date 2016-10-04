@@ -75,12 +75,14 @@
     "lazyload": "./node_modules/jquery-lazyload/jquery.lazyload.js",
     "TweenMax": "./node_modules/gsap/src/uncompressed/TweenMax.js",
     "mCustomScrollbar": "./node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js",
-    "scrollMonitor": "./node_modules/scrollmonitor/scrollmonitor.js"
+    "scrollMonitor": "./node_modules/scrollmonitor/scrollmonitor.js",
+    "Hammer": "./node_modules/hammer.js-master/hammer.js"
   },
   "browserify-shim": {
     "jquery": "jQuery",
     "mCustomScrollbar": "mCustomScrollbar",
-    "doT": "doT"
+    "doT": "doT",
+    "Hammer": "Hammer"
   },
   "engines": {
     "node": ">=0.12.0"
