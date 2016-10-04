@@ -46,6 +46,10 @@
     @include no-animation();
 }
 
+.fixed {
+    overflow: hidden;
+}
+
 .night {
     background-color: $matte-black;
 
@@ -191,10 +195,6 @@
                 filter: blur(20px);
     }
 
-    &.fixed {
-        overflow: hidden;
-    }
-
     tr,
     td {
         &:first-child {
@@ -328,6 +328,17 @@
     //     }
     }
 
+    &.scale {
+        .element--num,
+        .element--name {
+            font-size: 1.4em;
+        }
+
+        .element--sym {
+            font-size: 3.5em;
+        }
+    }
+
     &.disable {
         border: 0;
         height: 83px;
@@ -401,6 +412,12 @@
                 }
             }
         }
+    }
+
+    &--sym,
+    &--num,
+    &--name {
+        @include transition(font-size, 0.75s, $easeInOutExpo);
     }
 
     &--sym {

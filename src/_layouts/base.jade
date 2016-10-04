@@ -1,4 +1,5 @@
 include ../_modules/primary-nav/primary-nav
+include ../_modules/element/element
 
 //- Custom Configuration
 block config
@@ -75,107 +76,19 @@ body
     script(src= baseUrl + 'assets/elements/js/main.js')
 
     script(id='element-cell', type='text/template')
+      | {{? it.ind == 56 || it.ind == 74 }}
+      .element(class='{{= it.class }}')
+        +elementContent()
+      | {{??}}
       button.element(class='{{= it.class }}').js-open-element
-        .element--num {{! it.num }}
-        .element--sym {{! it.sym }}
-        .element--name {{! it.name }}
-        .element--details
-          table.no-wrap
-            tr
-              td
-                strong
-                  |Discovery:
-              td
-                .element--discovery {{! it.discovery }}
-            tr
-              td
-                strong
-                  |Electron configuration:
-              td
-                .element--configuration {{= it.configuration }}
-            tr
-              td
-                strong
-                  |Atomic weight:
-              td
-                .element--weight {{! it.weight }}
-            tr
-              td
-                strong
-                  |Density:
-              td
-                .element--density {{! it.density }}
-            tr
-              td
-                strong
-                  |Boiling point:
-              td
-                .element--boiling {{! it.boiling }}
-            tr
-              td
-                strong
-                  |Melting point:
-              td
-                .element--melting {{! it.melting }}
-            tr
-              td
-                strong
-                  | Ionization Energy:
-              td
-                .element--ionization {{! it.ionization }}
+        +elementContent()
+      | {{?}}
 
     script(id='element-template', type='text/template')
       .no-animation(class='{{= it.class }}')
         button.js-close-element
           i.icon.icon-cross
-        .element--num {{! it.num }}
-        .element--sym {{! it.sym }}
-        .element--name {{! it.name }}
-        .element--details
-          hr
-          table.no-wrap
-            tr
-              td
-                strong
-                  |Discovery:
-              td
-                .element--discovery {{! it.discovery }}
-            tr
-              td
-                strong
-                  |Electron configuration:
-              td
-                .element--configuration {{= it.configuration }}
-            tr
-              td
-                strong
-                  |Atomic weight:
-              td
-                .element--weight {{! it.weight }}
-            tr
-              td
-                strong
-                  |Density:
-              td
-                .element--density {{! it.density }}
-            tr
-              td
-                strong
-                  |Boiling point:
-              td
-                .element--boiling {{! it.boiling }}
-            tr
-              td
-                strong
-                  |Melting point:
-              td
-                .element--melting {{! it.melting }}
-            tr
-              td
-                strong
-                  | Ionization Energy:
-              td
-                .element--ionization {{! it.ionization }}
+        +elementContent()
 
     if !isTablePreview
       script(id='toaster-template', type='text/template')

@@ -58,6 +58,7 @@ export default class Element {
                 group = group.toLowerCase();
 
                 obj = {
+                    ind: i,
                     class: group,
                     num: elements[ind].number,
                     sym: elements[ind].symbol,
@@ -91,6 +92,9 @@ export default class Element {
                         ionization: $this.find('.element--ionization').text()
                     };
 
+                $body.addClass('fixed');
+                $('.table-wrapper').addClass('fixed');
+
                 $elements
                     .addClass('blur fixed')
                     .after('<div class="element--clone"></div>');
@@ -98,7 +102,6 @@ export default class Element {
                 $('.element--clone').append(elementTemp(obj));
 
                 $('.element--clone .element')
-                    .addClass('active')
                     .data('height', $this.outerHeight())
                     .data('width', $this.outerWidth())
                     .data('x', $this.offset().left - $this.scrollLeft())
@@ -114,9 +117,12 @@ export default class Element {
                 TweenMax.to('.element--clone .element', 0.75, {
                     left: ($window.outerWidth() - 280) / 2,
                     top: (($window.outerHeight() - 375) / 2) - 23,
-                    height: 375,
+                    height: 400,
                     width: 280,
-                    ease: Expo.easeInOut
+                    ease: Expo.easeInOut,
+                    onStart: function () {
+                        $('.element--clone .element').addClass('active scale');
+                    }
                 });
 
                 TweenMax.to('.element--clone .element button', 0.75, {
@@ -142,7 +148,10 @@ export default class Element {
                     height: $parent.data('height'),
                     width: $parent.data('width'),
                     ease: Expo.easeInOut,
-                    delay: 0.25
+                    delay: 0.25,
+                    onStart: function () {
+                        $('.element--clone .element').removeClass('scale');
+                    }
                 });
 
                 TweenMax.to('.element--clone .element button', 0.75, {
@@ -154,10 +163,12 @@ export default class Element {
 
                         $('.element--clone .element')
                             .removeClass('no-animation')
-                            .removeClass('active');
+                            .removeClass('active');                            ;
 
                         setTimeout(function(){
+                            $body.removeClass('fixed');
                             $elements.removeClass('fixed');
+                            $('.table-wrapper').removeClass('fixed');
                             $('.element--clone').remove();
                         }, 500);
                     }

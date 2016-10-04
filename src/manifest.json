@@ -1,10 +1,13 @@
 {
-	"short_name": "elements",
+	"lang": "en",
 	"name": "",
-	"start_url": "./index.html",
+	"short_name": "Elements",
+	"description": "",
+	"start_url": "/",
 	"display": "standalone",
 	"orientation": "portrait",
-	"theme_color": "#54606e",
+	"background_color" : "#ffffff",
+	"theme_color": "#03a9f4",
 	"icons": [
 		{
 			"src": "android-icon-36x36.png",
