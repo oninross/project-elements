@@ -128,9 +128,16 @@
         &--input {
             padding: 10px 15px;
 
-            label {
+            label,
+            input[type="text"] {
                 font-size: 1em;
                 margin-bottom: 0;
+            }
+
+            input[type="text"] {
+                background-color: transparent;
+                color: $white;
+                padding: 5px 0;
             }
         }
     }

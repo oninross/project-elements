@@ -50,3 +50,36 @@
 .fixed {
     overflow: hidden;
 }
+
+.autocomplete {
+    &-suggestions {
+        border: 1px solid $grey;
+        background: $white;
+        overflow: auto;
+
+        strong {
+            font-weight: normal;
+            color: $lightBlue;
+        }
+    }
+
+    &-suggestion {
+        font-size: 1.4em;
+        padding: 2px 5px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    &-selected {
+        background: #F0F0F0;
+    }
+
+    &-group {
+        padding: 2px 5px;
+
+        strong {
+            display: block;
+            border-bottom: 1px solid #000;
+        }
+    }
+}

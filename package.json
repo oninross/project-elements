@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "browserify-shim": "^3.8.12",
+    "devbridge-autocomplete": "^1.2.26",
     "dot": "^1.0.3",
     "gsap": "^1.19.0",
     "jquery": "~2.2.0",
@@ -76,13 +77,12 @@
     "TweenMax": "./node_modules/gsap/src/uncompressed/TweenMax.js",
     "mCustomScrollbar": "./node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js",
     "scrollMonitor": "./node_modules/scrollmonitor/scrollmonitor.js",
-    "Hammer": "./node_modules/hammer.js-master/hammer.js"
+    "autocomplete": "./node_modules/devbridge-autocomplete/dist/jquery.autocomplete.js"
   },
   "browserify-shim": {
     "jquery": "jQuery",
     "mCustomScrollbar": "mCustomScrollbar",
-    "doT": "doT",
-    "Hammer": "Hammer"
+    "doT": "doT"
   },
   "engines": {
     "node": ">=0.12.0"
