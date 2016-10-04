@@ -12,10 +12,9 @@ export default class Element {
         // make ajax call
         $.ajax({
             url: '/assets/elements/api/elements.json',
+            dataType: 'json',
             success: function (data) {
-                console.log(data);
-                var parseData = JSON.parse(data);
-                // var parseData = data;
+                var parseData = data;
 
                 populateElements(parseData);
             },
