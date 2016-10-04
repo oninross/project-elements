@@ -206,6 +206,21 @@ button {
     opacity: 1;
 }
 
+@include desktop {
+    ::-webkit-scrollbar {
+        height: 5px;
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.26);
+    }
+
+    ::-webkit-scrollbar-corner {
+        background: 0;
+    }
+}
+
 
 .btn {
     @include transition( all, 0.5s, $easeOutExpo );
