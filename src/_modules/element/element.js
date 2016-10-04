@@ -13,9 +13,9 @@ export default class Element {
         $.ajax({
             url: '/assets/elements/api/elements.json',
             success: function (data) {
-                // console.log(data);
-                // var parseData = JSON.parse(data);
-                var parseData = data;
+                console.log(data);
+                var parseData = JSON.parse(data);
+                // var parseData = data;
 
                 populateElements(parseData);
             },
@@ -31,13 +31,12 @@ export default class Element {
 
         // populate elements
         function populateElements (json) {
-            $('.elem-placeholder').each(function(i) {
-                var $this = $(this),
-                    elements = json.elements,
-                    elementCellTemp = doT.template($('#element-cell').html()),
-                    obj = {},
-                    group, ind;
+            var elements = json.elements,
+                elementCellTemp = doT.template($('#element-cell').html()),
+                obj = {},
+                group, ind;
 
+            $('.elem-placeholder').each(function(i) {
                 if (i == 56) {
                     ind = 118;
                 } else if (i == 74) {
@@ -72,7 +71,7 @@ export default class Element {
                     ionization: elements[ind].ionizationEnergy
                 }
 
-                $this.append(elementCellTemp(obj));
+                $(this).append(elementCellTemp(obj));
             }).on('click', '.js-open-element', function (e) {
                 e.preventDefault();
 
