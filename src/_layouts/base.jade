@@ -77,10 +77,10 @@ body
 
     script(id='element-cell', type='text/template')
       | {{? it.ind == 56 || it.ind == 74 }}
-      .element(class='{{= it.class }}')
+      .element(class='{{= it.class }}', data-num='{{! it.num }}')
         +elementContent()
       | {{??}}
-      button.element(class='{{= it.class }}').js-open-element
+      button.element(class='{{= it.class }}', data-num='{{! it.num }}').js-open-element
         +elementContent()
       | {{?}}
 

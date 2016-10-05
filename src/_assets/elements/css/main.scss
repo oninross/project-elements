@@ -53,21 +53,52 @@
 
 .autocomplete {
     &-suggestions {
-        border: 1px solid $grey;
+        @include material-shadow(3);
+
+        // border: 1px solid $grey;
         background: $white;
         overflow: auto;
 
-        strong {
-            font-weight: normal;
-            color: $lightBlue;
-        }
+        // strong {
+        //     font-weight: normal;
+        //     color: $lightBlue;
+        // }
     }
 
     &-suggestion {
+        @extend %clearfix;
+
+        background: palette(grey, 200);
         font-size: 1.4em;
-        padding: 2px 5px;
         white-space: nowrap;
         overflow: hidden;
+
+        .element {
+            height: 84px;
+            float: left;
+            line-height: 1;
+            padding: 8px;
+            width: 84px;
+
+            &--sym {
+                font-size: 2.6em;
+                line-height: 1;
+            }
+
+            &--details {
+                display: block;
+                float: left;
+                font-size: 0.786em;
+                padding: 8px;
+                width: 186px;
+
+                table {
+                    td {
+                        font-size: 0.857em;
+                    }
+                }
+            }
+        }
     }
 
     &-selected {

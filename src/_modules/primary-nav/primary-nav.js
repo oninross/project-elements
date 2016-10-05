@@ -198,25 +198,25 @@ export default class PrimaryNav {
         });
 
         // Window Listener
-        $window.on('resize', debounce(function () {
-            isMobileDevice = $window.width() < 1024 ? true : false;
+        // $window.on('resize', debounce(function () {
+        //     isMobileDevice = $window.width() < 1024 ? true : false;
 
-            if (isMobileDevice) {
-                $primaryNav.removeClass('active');
-                $set
-                    .find('.icon-arrow.active')
-                    .removeClass('active');
+        //     if (isMobileDevice) {
+        //         $primaryNav.removeClass('active');
+        //         $set
+        //             .find('.icon-arrow.active')
+        //             .removeClass('active');
 
-                $nav.removeClass('active');
-                $lvl1.removeClass('active');
-                $lvl2.hide();
-                $lvl3.hide();
-            } else {
-                $lvl1.show();
+        //         $nav.removeClass('active');
+        //         $lvl1.removeClass('active');
+        //         $lvl2.hide();
+        //         $lvl3.hide();
+        //     } else {
+        //         $lvl1.show();
 
-                $('.js-sub-nav.active').trigger('click');
-            }
-        }, 250));
+        //         $('.js-sub-nav.active').trigger('click');
+        //     }
+        // }, 250));
 
         $window.on('scroll', debounce(function () {
             isMobileDevice = $window.width() < 1024 ? true : false;

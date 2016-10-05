@@ -10,9 +10,11 @@
                 color: $white;
             }
 
-
-            .nav--input label {
-                color: $white;
+            .nav--input {
+                label,
+                input[type="text"] {
+                    color: $white;
+                }
             }
         }
 
@@ -126,6 +128,25 @@
             height: 85px;
         }
     }
+
+    .autocomplete {
+        &-suggestions {
+            background-color: $matte-black;
+        }
+
+        &-suggestion {
+            background: palette(grey, 800);
+
+            .element {
+                background-color: $matte-black !important;
+
+                &--details {
+                    color: palette(grey, 200);
+                }
+            }
+        }
+    }
+
 }
 
 .elements {

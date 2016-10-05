@@ -1,6 +1,7 @@
 'use strict';
 
 import 'autocomplete';
+import 'ScrollToPlugin';
 import { toaster } from '../../_assets/elements/js/_material';
 
 export default class Element {
@@ -34,7 +35,7 @@ export default class Element {
             var elements = json.elements,
                 elementCellTemp = doT.template($('#element-cell').html()),
                 obj = {},
-                group, ind;
+                group, ind, autoCompleteData;
 
             $('.elem-placeholder').each(function(i) {
                 if (i == 56) {
@@ -183,22 +184,57 @@ export default class Element {
 
             $elements.removeClass('hide');
 
-            $('#primary-nav input[type="text"]').autocomplete({
-                paramName: 'name',
-                transformResult: function(response) {
-                    return {
-                        suggestions: $.map(response.myData, function(dataItem) {
-                            return { value: dataItem.valueField, data: dataItem.dataField };
-                        })
-                    };
+            autoCompleteData = $.map(elements, function(value, key) {
+                return {
+                    data: {
+                        class: value.group.toLowerCase(),
+                        num: value.number,
+                        sym: value.symbol,
+                        name: value.name,
+                        weight: value.atomicWeight,
+                        config: value.electronConfiguration
+                    },
+                    value: value.name
                 }
-                // paramName: elements.name,
-                // lookup: elements,
-                // noCache: true,
-                // triggerSelectOnValidInput: false,
-                // onSelect: function (suggestion) {
+            });
 
-                // }
+
+            $('#primary-nav input[type="text"]').on('focus', function () {
+                $(this).val('');
+            }).autocomplete({
+                noCache: true,
+                lookupLimit: 8,
+                lookup: autoCompleteData,
+                forceFixPosition: true,
+                formatResult: function (suggestion, currentValue) {
+                    return '<div class="element ' + suggestion.data.class + '"><div class="element--num">' + suggestion.data.num + '</div><div class="element--sym">' + suggestion.data.sym + '</div><div class="element--name">' + suggestion.data.name + '</div></div><div class="element--details"><div class="element--configuration"><strong>Electron configuration:</strong><br/>' + suggestion.data.config + '</div><div class="element--weight"><strong>Atomic weight:</strong><br/>' + suggestion.data.weight + '</div></div>'
+                },
+                onSelect: function (suggestion) {
+                    console.log("onSelect")
+                    var targetElem = $('.element[data-num="' + suggestion.data.num + '"]');
+
+                    setTimeout(function () {
+                        $('.js-mobile-menu').trigger('click');
+
+                        TweenMax.to(window, 1, {
+                            scrollTo: {
+                                y: targetElem.offset().top + (targetElem.outerHeight() / 2) - ($window.outerHeight() / 2)
+                            },
+                            ease: Expo.easeInOut
+                        });
+
+                        TweenMax.to('.table-wrapper', 1, {
+                            scrollTo: {
+                                x: targetElem.offset().left + (targetElem.outerWidth() / 2) - ($window.outerWidth() / 2)
+                            },
+                            ease: Expo.easeInOut,
+                            onComplete: function () {
+                                targetElem.trigger('click');
+                            }
+                        });
+
+                    }, 250);
+                }
             });
         }
     }
