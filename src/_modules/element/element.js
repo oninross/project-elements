@@ -9,7 +9,8 @@ export default class Element {
         var $body = $('body'),
             $window = $(window),
             $elements = $('.elements'),
-            $header = $('.header');
+            $header = $('.header'),
+            isCardOpen = false;
 
         // make ajax call
         $.ajax({
@@ -76,6 +77,8 @@ export default class Element {
             }).on('click', '.js-open-element', function (e) {
                 e.preventDefault();
 
+                isCardOpen = true;
+
                 var $this = $(this),
                     elementTemp = doT.template($('#element-template').html()),
                     obj = {
@@ -139,6 +142,8 @@ export default class Element {
                 e.preventDefault();
                 e.stopPropagation();
 
+                isCardOpen = false;
+
                 var $this = $(this),
                     $parent = $this.parent();
 
@@ -198,7 +203,6 @@ export default class Element {
                 }
             });
 
-
             $('#primary-nav input[type="text"]').on('focus', function () {
                 $(this).val('');
             }).autocomplete({
@@ -210,30 +214,55 @@ export default class Element {
                     return '<div class="element ' + suggestion.data.class + '"><div class="element--num">' + suggestion.data.num + '</div><div class="element--sym">' + suggestion.data.sym + '</div><div class="element--name">' + suggestion.data.name + '</div></div><div class="element--details"><div class="element--configuration"><strong>Electron configuration:</strong><br/>' + suggestion.data.config + '</div><div class="element--weight"><strong>Atomic weight:</strong><br/>' + suggestion.data.weight + '</div></div>'
                 },
                 onSelect: function (suggestion) {
-                    console.log("onSelect")
                     var targetElem = $('.element[data-num="' + suggestion.data.num + '"]');
 
-                    setTimeout(function () {
-                        $('.js-mobile-menu').trigger('click');
+                    if (isCardOpen) {
+                        setTimeout(function () {
+                            $('.js-mobile-menu').trigger('click');
+                            $('.js-close-element').trigger('click');
 
-                        TweenMax.to(window, 1, {
-                            scrollTo: {
-                                y: targetElem.offset().top + (targetElem.outerHeight() / 2) - ($window.outerHeight() / 2)
-                            },
-                            ease: Expo.easeInOut
-                        });
+                            TweenMax.to(window, 1, {
+                                scrollTo: {
+                                    y: targetElem.offset().top + (targetElem.outerHeight() / 2) - ($window.outerHeight() / 2)
+                                },
+                                ease: Expo.easeInOut,
+                                delay: 1.5
+                            });
 
-                        TweenMax.to('.table-wrapper', 1, {
-                            scrollTo: {
-                                x: targetElem.offset().left + (targetElem.outerWidth() / 2) - ($window.outerWidth() / 2)
-                            },
-                            ease: Expo.easeInOut,
-                            onComplete: function () {
-                                targetElem.trigger('click');
-                            }
-                        });
+                            TweenMax.to('.table-wrapper', 1, {
+                                scrollTo: {
+                                    x: targetElem.offset().left + (targetElem.outerWidth() / 2) - ($window.outerWidth() / 2)
+                                },
+                                ease: Expo.easeInOut,
+                                delay: 1.5,
+                                onComplete: function () {
+                                    targetElem.trigger('click');
+                                }
+                            });
+                        }, 250);
+                    } else {
+                        setTimeout(function () {
+                            $('.js-mobile-menu').trigger('click');
 
-                    }, 250);
+                            TweenMax.to(window, 1, {
+                                scrollTo: {
+                                    y: targetElem.offset().top + (targetElem.outerHeight() / 2) - ($window.outerHeight() / 2)
+                                },
+                                ease: Expo.easeInOut
+                            });
+
+                            TweenMax.to('.table-wrapper', 1, {
+                                scrollTo: {
+                                    x: targetElem.offset().left + (targetElem.outerWidth() / 2) - ($window.outerWidth() / 2)
+                                },
+                                ease: Expo.easeInOut,
+                                onComplete: function () {
+                                    targetElem.trigger('click');
+                                }
+                            });
+                        }, 250);
+                    }
+
                 }
             });
         }

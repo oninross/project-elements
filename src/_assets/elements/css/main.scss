@@ -82,7 +82,11 @@
 
             &--sym {
                 font-size: 2.6em;
-                line-height: 1;
+            }
+
+            &--num,
+            &--name {
+                font-size: 0.625em;
             }
 
             &--details {

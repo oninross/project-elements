@@ -16,7 +16,6 @@ var offlineFundamentals = [
     'assets/elements/js/main.min.js',
     'assets/elements/api/elements.json',
     'https://fonts.googleapis.com/css?family=Montserrat:400,700',
-    'https://fonts.googleapis.com/css?family=Neuton:400,700',
     'assets/elements/css/fonts/icomoon.woff?-p3pgtp',
     'index.html'
 ];

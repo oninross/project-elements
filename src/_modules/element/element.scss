@@ -397,7 +397,6 @@
     }
 
     &--num {
-        font-family: 'Neuton', serif;
         font-weight: $bold;
         font-size: 0.8em;
         text-align: left;
@@ -427,13 +426,12 @@
                 padding: 5px 0;
 
                 &:first-child {
+                    font-weight: $bold;
                     text-align: left;
                     width: 70%;
                 }
 
                 &:last-child {
-                    font-family: 'Neuton', serif;
-                    font-size: 1.6em;
                     text-align: right;
                     width: 30%;
                 }

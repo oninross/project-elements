@@ -4,8 +4,6 @@ Global
 html {
     box-sizing: border-box;
 }
-    // font-family: 'Neuton', serif;
-    // font-family: 'Montserrat', sans-serif
 
 body {
     background: palette(blueGrey, 50);
@@ -168,6 +166,10 @@ a {
 
 hr {
     margin: 40px 0;
+}
+
+input {
+    border-radius: 0;
 }
 
 button {
