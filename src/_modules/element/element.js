@@ -207,7 +207,8 @@ export default class Element {
                 $(this).val('');
             }).autocomplete({
                 noCache: true,
-                lookupLimit: 8,
+                lookupLimit: 4,
+                maxHeight: 336,
                 lookup: autoCompleteData,
                 forceFixPosition: true,
                 formatResult: function (suggestion, currentValue) {
@@ -218,8 +219,8 @@ export default class Element {
 
                     if (isCardOpen) {
                         setTimeout(function () {
-                            $('.js-mobile-menu').trigger('click');
                             $('.js-close-element').trigger('click');
+                            $('.js-mobile-menu').trigger('click');
 
                             TweenMax.to(window, 1, {
                                 scrollTo: {
@@ -231,7 +232,7 @@ export default class Element {
 
                             TweenMax.to('.table-wrapper', 1, {
                                 scrollTo: {
-                                    x: targetElem.offset().left + (targetElem.outerWidth() / 2) - ($window.outerWidth() / 2)
+                                    x: targetElem.parent().position().left + $('.table-wrapper').scrollLeft() + (targetElem.outerWidth() / 2) - ($window.outerWidth() / 2)
                                 },
                                 ease: Expo.easeInOut,
                                 delay: 1.5,
@@ -262,7 +263,6 @@ export default class Element {
                             });
                         }, 250);
                     }
-
                 }
             });
         }
