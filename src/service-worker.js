@@ -12,8 +12,8 @@ var version = 'v1::';
    then the service worker won't be installed either.
 */
 var offlineFundamentals = [
-    'assets/elements/css/main.min.css',
-    'assets/elements/js/main.min.js',
+    'assets/elements/css/main.css',
+    'assets/elements/js/main.js',
     'assets/elements/api/elements.json',
     'https://fonts.googleapis.com/css?family=Montserrat:400,700',
     'assets/elements/css/fonts/icomoon.woff?-p3pgtp',
