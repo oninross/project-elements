@@ -136,6 +136,8 @@ export default class Element {
                         $('.element--clone .element--details').addClass('show');
                     }
                 });
+
+                ga('send', 'event', 'View Element', 'Click', $this.find('.element--name'));
             });
 
             $('body').on('click', '.js-close-element', function (e) {
@@ -263,6 +265,8 @@ export default class Element {
                             });
                         }, 250);
                     }
+
+                    ga('send', 'event', 'Search Element', 'Click', suggestion.data.name);
                 }
             });
         }
