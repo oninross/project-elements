@@ -166,6 +166,8 @@ $(() => {
             $('#primary-nav .nav--input input[type="checkbox"]').attr('checked', true);
 
             ga('send', 'event', 'Night Mode', 'Enabled', getNightMode());
+        } else {
+            ga('send', 'event', 'Night Mode', 'Disabled', getNightMode());
         }
 
         $('#primary-nav .nav--input input[type="checkbox"]').on('change', function (e) {
