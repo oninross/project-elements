@@ -16,6 +16,7 @@
 @import "../_modules/link/link";
 @import "../_modules/standard-banner/standard-banner";
 @import "../_modules/primary-nav/primary-nav";
+@import "../_modules/element/element";
 
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
@@ -40,4 +41,80 @@
     background: #fff8e2;
     color: #000;
     padding: 0.5em 0;
+}
+
+.no-animation {
+    @include no-animation();
+}
+
+.fixed {
+    overflow: hidden;
+}
+
+.autocomplete {
+    &-suggestions {
+        @include material-shadow(3);
+
+        // border: 1px solid $grey;
+        background: $white;
+        overflow: auto;
+
+        // strong {
+        //     font-weight: normal;
+        //     color: $lightBlue;
+        // }
+    }
+
+    &-suggestion {
+        @extend %clearfix;
+
+        background: palette(grey, 200);
+        font-size: 1.4em;
+        white-space: nowrap;
+        overflow: hidden;
+
+        .element {
+            height: 84px;
+            float: left;
+            line-height: 1;
+            padding: 8px;
+            width: 84px;
+
+            &--sym {
+                font-size: 2.6em;
+            }
+
+            &--num,
+            &--name {
+                font-size: 0.625em;
+            }
+
+            &--details {
+                display: block;
+                float: left;
+                font-size: 0.786em;
+                padding: 8px;
+                width: 186px;
+
+                table {
+                    td {
+                        font-size: 0.857em;
+                    }
+                }
+            }
+        }
+    }
+
+    &-selected {
+        background: #F0F0F0;
+    }
+
+    &-group {
+        padding: 2px 5px;
+
+        strong {
+            display: block;
+            border-bottom: 1px solid #000;
+        }
+    }
 }

@@ -6,8 +6,8 @@ html {
 }
 
 body {
-    background: $material-background;
-    font: 62.5%/1.618 'Roboto', sans-serif;
+    background: palette(blueGrey, 50);
+    font: 62.5%/1.618 'Montserrat', sans-serif;
     margin: 0 !important;
 }
 
@@ -77,18 +77,18 @@ dl {
 }
 
 table {
-    background-color: transparent;
-    border: 1px solid $grey;
+    // background-color: transparent;
+    // border: 1px solid $grey;
     border-collapse: collapse;
     border-spacing: 0;
-    font-size: $default-font-size;
+    // font-size: $default-font-size;
     margin-bottom: 20px;
-    max-width: 100%;
+    // max-width: 100%;
     width: 100%;
 
-    tr:nth-child(even) {
-        background: lighten( $grey, 25%);
-    }
+    // tr:nth-child(even) {
+    //     background: lighten( $grey, 25%);
+    // }
 
     th, td {
         padding: 5px 10px;
@@ -168,6 +168,10 @@ hr {
     margin: 40px 0;
 }
 
+input {
+    border-radius: 0;
+}
+
 button {
     &:focus {
         outline: 0;
@@ -204,17 +208,19 @@ button {
     opacity: 1;
 }
 
-::-webkit-scrollbar {
-    height: 5px;
-    width: 5px;
-}
+@include desktop {
+    ::-webkit-scrollbar {
+        height: 5px;
+        width: 5px;
+    }
 
-::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.26);
-}
+    ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.26);
+    }
 
-::-webkit-scrollbar-corner {
-    background: 0;
+    ::-webkit-scrollbar-corner {
+        background: 0;
+    }
 }
 
 
@@ -268,9 +274,9 @@ Layout
     margin-top: 45px;
     position: relative;
 
-    @include desktop {
-        margin-top: 90px;
-    }
+    // @include desktop {
+    //     margin-top: 90px;
+    // }
 }
 
 .backstretch {
@@ -323,9 +329,9 @@ Layout
 }
 
 .table-wrapper {
-    border: 1px solid $grey;
+    // border: 1px solid $grey;
     font-size: 1em !important;
-    margin: 20px 0;
+    // margin: 20px 0;
     overflow-x: auto;
     overflow-y: hidden;
     position: relative;
@@ -342,6 +348,23 @@ Layout
         th,
         td {
             min-width: 75px;
+        }
+    }
+
+    .table-wrapper {
+        @include desktop {
+            ::-webkit-scrollbar {
+                height: 5px;
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgba(0, 0, 0, 0.26);
+            }
+
+            ::-webkit-scrollbar-corner {
+                background: 0;
+            }
         }
     }
 }

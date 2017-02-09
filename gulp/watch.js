@@ -14,21 +14,24 @@ export default function(gulp, plugins, args, config, taskTarget, browserSync) {
         path.join(dirs.source, dirs.modules, '**/*.{scss,sass}')
       ], ['sass']);
 
-      // fonts
-      gulp.watch([
-        path.join(dirs.source, dirs.fonts, '**/*.{ttf,woff,eof,svg}'),
-      ], ['sass']);
-
       // Jade Templates
       gulp.watch([
         path.join(dirs.source, '**/*.jade'),
         path.join(dirs.source, dirs.data, '**/*.{json,yaml,yml}')
       ], ['jade']);
 
+      // JSON
+      gulp.watch([
+        path.join(dirs.source, dirs.api, '**/*'),
+        path.join(dirs.source, dirs.api, '**/*.*'),
+      ], ['copy']);
+
       // Copy
       gulp.watch([
         path.join(dirs.source, '**/*'),
         path.join(dirs.source, dirs.fonts, '**/*.{ttf,woff,eof,svg}'),
+        path.join(dirs.source, dirs.api, '**/*'),
+        path.join(dirs.source, dirs.api, '**/*.*'),
         '!' + path.join(dirs.source, '{**/\_*,**/\_*/**}'),
         '!' + path.join(dirs.source, '**/*.jade')
       ], ['copy']);

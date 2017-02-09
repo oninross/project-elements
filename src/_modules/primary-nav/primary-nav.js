@@ -9,6 +9,7 @@ export default class PrimaryNav {
             primaryNavMarkup = '<button class="menu js-mobile-menu"><span class="line top"></span><span class="line mid"></span><span class="line bot"></span></button>',
             subNavMarkup = '<button class="sub-nav js-sub-nav icon-arrow"><span class="vh">Sub-navigation</span></button>',
             $dropdownList,
+            $header = $('.header'),
             $nav = el.find('.nav'),
             $lvl1 = el.find('.lvl1'),
             $lvl2 = el.find('.lvl2'),
@@ -42,6 +43,7 @@ export default class PrimaryNav {
 
             el.toggleClass('active');
             $this.toggleClass('active');
+            $header.toggleClass('active');
             $nav.toggleClass('active');
             $lvl1.toggleClass('active');
 
@@ -196,25 +198,25 @@ export default class PrimaryNav {
         });
 
         // Window Listener
-        $window.on('resize', debounce(function () {
-            isMobileDevice = $window.width() < 1024 ? true : false;
+        // $window.on('resize', debounce(function () {
+        //     isMobileDevice = $window.width() < 1024 ? true : false;
 
-            if (isMobileDevice) {
-                $primaryNav.removeClass('active');
-                $set
-                    .find('.icon-arrow.active')
-                    .removeClass('active');
+        //     if (isMobileDevice) {
+        //         $primaryNav.removeClass('active');
+        //         $set
+        //             .find('.icon-arrow.active')
+        //             .removeClass('active');
 
-                $nav.removeClass('active');
-                $lvl1.removeClass('active');
-                $lvl2.hide();
-                $lvl3.hide();
-            } else {
-                $lvl1.show();
+        //         $nav.removeClass('active');
+        //         $lvl1.removeClass('active');
+        //         $lvl2.hide();
+        //         $lvl3.hide();
+        //     } else {
+        //         $lvl1.show();
 
-                $('.js-sub-nav.active').trigger('click');
-            }
-        }, 250));
+        //         $('.js-sub-nav.active').trigger('click');
+        //     }
+        // }, 250));
 
         $window.on('scroll', debounce(function () {
             isMobileDevice = $window.width() < 1024 ? true : false;

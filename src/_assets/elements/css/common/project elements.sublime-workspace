@@ -1,0 +1,1491 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-size: "
+			],
+			[
+				"border",
+				"border-color: "
+			],
+			[
+				"text",
+				"text-align: "
+			],
+			[
+				"backgrou",
+				"background-color: "
+			],
+			[
+				"over",
+				"overflow-y: "
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"margin",
+				"margin-bottom: "
+			],
+			[
+				"has",
+				"hashchange"
+			],
+			[
+				"Impo",
+				"important"
+			],
+			[
+				"slide",
+				"slideUp〔function〕"
+			],
+			[
+				"materi",
+				"material-shadow"
+			],
+			[
+				"main",
+				"mainjs"
+			],
+			[
+				"marin-",
+				"margin-top"
+			],
+			[
+				"h",
+				"headerHeight"
+			],
+			[
+				"act",
+				"activeInd〔variable〕"
+			],
+			[
+				"parn",
+				"parent"
+			],
+			[
+				"appoi",
+				"appointments"
+			],
+			[
+				"the",
+				"thead\tTag"
+			],
+			[
+				"Master",
+				"Master_Builder"
+			],
+			[
+				"get",
+				"getNewsFeedURL"
+			],
+			[
+				"rss",
+				"rrsSelectionIdx"
+			],
+			[
+				"mater",
+				"material-label"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"cook",
+				"cookieData"
+			],
+			[
+				"weat",
+				"weatherTodayStatus"
+			],
+			[
+				"we",
+				"weatherTodayStatus"
+			],
+			[
+				"weah",
+				"weatherTodayStatus"
+			],
+			[
+				"getwe",
+				"getWeatherTodayData"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"time",
+				"timeOfDay"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"spea",
+				"SpeechSynthesisUtterance"
+			],
+			[
+				"ease",
+				"easeOut"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mode",
+				"moduleCompletes"
+			],
+			[
+				"mo",
+				"moduleCompletes"
+			],
+			[
+				"po",
+				"pos:r\tposition:relative"
+			],
+			[
+				"email",
+				"email_address"
+			],
+			[
+				"ge",
+				"getGeoIpData"
+			],
+			[
+				"inp",
+				"inputBuffer"
+			],
+			[
+				"out",
+				"outputBuffer"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"st",
+				"startVideo"
+			],
+			[
+				"te",
+				"text-shadow"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"fore",
+				"forecastDay"
+			],
+			[
+				"new",
+				"newDate"
+			],
+			[
+				"ny",
+				"nytUrl"
+			],
+			[
+				"p",
+				"populateCnn"
+			],
+			[
+				"data",
+				"dataWeather"
+			],
+			[
+				"Ap",
+				"APIKEY"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bacgorun",
+				"background-image"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"magi",
+				"margin-top"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"fon-",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"mobile",
+				"mobileMenu"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"def",
+				"default-font-size"
+			],
+			[
+				"abs",
+				"absolute-center"
+			],
+			[
+				"gt",
+				"gutterDesktop"
+			],
+			[
+				"lih",
+				"lightGrey"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"gutter",
+				"gutterDesktop"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"norma",
+				"normalise-list"
+			],
+			[
+				"Im",
+				"important"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_variables.scss",
+			"settings":
+			{
+				"buffer_size": 1229,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "redin",
+		"selected_items":
+		[
+			[
+				"redin",
+				"ReIndent: to 4"
+			],
+			[
+				"inde",
+				"ReIndent: to 4"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"hml",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"in",
+				"ReIndent: to 4"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"ReIndent: to 4"
+			],
+			[
+				"css",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"gru",
+				"Set Syntax: Gruntfile Coffee"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"jaa",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 422.0
+	},
+	"console":
+	{
+		"height": 310.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/project_elements"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/project_elements/src/_assets/elements/api/elements.json",
+		"/Applications/MAMP/htdocs/project_elements/src/_assets/elements/css/common/_mixin.scss",
+		"/Applications/MAMP/htdocs/project_elements/src/index.jade",
+		"/Applications/MAMP/htdocs/project_elements/src/_assets/elements/css/common/_base.scss",
+		"/Applications/MAMP/htdocs/project_elements/src/_assets/elements/css/common/_material-design.scss",
+		"/Applications/MAMP/htdocs/project_elements/src/_modules/primary-nav/primary-nav.scss",
+		"/Applications/MAMP/htdocs/project_elements/src/_assets/elements/css/main.scss",
+		"/Applications/MAMP/htdocs/project_elements/src/_assets/elements/css/common/_material-mixin.scss",
+		"/Applications/MAMP/htdocs/project_elements/src/_assets/elements/css/common/_variables.scss",
+		"/Applications/MAMP/htdocs/project_elements/src/_layouts/base.jade",
+		"/Applications/MAMP/htdocs/project_elements/src/_modules/element/element.js",
+		"/Applications/MAMP/htdocs/project_elements/src/_assets/elements/api/_elements.json",
+		"/Applications/MAMP/htdocs/project_elements/package.json",
+		"/Applications/MAMP/htdocs/project_elements/gulp/watch.js",
+		"/Applications/MAMP/htdocs/project_elements/gulpfile.babel.js",
+		"/Users/onin_and_gayle/Downloads/website-uat.xml",
+		"/Applications/MAMP/htdocs/bhp_current/_templates/includes/footer.php",
+		"/Applications/MAMP/htdocs/project_infinite/_scripts/modules/rr.menu.js",
+		"/Applications/MAMP/htdocs/project_infinite/_scss/main.scss",
+		"/Applications/MAMP/htdocs/project_infinite/_scripts/modules/rr.listeners.js",
+		"/Applications/MAMP/htdocs/project_infinite/_templates/index.php",
+		"/Applications/MAMP/htdocs/project_infinite/_templates/includes/header.php",
+		"/Applications/MAMP/htdocs/project_infinite/_scss/_desktop.scss",
+		"/Applications/MAMP/htdocs/project_infinite/_scss/_tablet.scss",
+		"/Applications/MAMP/htdocs/project_infinite/_scss/common/_mixin.scss",
+		"/Applications/MAMP/htdocs/project_infinite/_scripts/modules/rr.materialDesign.js",
+		"/Applications/MAMP/htdocs/project_infinite/_scss/components/materialDesign/_main.scss",
+		"/Applications/MAMP/htdocs/project_infinite/_scss/common/_vars.scss",
+		"/Applications/MAMP/htdocs/project_infinite/_scripts/modules/rr.history.js",
+		"/Applications/MAMP/htdocs/project_timetable/index.html",
+		"/Applications/MAMP/htdocs/project_timetable/busstop/index.html",
+		"/Applications/MAMP/htdocs/project_timetable/material-design/index.html",
+		"/Applications/MAMP/htdocs/project_timetable/nearby/index.html",
+		"/Applications/MAMP/htdocs/project_timetable/search/index.html",
+		"/Applications/MAMP/htdocs/project_timetable/assets/btt/js/main.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/_layouts/base.jade",
+		"/Applications/MAMP/htdocs/project_timetable/src/bookmarks/index.jade",
+		"/Applications/MAMP/htdocs/project_timetable/src/nearby/index.jade",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/js/_busStop.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/search/index.jade",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/css/main.scss",
+		"/Applications/MAMP/htdocs/project_timetable/gulp/watch.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/js/_search.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/api/services.json",
+		"/Applications/MAMP/htdocs/project_timetable/package.json",
+		"/Applications/MAMP/htdocs/project_timetable/src/_data/services.json",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/js/_material.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/busstop/index.jade",
+		"/Applications/MAMP/htdocs/project_timetable/gulp/copyApi.js",
+		"/Applications/MAMP/htdocs/project_timetable/gulpfile.babel.js",
+		"/Applications/MAMP/htdocs/project_timetable/gulp/copy.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/js/main.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/material-design/index.jade",
+		"/Applications/MAMP/htdocs/project_timetable/src/_modules/primary-nav/primary-nav.scss",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/css/common/_mixin.scss",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/css/common/_grid.scss",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/css/common/_helpers.scss",
+		"/Applications/MAMP/htdocs/project_timetable/src/index.jade",
+		"/Users/onin_and_gayle/Desktop/Grunt/_templates/index.php",
+		"/Users/onin_and_gayle/Desktop/Grunt/_scripts/modules/rr.apiCalls.js",
+		"/Users/onin_and_gayle/Desktop/Grunt/_templates/includes/footer.php",
+		"/Applications/MAMP/htdocs/project_timetable/src/_modules/primary-nav/primary-nav.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/js/_busstop.js",
+		"/Applications/MAMP/htdocs/project_timetable/src/_data/primarynav.json",
+		"/Users/onin_and_gayle/Desktop/Grunt/_templates/includes/header.php",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/css/common/_material-design.scss",
+		"/Users/onin_and_gayle/Desktop/Grunt/_scss/main.scss",
+		"/Users/onin_and_gayle/Desktop/Grunt/_scss/_tablet.scss",
+		"/Users/onin_and_gayle/Desktop/Grunt/_scss/_desktop.scss",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/css/common/_base.scss",
+		"/Applications/MAMP/htdocs/project_timetable/src/_modules/standard-banner/standard-banner.jade",
+		"/Applications/MAMP/htdocs/project_timetable/src/_modules/primary-nav/primary-nav.jade",
+		"/Applications/MAMP/htdocs/project_timetable/src/_assets/btt/js/_helper.js",
+		"/Applications/MAMP/htdocs/project_timetable/gulp/copyFonts.js",
+		"/Applications/MAMP/htdocs/project_timetable/karma.conf.js",
+		"/Users/onin_and_gayle/Desktop/Grunt/package.json",
+		"/Applications/MAMP/htdocs/bhp_current/_scss/interactive-tax-map-main.scss",
+		"/Users/onin_and_gayle/Desktop/map.svg",
+		"/Applications/MAMP/htdocs/bhp_current/_scripts/economic-contributions.json",
+		"/Applications/MAMP/htdocs/bhp_current/_templates/pages/interactive-tax-page/index.php",
+		"/Users/onin_and_gayle/Desktop/markup.html",
+		"/Applications/MAMP/htdocs/bhp_current/_scripts/interactive-tax-map.js",
+		"/Applications/MAMP/htdocs/bhp_current/dist/assets/bhp/css/main.css",
+		"/Applications/MAMP/htdocs/bhp_current/dist/assets/bhp/css/responsive.css",
+		"/Users/onin_and_gayle/Desktop/markup.txt",
+		"/Users/onin_and_gayle/Downloads/itp/economic-contributions.json",
+		"/Applications/MAMP/htdocs/firestarter/src/_modules/primary-nav/primary-nav.js",
+		"/Applications/MAMP/htdocs/firestarter/src/_modules/primary-nav/primary-nav.scss",
+		"/Applications/MAMP/htdocs/firestarter/src/_scripts/_material.js",
+		"/Applications/MAMP/htdocs/firestarter/package.json",
+		"/Applications/MAMP/htdocs/firestarter/src/_data/primarynav.json",
+		"/Applications/MAMP/htdocs/firestarter/src/_modules/primary-nav/primary-nav.jade",
+		"/Users/onin_and_gayle/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/groundzero/package.json",
+		"/Applications/MAMP/htdocs/groundzero/gulp/jade.js",
+		"/Applications/MAMP/htdocs/firestarter/_templates/includes/header.php",
+		"/Applications/MAMP/htdocs/firestarter/_templates/manifest.json",
+		"/Applications/MAMP/htdocs/firestarter/_scripts/modules/rr.materialDesign.js",
+		"/Applications/MAMP/htdocs/firestarter/www/index.html",
+		"/Applications/MAMP/htdocs/firestarter/www/404/index.html",
+		"/Applications/MAMP/htdocs/firestarter/www/standard/index.html",
+		"/Applications/MAMP/htdocs/firestarter/www/material-design/index.html",
+		"/Applications/MAMP/htdocs/firestarter/www/list/index.html",
+		"/Applications/MAMP/htdocs/firestarter/www/grid/index.html",
+		"/Applications/MAMP/htdocs/firestarter/www/assets/firestarter/js/main.min.js",
+		"/Applications/MAMP/htdocs/firestarter/www/assets/firestarter/js/vendor/jquery-1.11.3.min.js",
+		"/Applications/MAMP/htdocs/firestarter/index.html",
+		"/Applications/MAMP/htdocs/firestarter/404/index.html",
+		"/Applications/MAMP/htdocs/firestarter/grid/index.html",
+		"/Applications/MAMP/htdocs/firestarter/list/index.html",
+		"/Applications/MAMP/htdocs/firestarter/material-design/index.html",
+		"/Applications/MAMP/htdocs/firestarter/standard/index.html",
+		"/Applications/MAMP/htdocs/firestarter/www/table-preview/index.html",
+		"/Applications/MAMP/htdocs/firestarter/www/browserconfig.xml",
+		"/Applications/MAMP/htdocs/firestarter/_templates/material-design/index.php",
+		"/Applications/MAMP/htdocs/firestarter/_scss/components/materialDesign/_main.scss",
+		"/Applications/MAMP/htdocs/firestarter/_scripts/vendor/modernizr.js",
+		"/Applications/MAMP/htdocs/firestarter/_templates/index.php",
+		"/Applications/MAMP/htdocs/firestarter/README.md",
+		"/Applications/MAMP/htdocs/firestarter/assets/firestarter/js/main.min.js",
+		"/Applications/MAMP/htdocs/firestarter/browserconfig.xml",
+		"/Applications/MAMP/htdocs/firestarter/assets/firestarter/js/vendor/modernizr.js",
+		"/Applications/MAMP/htdocs/firestarter/table-preview/index.html",
+		"/Applications/MAMP/htdocs/firestarter/_scripts/modules/rr.tableScrollbar.js",
+		"/Applications/MAMP/htdocs/firestarter/gruntfile.js",
+		"/Applications/MAMP/htdocs/firestarter/_scripts/modules/rr.primaryNav.js",
+		"/Applications/MAMP/htdocs/firestarter/_templates/includes/footer.php",
+		"/Applications/MAMP/htdocs/firestarter/_scss/components/primaryNav/_main.scss"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"background-color: palette",
+			"body {",
+			"light",
+			"palette",
+			"background-color: $",
+			"50: #",
+			"table-wrapper",
+			"{\n        background-color:",
+			"{\n        background-color: ",
+			"&:before {\n            background-color:",
+			"&:hover {\n            background-color:",
+			"&:before {\n            background-color:",
+			"design",
+			"background-color:",
+			"8px",
+			"0;",
+			"text",
+			"\"symbol\": \"&nbsp;\",",
+			"group = group.toLowerCase();\n                    $this.addClass(group);",
+			"118",
+			"[i]",
+			"i",
+			" InnerBorder BlueLeft BlueRight",
+			"•",
+			"Technical Champion",
+			"<li class=\"image-filler\" style=\"background-image:url(images/category-filler03.jpg);\">\n\t\t\t\t\t\t    <img src=\"images/category-filler03.jpg\" alt=\"\">\n\t\t\t\t\t\t\t<!-- <video loop=\"\" autoplay=\"\" muted=\"\" class=\"videoBg\">\n\t                            <source type=\"video/mp4\" src=\"images/minister-frydenberg-at-olympic-dam.mp4\"></source>\n\t                        </video> -->\n\t\t\t\t\t\t</li>",
+			"Bug #57487\n\n« Previous | 6 of 13 | Next »\nReplace 'Analytical genius' tile with existing bottom right image (no pop up)",
+			"analytical ge",
+			"analytical guru",
+			"Process Driver",
+			"process",
+			"perfectionist",
+			"sheduling",
+			"perfectionist",
+			"visionaryleader",
+			"Visionary Leader",
+			"report",
+			"Step ",
+			"insight to our recruitment p",
+			"Step 1 Initial Application",
+			"Analytical Guru",
+			"An insight to our centre",
+			"An insight to our Centre",
+			"An insight to our Centres",
+			"Step",
+			"An insight to our recruitment process",
+			"RR.listeners.exitCurrentSlide",
+			"primary-nav",
+			"primaryNav",
+			"menu",
+			".shadow",
+			"shadow",
+			"height: 24px;\n            font-size: 0.750em;",
+			"opacity: 0",
+			"document",
+			"headerwrap",
+			"header",
+			"main",
+			"<a href=\"#\" class=\"card-wrap\">",
+			"<span class=\"card-title\">Lorem ipsum dolor</h2>",
+			"<h2>The quick brown fox jumps over the lazy dog</h2>",
+			"<h2>Project Title</h2>",
+			"<div class=\"card\">\n                                <h2>Project Title</h2>\n                            </div>",
+			"<h2>Project Title</h2>",
+			"reset",
+			".icon",
+			"opacity: 1,\n                    top: 0",
+			"coding",
+			"reset",
+			".card",
+			"card",
+			"verti",
+			"default-f",
+			"hello",
+			"$('#main')",
+			"coding",
+			"about",
+			"exit",
+			"hello",
+			"33.333333%;",
+			"about",
+			"exi",
+			"translate(0, 0)",
+			"@include vertically-centering-the-unknown();",
+			"#main",
+			"pushState",
+			"enter",
+			"hello",
+			"\"",
+			"window.history",
+			"border-left: 0px solid $blue;",
+			"margin-bottom: 30px;",
+			"translateY",
+			"translateY(50px)",
+			"30px",
+			"top: 16",
+			"16",
+			"16px",
+			"services.json",
+			"<li><a href=\"/",
+			"href=\"/",
+			"nt= 'Where'sTheBusSG')",
+			"serviceNum",
+			"servicenum",
+			"serviceNum",
+			"+ busStopId +",
+			"busStopId",
+			"\"service\": ",
+			"service",
+			"\"service\":",
+			"\"service\": ",
+			"suggestions",
+			"\"coords\": ",
+			"import dot",
+			"isBusStop",
+			"#FFF;",
+			"#fff;",
+			"#FFF",
+			"#999",
+			".autocomplete-",
+			"timetable",
+			"processData",
+			"50%",
+			"translate",
+			"transform",
+			"reset",
+			"processData",
+			"|             "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/btt/",
+			"\"https://oninross.github.io/firestarter/\"",
+			"href=\"https://oninross.github.io/firestarter/material-design",
+			"href=\"https://oninross.github.io/firestarter/grid",
+			"href=\"https://oninross.github.io/firestarter/standard",
+			"https://oninross.github.io/firestarter/ms-icon",
+			"https://oninross.github.io/firestarter/favicon-",
+			"https://oninross.github.io/firestarter/android-icon",
+			"https://oninross.github.io/firestarter/apple-icon/",
+			"https://oninross.github.io/firestarter/assets/",
+			"material-design/",
+			"grid/",
+			"standard/",
+			"https://fonts.goo",
+			"assets/firestarter",
+			"ms-icon",
+			"favicon",
+			"android",
+			"apple",
+			"$red",
+			"Firestarter",
+			"primaryNav",
+			"firestarter",
+			"firestarter\nfirestarter",
+			"<main id=\"main\">",
+			"<main id=\"main\" role=\"main\">",
+			"_main.scss",
+			"master_builder",
+			"masterBuilder",
+			"masterBuilderServices",
+			"masterBuilderControllers",
+			"masterBuilderApp",
+			"$easeOutExpo"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								778,
+								778
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 369.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project elements.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"var",
+				"src/_assets/elements/css/common/_variables.scss"
+			],
+			[
+				"eleme",
+				"src/_assets/elements/api/elements.json"
+			],
+			[
+				"main",
+				"src/_assets/elements/css/main.scss"
+			],
+			[
+				"mater",
+				"src/_assets/elements/css/common/_material-design.scss"
+			],
+			[
+				"prim",
+				"src/_modules/primary-nav/primary-nav.scss"
+			],
+			[
+				"elem",
+				"src/_assets/elements/api/elements.json"
+			],
+			[
+				"materialmi",
+				"src/_assets/elements/css/common/_material-mixin.scss"
+			],
+			[
+				"base",
+				"src/_layouts/base.jade"
+			],
+			[
+				"elementjson",
+				"src/_assets/elements/api/elements.json"
+			],
+			[
+				"mix",
+				"src/_assets/elements/css/common/_mixin.scss"
+			],
+			[
+				"inde",
+				"src/index.jade"
+			],
+			[
+				"mainscss",
+				"src/_assets/elements/css/main.scss"
+			],
+			[
+				"jade",
+				"src/index.jade"
+			],
+			[
+				"elemen",
+				"src/_modules/element/element.js"
+			],
+			[
+				"_ee",
+				"src/_assets/elements/api/_elements.json"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"bab",
+				"gulpfile.babel.js"
+			],
+			[
+				"wa",
+				"gulp/watch.js"
+			],
+			[
+				"gul",
+				"gulpfile.babel.js"
+			],
+			[
+				"foote",
+				"_templates/includes/footer.php"
+			],
+			[
+				"recruitmeninde",
+				"_templates/pages/recruitment/index.php"
+			],
+			[
+				"list",
+				"_scripts/modules/rr.listeners.js"
+			],
+			[
+				"history",
+				"_scripts/modules/rr.history.js"
+			],
+			[
+				"header",
+				"_templates/includes/header.php"
+			],
+			[
+				"lis",
+				"_scripts/modules/rr.listeners.js"
+			],
+			[
+				"mainscs",
+				"_scss/main.scss"
+			],
+			[
+				"menu",
+				"_scripts/modules/rr.menu.js"
+			],
+			[
+				"dek",
+				"_scss/_desktop.scss"
+			],
+			[
+				"table",
+				"_scss/_tablet.scss"
+			],
+			[
+				"de",
+				"_scss/_desktop.scss"
+			],
+			[
+				"heaer",
+				"_templates/includes/header.php"
+			],
+			[
+				"rrmenu",
+				"_scripts/modules/rr.menu.js"
+			],
+			[
+				"mains",
+				"_scss/main.scss"
+			],
+			[
+				"liste",
+				"_scripts/modules/rr.listeners.js"
+			],
+			[
+				"listener",
+				"_scripts/modules/rr.listeners.js"
+			],
+			[
+				"tal",
+				"_scss/_tablet.scss"
+			],
+			[
+				"hede",
+				"_templates/includes/header.php"
+			],
+			[
+				"histo",
+				"_scripts/modules/rr.history.js"
+			],
+			[
+				"bussto",
+				"busstop/index.html"
+			],
+			[
+				"book",
+				"src/bookmarks/index.jade"
+			],
+			[
+				"near",
+				"src/nearby/index.jade"
+			],
+			[
+				"mainss",
+				"src/_assets/btt/css/main.scss"
+			],
+			[
+				"sear",
+				"src/search/index.jade"
+			],
+			[
+				"bus",
+				"src/_assets/btt/js/_busStop.js"
+			],
+			[
+				"ser",
+				"src/_data/services.json"
+			],
+			[
+				"searh",
+				"src/_assets/btt/js/_search.js"
+			],
+			[
+				"pacak",
+				"package.json"
+			],
+			[
+				"wat",
+				"gulp/watch.js"
+			],
+			[
+				"json",
+				"src/_data/services.json"
+			],
+			[
+				"buss",
+				"src/_assets/btt/js/_busStop.js"
+			],
+			[
+				"serv",
+				"src/_data/services.json"
+			],
+			[
+				"bust",
+				"src/busstop/index.jade"
+			],
+			[
+				"search",
+				"src/search/index.jade"
+			],
+			[
+				"paca",
+				"package.json"
+			],
+			[
+				"",
+				"gulpfile.babel.js"
+			],
+			[
+				"babe",
+				"gulpfile.babel.js"
+			],
+			[
+				"copy",
+				"gulp/copyFonts.js"
+			],
+			[
+				"cop",
+				"gulp/copy.js"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"main.js",
+				"src/_assets/btt/js/main.js"
+			],
+			[
+				"mainjs",
+				"src/_assets/btt/js/main.js"
+			],
+			[
+				"searhj",
+				"src/search/index.jade"
+			],
+			[
+				"_bus",
+				"src/_assets/btt/js/_busStop.js"
+			],
+			[
+				"ma",
+				"src/_assets/btt/css/main.scss"
+			],
+			[
+				"mixin",
+				"src/_assets/btt/css/common/_mixin.scss"
+			],
+			[
+				"helper",
+				"src/_assets/btt/css/common/_helpers.scss"
+			],
+			[
+				"gri",
+				"src/_assets/btt/css/common/_grid.scss"
+			],
+			[
+				"pca",
+				"package.json"
+			],
+			[
+				"maer",
+				"src/_assets/btt/js/_material.js"
+			],
+			[
+				"busstop",
+				"src/busstop/index.jade"
+			],
+			[
+				"priamr",
+				"src/_data/primarynav.json"
+			],
+			[
+				"bas",
+				"src/_layouts/base.jade"
+			],
+			[
+				"primar",
+				"src/_modules/primary-nav/primary-nav.scss"
+			],
+			[
+				"help",
+				"src/_assets/btt/css/common/_helpers.scss"
+			],
+			[
+				"hel",
+				"src/_assets/btt/js/_helper.js"
+			],
+			[
+				"intear",
+				"_scripts/interactive-tax-map.js"
+			],
+			[
+				"inteactive",
+				"_scss/interactive-tax-map-main.scss"
+			],
+			[
+				"interaci",
+				"_scripts/interactive-tax-map.js"
+			],
+			[
+				"interactive",
+				"_templates/pages/interactive-tax-page/index.php"
+			],
+			[
+				"interactivetaxinde",
+				"_templates/pages/interactive-tax-page/index.php"
+			],
+			[
+				"prima",
+				"src/_data/primarynav.json"
+			],
+			[
+				"primary",
+				"src/_modules/primary-nav/primary-nav.scss"
+			],
+			[
+				"res",
+				"_scss/responsive.scss"
+			],
+			[
+				"la",
+				"_scss/_large-desktop.scss"
+			],
+			[
+				"des",
+				"_scss/_desktop.scss"
+			],
+			[
+				"tabl",
+				"_scss/_tablet.scss"
+			],
+			[
+				"compo",
+				"_templates/components/listing.php"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"material",
+				"_scripts/modules/rr.materialDesign.js"
+			],
+			[
+				"materialdesign",
+				"_templates/material-design/index.php"
+			],
+			[
+				"mani",
+				"_templates/manifest.json"
+			],
+			[
+				"materialmain",
+				"_scss/components/materialDesign/_main.scss"
+			],
+			[
+				"materiinde",
+				"_templates/material-design/index.php"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"idne",
+				"_templates/index.php"
+			],
+			[
+				"mode",
+				"_scripts/vendor/modernizr.js"
+			],
+			[
+				"grunt",
+				"gruntfile.js"
+			],
+			[
+				"tablesc",
+				"_scripts/modules/rr.tableScrollbar.js"
+			],
+			[
+				"footer",
+				"_templates/includes/footer.php"
+			],
+			[
+				"manif",
+				"_templates/manifest.json"
+			],
+			[
+				"standar",
+				"_templates/standard/index.php"
+			],
+			[
+				"rr",
+				"_scripts/modules/rr.tableScrollbar.js"
+			],
+			[
+				"desk",
+				"_scss/_desktop.scss"
+			],
+			[
+				"rad",
+				"README.md"
+			],
+			[
+				"primarynavmain",
+				"_scss/components/primaryNav/_main.scss"
+			],
+			[
+				"heade",
+				"_templates/includes/header.php"
+			],
+			[
+				"heder",
+				"_templates/includes/header.php"
+			],
+			[
+				"maincss",
+				"_scss/main.scss"
+			],
+			[
+				"grutn",
+				"gruntfile.js"
+			],
+			[
+				"materialdesignin",
+				"_templates/material-design/index.php"
+			],
+			[
+				"grid",
+				"_templates/grid/index.php"
+			],
+			[
+				"standa",
+				"_templates/standard/index.php"
+			],
+			[
+				"stand",
+				"_templates/standard/index.php"
+			],
+			[
+				"stan",
+				"_templates/standard/index.php"
+			],
+			[
+				"rrtabler",
+				"_scripts/modules/rr.tableScrollbar.js"
+			],
+			[
+				"materialde",
+				"_scss/components/materialDesign/_main.scss"
+			],
+			[
+				"mi",
+				"_scss/common/_mixin.scss"
+			],
+			[
+				"mae",
+				"_scss/common/_material-mixin.scss"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"css",
+				"_icomoon/style.css"
+			],
+			[
+				"rrmobil",
+				"_scripts/modules/rr.mobileMenu.js"
+			],
+			[
+				"mobile",
+				"_scss/_mobile.scss"
+			],
+			[
+				"rrmae",
+				"_scripts/modules/rr.materialDesign.js"
+			],
+			[
+				"jquerymobil",
+				"_scripts/plugins/jquery.mobileMenu.js"
+			],
+			[
+				"rrmob",
+				"_scripts/modules/rr.mobileMenu.js"
+			],
+			[
+				"main.j",
+				"_scripts/main.js"
+			],
+			[
+				"rrmater",
+				"_scripts/modules/rr.materialDesign.js"
+			],
+			[
+				"materi",
+				"_scss/components/materialDesign/_default.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "hell",
+		"selected_items":
+		[
+			[
+				"hell",
+				"/Applications/MAMP/htdocs/project helvetica.sublime-workspace"
+			],
+			[
+				"",
+				"/Applications/MAMP/htdocs/project helvetica.sublime-workspace"
+			],
+			[
+				"helve",
+				"/Applications/MAMP/htdocs/project helvetica.sublime-workspace"
+			],
+			[
+				"\\",
+				"/Applications/MAMP/htdocs/EITS-VN.sublime-project"
+			],
+			[
+				"master",
+				"/Applications/MAMP/htdocs/150807 EITS Website/www/_templates/Master Builder.sublime-workspace"
+			],
+			[
+				"hire",
+				"/Applications/MAMP/htdocs/Hires Promo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 158.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

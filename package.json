@@ -1,8 +1,9 @@
 {
   "name": "elements",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "dependencies": {
     "browserify-shim": "^3.8.12",
+    "devbridge-autocomplete": "^1.2.26",
     "dot": "^1.0.3",
     "gsap": "^1.19.0",
     "jquery": "~2.2.0",
@@ -22,6 +23,7 @@
     "minimist": "~1.2.0",
     "rimraf": "~2.5.0",
     "wrench": "~1.5.8",
+    "gulp-bump": "^2.6.1",
     "gulp-plumber": "~1.0.1",
     "gulp-changed": "~1.3.0",
     "gulp-notify": "~2.2.0",
@@ -74,12 +76,15 @@
     "doT": "./node_modules/doT/doT.js",
     "lazyload": "./node_modules/jquery-lazyload/jquery.lazyload.js",
     "TweenMax": "./node_modules/gsap/src/uncompressed/TweenMax.js",
+    "ScrollToPlugin": "./node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js",
     "mCustomScrollbar": "./node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js",
-    "scrollMonitor": "./node_modules/scrollmonitor/scrollmonitor.js"
+    "scrollMonitor": "./node_modules/scrollmonitor/scrollmonitor.js",
+    "autocomplete": "./node_modules/devbridge-autocomplete/dist/jquery.autocomplete.js"
   },
   "browserify-shim": {
     "jquery": "jQuery",
-    "mCustomScrollbar": "mCustomScrollbar"
+    "mCustomScrollbar": "mCustomScrollbar",
+    "doT": "doT"
   },
   "engines": {
     "node": ">=0.12.0"
@@ -101,6 +106,7 @@
       "css": "_assets/elements/css",
       "fonts": "_assets/elements/css/fonts",
       "js": "_assets/elements/js",
+      "api": "_assets/elements/api",
       "data": "_data"
     },
     "entries": {

@@ -6,22 +6,22 @@
     height: 45px;
     position: absolute;
     right: 0;
-    top: 45px;;
+    top: 45px;
     width: 100%;
     z-index: 5;
 
-    @include desktop {
-        background: $lightBlue;
-        height: auto;
-        position: static;
-        width: 100%;
+    // @include desktop {
+    //     background: $lightBlue;
+    //     height: auto;
+    //     position: static;
+    //     width: 100%;
 
-        .sub-nav,
-        .lvl2,
-        .lvl3 {
-            display: none;
-        }
-    }
+    //     .sub-nav,
+    //     .lvl2,
+    //     .lvl3 {
+    //         display: none;
+    //     }
+    // }
 
     &.active {
         z-index: 25;
@@ -57,13 +57,13 @@
             overflow: hidden;
             position: relative;
 
-            @include desktop {
-                -webkit-transform: none; /* Safari */
-                    -ms-transform: none; /* IE 9 */
-                        transform: none;
+            // @include desktop {
+            //     -webkit-transform: none; /* Safari */
+            //         -ms-transform: none; /* IE 9 */
+            //             transform: none;
 
-                opacity: 1;
-            }
+            //     opacity: 1;
+            // }
         }
 
         a {
@@ -85,9 +85,9 @@
                 z-index: 5;
             }
 
-            @include desktop {
-                color: $white;
-            }
+            // @include desktop {
+            //     color: $white;
+            // }
         }
     }
 
@@ -119,10 +119,25 @@
             }
         }
 
-        @include desktop {
-            height: auto;
-            margin: auto;
-            max-width: 960px;
+        // @include desktop {
+        //     height: auto;
+        //     margin: auto;
+        //     max-width: 960px;
+        // }
+
+        &--input {
+            padding: 10px 15px;
+
+            label,
+            input[type="text"] {
+                font-size: 1em;
+                margin-bottom: 0;
+            }
+
+            input[type="text"] {
+                background-color: transparent;
+                padding: 5px 0;
+            }
         }
     }
 
@@ -182,14 +197,14 @@
         width: 100%;
         z-index: 10;
 
-        @include desktop {
-            -webkit-transform: none; /* Safari */
-                -ms-transform: none; /* IE 9 */
-                    transform: none;
+        // @include desktop {
+        //     -webkit-transform: none; /* Safari */
+        //         -ms-transform: none; IE 9
+        //             transform: none;
 
-            float: none;
-            max-width: none;
-        }
+        //     float: none;
+        //     max-width: none;
+        // }
 
         &.active {
             @include material-shadow(2);
@@ -210,10 +225,10 @@
         & > li {
             border-bottom: 1px solid $grey;
 
-            @include desktop {
-                border-bottom: 0;
-                overflow: visible;
-            }
+            // @include desktop {
+            //     border-bottom: 0;
+            //     overflow: visible;
+            // }
         }
 
         a {
@@ -222,22 +237,22 @@
             &.active { background: $lightBlue; }
         }
 
-        @include desktop {
-            background: none;
-            height: auto !important;
-            overflow: visible;
+        // @include desktop {
+        //     background: none;
+        //     height: auto !important;
+        //     overflow: visible;
 
-            &:first-child {
-                & > a {
-                    padding-left: 0;
-                }
-            }
+        //     &:first-child {
+        //         & > a {
+        //             padding-left: 0;
+        //         }
+        //     }
 
-            & > li {
-                border-top: 0;
-                float: left;
-            }
-        }
+        //     & > li {
+        //         border-top: 0;
+        //         float: left;
+        //     }
+        // }
     }
 
     .lvl2 {
@@ -252,15 +267,15 @@
             padding: 12px 20px 12px 30px;
         }
 
-        @include desktop {
-            background: darken( $lightBlue, 10%);
-            position: absolute;
-            width: 200px;
+        // @include desktop {
+        //     background: darken( $lightBlue, 10%);
+        //     position: absolute;
+        //     width: 200px;
 
-            li {
-                border-top: 1px solid darken( $lightBlue, 20%);
-            }
-        }
+        //     li {
+        //         border-top: 1px solid darken( $lightBlue, 20%);
+        //     }
+        // }
     }
 
     .lvl3 {
@@ -280,12 +295,16 @@
 .header {
     @include material-shadow(1);
 
-    background: darken( $lightBlue, 10% );
+    background: palette(lightBlue, 500);
     height: 45px;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 5;
+
+    &.active {
+        z-index: 2;
+    }
 
     @include tablet {
         @include transition( top, 1s, $easeOutExpo );
@@ -295,15 +314,15 @@
         }
     }
 
-    @include desktop {
-        height: auto;
+    // @include desktop {
+    //     height: auto;
 
-        &.hide { top: -92px !important; }
+    //     &.hide { top: -92px !important; }
 
-        &.compact {
-            &.hide { top: -45px !important; }
-        }
-    }
+    //     &.compact {
+    //         &.hide { top: -45px !important; }
+    //     }
+    // }
 }
 
 .logo {
@@ -323,14 +342,14 @@
     .container {
         padding: 0;
 
-        @include desktop {
-            padding: 0 $gutter;
-        }
+        // @include desktop {
+        //     padding: 0 $gutter;
+        // }
     }
 
-    @include desktop {
-        position: relative;
-    }
+    // @include desktop {
+    //     position: relative;
+    // }
 }
 
 .sub-nav {
@@ -439,7 +458,7 @@
         width: 15px;
     }
 
-    @include desktop {
-        display: none;
-    }
+    // @include desktop {
+    //     display: none;
+    // }
 }

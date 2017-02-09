@@ -6,10 +6,13 @@
 import $ from 'jquery';
 import 'lazyload';
 import 'TweenMax';
+import 'doT';
 
 import PrimaryNav from '../../../_modules/primary-nav/primary-nav';
+import Element from '../../../_modules/element/element';
 
 import { debounce } from './_helper';
+import { setNightMode, getNightMode } from './_localStorage';
 
 // Variable declaration
 var $window = $(window),
@@ -88,15 +91,15 @@ $(() => {
     ////////////////////////////
     (function () {
         $.fn.isTableWide = function () {
-            return $(this).parent().width() < this.width();
+            return $(this).parent().width() < $(this).width();
         };
 
-        $('table').each(function () {
-            var $this = $(this);
+        $('table').each(function (i, v) {
+            var $this = $(v);
 
-            if ($this.length && !$this.parent().hasClass('table-wrapper') && $this.isTableWide()) {
+            if (!$this.parent().hasClass('table-wrapper') && !$this.hasClass('no-wrap') && $this.isTableWide()) {
                 $this
-                    .after('<button class="btn-print-table js-print-table">View Table</button>')
+                    // .after('<button class="btn-print-table js-print-table">View Table</button>')
                     .wrap('<div class="table-wrapper"></div>');
             }
         });
@@ -154,5 +157,70 @@ $(() => {
     })();
 
 
+    ////////////////
+    // Night Mode //
+    ////////////////
+    (function() {
+        if (getNightMode()) {
+            $body.addClass('night');
+            $('#primary-nav .nav--input input[type="checkbox"]').attr('checked', true);
+
+            ga('send', 'event', 'Night Mode', 'Enabled', getNightMode());
+        } else {
+            ga('send', 'event', 'Night Mode', 'Disabled', getNightMode());
+        }
+
+        $('#primary-nav .nav--input input[type="checkbox"]').on('change', function (e) {
+            var isNightMode = $(this).prop('checked');
+
+            setNightMode(isNightMode);
+
+            if (isNightMode) {
+                $body.addClass('night');
+            } else {
+                $body.removeClass('night');
+            }
+        });
+    })();
+
+
+    ///////////////////////
+    // Populate Elements //
+    ///////////////////////
+    new Element();   // Activate Elements
+
     console.log("I'm a firestarter!");
+});
+
+// Simple Service Worker to make App Install work
+window.addEventListener('load', function() {
+    var outputElement = document.getElementById('output');
+
+    navigator.serviceWorker.register('service-worker.js', { scope: './' })
+        .then(function(r) {
+          console.log('registered service worker');
+      })
+    .catch(function(whut) {
+        console.error('uh oh... ');
+        console.error(whut);
+    });
+
+    window.addEventListener('beforeinstallprompt', function(e) {
+        outputElement.textContent = 'beforeinstallprompt Event fired';
+    });
+});
+
+window.addEventListener('beforeinstallprompt', function(e) {
+    outputElement.textContent = 'beforeinstallprompt Event fired';
+
+    // e.userChoice will return a Promise. For more details read: http://www.html5rocks.com/en/tutorials/es6/promises/
+    e.userChoice.then(function(choiceResult) {
+        console.log(choiceResult.outcome);
+
+        if (choiceResult.outcome == 'dismissed') {
+            console.log('User cancelled homescreen install');
+        } else {
+            console.log('User added to homescreen');
+        }
+    });
 });
